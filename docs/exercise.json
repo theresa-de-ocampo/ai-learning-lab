@@ -1,0 +1,25 @@
+{
+  "name": "exercise_benefits",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "exercise": {
+        "type": "object",
+        "properties": {
+          "benefits": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "A list describing the benefits of the exercise."
+          }
+        },
+        "required": ["benefits"],
+        "additionalProperties": false
+      }
+    },
+    "required": ["exercise"],
+    "additionalProperties": false
+  },
+  "strict": true
+}
