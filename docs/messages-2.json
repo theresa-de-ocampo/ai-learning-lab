@@ -1,0 +1,32 @@
+{
+  "id": "chatcmpl-DsOsZVKCed3oEvlGFgwyrR3QZA8zv",
+  "object": "chat.completion",
+  "created": 1781857719,
+  "model": "gpt-5-nano-2025-08-07",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "- Bargain hip-hop vinyl LPs under $40\n- Seven-inch singles or cassette tapes\n- Lyrics notebook for writing bars\n- Hip-hop history paperback or biography\n- Hip-hop themed tee or enamel pins\n- Portable Bluetooth speaker\n- Budget USB microphone for home recording\n- Vinyl cleaning kit and brush\n- Turntable slipmat or needle cleaner\n- Album cover poster or art print\n- Gift card to local record store\n- Hip-hop trivia game or crossword book",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 179,
+    "completion_tokens": 2218,
+    "total_tokens": 2397,
+    "prompt_tokens_details": { "cached_tokens": 0, "audio_tokens": 0 },
+    "completion_tokens_details": {
+      "reasoning_tokens": 2112,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

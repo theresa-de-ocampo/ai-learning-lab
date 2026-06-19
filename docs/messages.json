@@ -1,0 +1,32 @@
+{
+  "id": "chatcmpl-DsOkQSNMVgA0UpVFfRLA9L3KVKeZu",
+  "object": "chat.completion",
+  "created": 1781857214,
+  "model": "gpt-5-nano-2025-08-07",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "- High-quality over-ear headphones for critical listening\n- A vinyl record from a favorite artist or classic hip-hop box set\n- A portable Bluetooth speaker with strong bass\n- A USB condenser microphone for home recording\n- A beginner-friendly turntable with built-in preamp and starter vinyl\n- A rhyming notebook to organize bars and ideas\n- A hip-hop history or biography book\n- A gift card to a local record store or digital music store\n- Hip-hop-themed apparel such as hoodie, cap, or art print",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 2166,
+    "total_tokens": 2215,
+    "prompt_tokens_details": { "cached_tokens": 0, "audio_tokens": 0 },
+    "completion_tokens_details": {
+      "reasoning_tokens": 2048,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

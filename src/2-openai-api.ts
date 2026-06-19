@@ -1,14 +1,14 @@
 import "dotenv/config";
 import OpenAI from "openai";
 
-const { OPENAI_API_KEY } = process.env;
+const { AI_API_KEY } = process.env;
 
-if (!OPENAI_API_KEY) {
+if (!AI_API_KEY) {
   throw new Error("OpenAI API Key is required.");
 }
 
 const client = new OpenAI({
-  apiKey: OPENAI_API_KEY
+  apiKey: AI_API_KEY
 });
 
 async function getResponse() {
