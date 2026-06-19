@@ -1,24 +1,11 @@
-import "dotenv/config";
 import OpenAI from "openai";
-import fs from "node:fs/promises";
+import { checkEnvironment } from "../utils/check-environment.js";
 
-const { AI_API_KEY, AI_URL, AI_MODEL } = process.env;
-
-if (!AI_API_KEY) {
-  throw new Error("Missing AI_API_KEY");
-}
-
-if (!AI_URL) {
-  throw new Error("Missing AI_URL");
-}
-
-if (!AI_MODEL) {
-  throw new Error("Missing AI_MODEL");
-}
+checkEnvironment(process.env);
 
 const client = new OpenAI({
-  apiKey: AI_API_KEY,
-  baseURL: AI_URL
+  apiKey: process.env.AI_KEY,
+  baseURL: process.env.AI_URL
 });
 
 const userMessage: OpenAI.ChatCompletionUserMessageParam = {
@@ -33,11 +20,9 @@ const userMessage: OpenAI.ChatCompletionUserMessageParam = {
 // (e.g., explanations, summaries, recommendations)
 // Sometimes referred to as the v1 Chat Completions API
 const response = await client.chat.completions.create({
-  model: AI_MODEL,
+  model: process.env.AI_MODEL,
   messages: [userMessage],
   max_completion_tokens: 256
 });
 
 console.log(response.choices[0].message.content);
-
-await fs.writeFile("./docs/gpt-5-nano.json", JSON.stringify(response));

@@ -1,14 +1,10 @@
-import "dotenv/config";
 import OpenAI from "openai";
+import { checkEnvironment } from "../utils/check-environment.js";
 
-const { AI_API_KEY } = process.env;
-
-if (!AI_API_KEY) {
-  throw new Error("OpenAI API Key is required.");
-}
+checkEnvironment(process.env);
 
 const client = new OpenAI({
-  apiKey: AI_API_KEY
+  apiKey: process.env.AI_KEY
 });
 
 async function getResponse() {
@@ -40,4 +36,9 @@ async function getStreamResponse() {
   }
 }
 
-getStreamResponse();
+console.log("*** Without Stream ***");
+await getResponse();
+
+console.log(" ");
+console.log("*** With Stream ***");
+await getStreamResponse();

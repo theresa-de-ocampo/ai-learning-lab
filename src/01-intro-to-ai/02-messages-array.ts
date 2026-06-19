@@ -1,24 +1,11 @@
-import "dotenv/config";
 import OpenAI from "openai";
-import fs from "node:fs/promises";
+import { checkEnvironment } from "../utils/check-environment.js";
 
-const { AI_API_KEY, AI_URL, AI_MODEL } = process.env;
-
-if (!AI_API_KEY) {
-  throw new Error("Missing AI_API_KEY");
-}
-
-if (!AI_URL) {
-  throw new Error("Missing AI_URL");
-}
-
-if (!AI_MODEL) {
-  throw new Error("Missing AI_MODEL");
-}
+checkEnvironment(process.env);
 
 const openai = new OpenAI({
-  apiKey: AI_API_KEY,
-  baseURL: AI_URL
+  apiKey: process.env.AI_KEY,
+  baseURL: process.env.AI_URL
 });
 
 /**
@@ -47,7 +34,7 @@ const messages: OpenAI.ChatCompletionMessageParam[] = [
   }
 ];
 const r1 = await openai.chat.completions.create({
-  model: AI_MODEL,
+  model: process.env.AI_MODEL,
   messages
 });
 
@@ -58,11 +45,9 @@ messages.push({
 });
 
 const r2 = await openai.chat.completions.create({
-  model: AI_MODEL,
+  model: process.env.AI_MODEL,
   messages
 });
 
 // Extract the model's generated text from the response
 console.log(r2.choices[0].message.content);
-
-await fs.writeFile("./docs/final.json", JSON.stringify(r2));
