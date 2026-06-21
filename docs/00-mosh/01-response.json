@@ -1,0 +1,59 @@
+{
+  "id": "resp_0f894b836aab0d9c006a368cf127208199829dca021a35d9b9",
+  "object": "response",
+  "created_at": 1781959921,
+  "status": "incomplete",
+  "background": false,
+  "billing": { "payer": "developer" },
+  "completed_at": null,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": { "reason": "max_output_tokens" },
+  "instructions": null,
+  "max_output_tokens": 50,
+  "max_tool_calls": null,
+  "model": "gpt-4.1-2025-04-14",
+  "moderation": null,
+  "output": [
+    {
+      "id": "msg_0f894b836aab0d9c006a368cf1b2e08199ae75f19e1ab7e9be",
+      "type": "message",
+      "status": "incomplete",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "Once upon a time, in a city buzzing with flying cars and glowing skyscrapers, there lived a small robot named Tico. Tico was a helper-bot, built to tidy up parks and sweep the city’s walkways. With a round"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "in_memory",
+  "reasoning": { "context": null, "effort": null, "summary": null },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 0.7,
+  "text": { "format": { "type": "text" }, "verbosity": "medium" },
+  "tool_choice": "auto",
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 1,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 14,
+    "input_tokens_details": { "cached_tokens": 0 },
+    "output_tokens": 50,
+    "output_tokens_details": { "reasoning_tokens": 0 },
+    "total_tokens": 64
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "Once upon a time, in a city buzzing with flying cars and glowing skyscrapers, there lived a small robot named Tico. Tico was a helper-bot, built to tidy up parks and sweep the city’s walkways. With a round"
+}

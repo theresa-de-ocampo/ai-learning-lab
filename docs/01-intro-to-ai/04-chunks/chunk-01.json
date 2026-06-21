@@ -1,0 +1,20 @@
+{
+  "id": "chatcmpl-DsUuUZz3I2X3ifbzLhTIscahUHcDT",
+  "object": "chat.completion.chunk",
+  "created": 1781880902,
+  "model": "gpt-5-nano-2025-08-07",
+  "service_tier": "default",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "index": 0,
+      "delta": {
+        "role": "assistant",
+        "content": "",
+        "refusal": null
+      },
+      "finish_reason": null
+    }
+  ],
+  "obfuscation": "4O"
+}

@@ -1,5 +1,7 @@
 import OpenAI from "openai";
 import { checkEnvironment } from "../utils/check-environment.js";
+import fs from "node:fs/promises";
+import path from "node:path";
 
 checkEnvironment(process.env);
 
@@ -14,6 +16,11 @@ async function getResponse() {
     temperature: 0.7,
     max_output_tokens: 50
   });
+
+  await fs.writeFile(
+    path.join("docs", "00-mosh", "01-response.json"),
+    JSON.stringify(response)
+  );
 
   console.dir(response, { depth: null });
 }
@@ -41,4 +48,4 @@ await getResponse();
 
 console.log(" ");
 console.log("*** With Stream ***");
-await getStreamResponse();
+// await getStreamResponse();
