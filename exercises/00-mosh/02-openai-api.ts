@@ -48,4 +48,4 @@ await getResponse();
 
 console.log(" ");
 console.log("*** With Stream ***");
-// await getStreamResponse();
+await getStreamResponse();

@@ -16,6 +16,7 @@
     "tiktoken": "^1.0.22"
   },
   "devDependencies": {
-    "@types/node": "^25.0.10"
+    "@types/node": "^25.0.10",
+    "typescript": "^6.0.3"
   }
 }
