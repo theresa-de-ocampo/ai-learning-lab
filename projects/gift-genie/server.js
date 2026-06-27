@@ -40,9 +40,13 @@ app.post("/api/gift", async (req, res) => {
     res.setHeader("Cache-Control", "no-cache");
 
     for await (const chunk of stream) {
-      res.write(
-        `data: ${JSON.stringify({ message: chunk.choices[0].delta.content })}\n\n`
-      );
+      // Chunks are not guaranteed to have a content
+      // Final chunks usually has no content, see chunk-96.json
+      const content = chunk.choices[0]?.delta?.content;
+
+      if (content) {
+        res.write(`data: ${JSON.stringify({ message: content })}\n\n`);
+      }
     }
   } catch (error) {
     console.error(error);
