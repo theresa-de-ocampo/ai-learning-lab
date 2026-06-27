@@ -16,14 +16,13 @@ const openai = new OpenAI({
   baseURL: process.env.AI_URL
 });
 
-const messages = [
-  {
-    role: "system",
-    content: systemPrompt
-  }
-];
-
 app.post("/api/gift", async (req, res) => {
+  const messages = [
+    {
+      role: "system",
+      content: systemPrompt
+    }
+  ];
   const { userPrompt } = req.body;
   messages.push({
     role: "user",
