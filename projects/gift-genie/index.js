@@ -30,19 +30,48 @@ async function handleGiftRequest(e) {
 
     showStream();
 
-    let giftSuggestions = "";
+    const reader = response.body.getReader();
+    const decoder = new TextDecoder();
 
-    for await (const chunk of response.body.values()) {
-      giftSuggestions += chunk;
+    let buffer = ""; // stores decoded SSE text that has arrived but may not yet be a complete event
+    let giftSuggestions = ""; // stores full response accumulated so far
 
-      const html = marked.parse(giftSuggestions);
-      const safeHTML = DOMPurify.sanitize(html);
-      outputContent.innerHTML = safeHTML;
+    while (true) {
+      const { value, done } = await reader.read();
+
+      if (done) {
+        break;
+      }
+
+      buffer += decoder.decode(value, { stream: true });
+      const events = buffer.split("\n\n");
+
+      // The last item may be an incomplete event
+      buffer = events.pop();
+
+      for (const event of events) {
+        // Event Stream Format may have several fields, extract `data`
+        const dataLine = event
+          .split("\n")
+          .find((line) => line.startsWith("data: "));
+
+        // If this SSE has no payload, skip it
+        if (!dataLine) {
+          continue;
+        }
+
+        const data = dataLine.replace("data:", "").trim();
+
+        giftSuggestions += JSON.parse(data).message || "";
+
+        const html = marked.parse(giftSuggestions);
+        const safeHTML = DOMPurify.sanitize(html);
+        outputContent.innerHTML = safeHTML;
+      }
     }
   } catch (error) {
     console.error(error);
-    outputContent.textContent =
-      "Sorry, I can't access what I need right now. Please try again in a bit.";
+    outputContent.textContent = "Sorry, an unexpected error occurred.";
   } finally {
     setLoading(false);
   }

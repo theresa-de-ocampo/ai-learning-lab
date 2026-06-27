@@ -23,7 +23,6 @@ const messages = [
   }
 ];
 
-// Challenge: See challenge.md for instructions
 app.post("/api/gift", async (req, res) => {
   const { userPrompt } = req.body;
   messages.push({
@@ -53,7 +52,7 @@ app.post("/api/gift", async (req, res) => {
       res.status(500).json({ error: "Failed to start stream" });
     } else {
       res.write(
-        `event: error\ndata: ${JSON.stringify({ error: "Stream Failed" })}`
+        `event: error\ndata: ${JSON.stringify({ error: "Stream Failed" })}\n\n`
       );
     }
   } finally {
