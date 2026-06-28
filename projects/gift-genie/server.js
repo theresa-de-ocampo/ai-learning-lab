@@ -30,23 +30,23 @@ app.post("/api/gift", async (req, res) => {
   });
 
   try {
-    const stream = await openai.chat.completions.create({
+    const stream = await openai.responses.create({
       model: process.env.AI_MODEL,
-      messages,
-      stream: true
+      input: messages,
+      stream: true,
+      tools: [{ type: "web_search" }],
+      tool_choice: "required"
     });
 
     res.setHeader("Content-Type", "text/event-stream");
     res.setHeader("Cache-Control", "no-cache");
 
     for await (const chunk of stream) {
-      // Chunks are not guaranteed to have a content
-      // Final chunks usually has no content, see chunk-96.json
-      const content = chunk.choices[0]?.delta?.content;
-
-      if (content) {
-        res.write(`data: ${JSON.stringify({ message: content })}\n\n`);
+      if (chunk.type === "response.output_text.delta") {
+        res.write(`data: ${JSON.stringify({ message: chunk.delta })}\n\n`);
       }
+
+      checkForStreamFailure(chunk);
     }
   } catch (error) {
     console.error(error);
@@ -55,13 +55,29 @@ app.post("/api/gift", async (req, res) => {
       res.status(500).send("Failed to start stream");
     } else {
       res.write(
-        `event: error\ndata: ${JSON.stringify({ error: "Stream Failed" })}\n\n`
+        `event: error\ndata: ${JSON.stringify({ error: error?.message || "Stream Failed" })}\n\n`
       );
     }
   } finally {
     res.end();
   }
 });
+
+function checkForStreamFailure(chunk) {
+  let errorMessage;
+
+  if (chunk.type === "error") {
+    errorMessage = chunk.message;
+  } else if (chunk.type === "response.failed") {
+    errorMessage = chunk.response.error?.message;
+  } else if (chunk.type === "response.incomplete") {
+    errorMessage = chunk.response.incomplete_details?.reason;
+  }
+
+  if (errorMessage) {
+    throw new Error(errorMessage);
+  }
+}
 
 const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
