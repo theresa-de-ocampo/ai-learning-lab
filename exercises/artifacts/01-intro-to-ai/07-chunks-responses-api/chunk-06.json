@@ -1,0 +1,13 @@
+{
+  "type": "response.content_part.added",
+  "content_index": 0,
+  "item_id": "msg_064c918951f3d99f006a4120de5cb88190b322675055641096",
+  "output_index": 1,
+  "part": {
+    "type": "output_text",
+    "annotations": [],
+    "logprobs": [],
+    "text": ""
+  },
+  "sequence_number": 5
+}

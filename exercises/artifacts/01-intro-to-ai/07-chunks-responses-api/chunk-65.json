@@ -1,0 +1,10 @@
+{
+  "type": "response.output_text.delta",
+  "content_index": 0,
+  "delta": "\n",
+  "item_id": "msg_064c918951f3d99f006a4120de5cb88190b322675055641096",
+  "logprobs": [],
+  "obfuscation": "A4A3opYBbMp8j85",
+  "output_index": 1,
+  "sequence_number": 64
+}
