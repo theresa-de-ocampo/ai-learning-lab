@@ -30,7 +30,12 @@ const stream = await openai.responses.create({
   stream: true
 });
 
-const outputDirectory = path.join("..", "artifacts", "01-intro-to-ai", "07-chunks");
+const outputDirectory = path.join(
+  "..",
+  "artifacts",
+  "01-intro-to-ai",
+  "07-chunks-responses-api"
+);
 await fs.mkdir(outputDirectory, { recursive: true });
 
 let chunkNumber = 0;
