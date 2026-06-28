@@ -28,6 +28,11 @@ async function handleGiftRequest(e) {
       body: JSON.stringify({ userPrompt })
     });
 
+    if (!response.ok) {
+      const errorMessage = await response.text();
+      throw new Error(errorMessage);
+    }
+
     showStream();
 
     const reader = response.body.getReader();
@@ -50,10 +55,21 @@ async function handleGiftRequest(e) {
       buffer = events.pop();
 
       for (const event of events) {
+        const eventType =
+          event
+            .split("\n")
+            .find((line) => line.startsWith("event:"))
+            ?.replace("event:", "")
+            .trim() || "message";
+
+        if (eventType === "error") {
+          throw new Error("Mid-Stream Error");
+        }
+
         // Event Stream Format may have several fields, extract `data`
         const dataLine = event
           .split("\n")
-          .find((line) => line.startsWith("data: "));
+          .find((line) => line.startsWith("data:"));
 
         // If this SSE has no payload, skip it
         if (!dataLine) {
@@ -61,8 +77,9 @@ async function handleGiftRequest(e) {
         }
 
         const data = dataLine.replace("data:", "").trim();
+        const parsed = JSON.parse(data);
 
-        giftSuggestions += JSON.parse(data).message || "";
+        giftSuggestions += parsed.message || "";
 
         const html = marked.parse(giftSuggestions);
         const safeHTML = DOMPurify.sanitize(html);

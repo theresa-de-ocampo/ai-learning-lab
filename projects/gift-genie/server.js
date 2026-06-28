@@ -52,7 +52,7 @@ app.post("/api/gift", async (req, res) => {
     console.error(error);
 
     if (!res.headersSent) {
-      res.status(500).json({ error: "Failed to start stream" });
+      res.status(500).send("Failed to start stream");
     } else {
       res.write(
         `event: error\ndata: ${JSON.stringify({ error: "Stream Failed" })}\n\n`
