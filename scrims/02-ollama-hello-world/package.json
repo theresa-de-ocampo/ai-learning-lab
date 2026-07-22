@@ -1,0 +1,15 @@
+{
+  "name": "scrim-s06c53f",
+  "private": true,
+  "description": "https://scrimba.com/the-ai-engineer-path-c02v/~07uj",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "ollama": "^0.5.17"
+  },
+  "devDependencies": {}
+}
