@@ -1,6 +1,8 @@
 import OpenAI from "openai";
 import { createClient } from "@supabase/supabase-js";
 import { checkEnvironment } from "../utils/check-environment.js";
+import path from "node:path";
+import fs from "node:fs/promises";
 
 checkEnvironment(process.env);
 
@@ -32,17 +34,26 @@ const response = await openai.embeddings.create({
   model: process.env.AI_MODEL
 });
 
-const data = response.data.map(({ embedding }, i) => {
-  return {
-    content: podcasts[i],
-    embedding
-  };
-});
+const file = path.join(
+  "..",
+  "artifacts",
+  "04-embeddings",
+  "03-create-embeddings.json"
+);
 
-try {
-  await supabase.from("documents").insert(data);
-  console.log("Done!");
-} catch (error) {
-  console.log("An error occurred.");
-  console.dir(error, { depth: null });
-}
+await fs.writeFile(file, JSON.stringify(response));
+
+// const data = response.data.map(({ embedding }, i) => {
+//   return {
+//     content: podcasts[i],
+//     embedding
+//   };
+// });
+
+// try {
+//   await supabase.from("documents").insert(data);
+//   console.log("Done!");
+// } catch (error) {
+//   console.log("An error occurred.");
+//   console.dir(error, { depth: null });
+// }
