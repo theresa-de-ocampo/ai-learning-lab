@@ -1,0 +1,105 @@
+{
+  "id": "resp_04d8bde246c11134006a7727ba15808198b752fda7b163195d",
+  "object": "response",
+  "created_at": 1786193850,
+  "status": "completed",
+  "background": false,
+  "billing": { "payer": "developer" },
+  "completed_at": 1786193851,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5-nano-2025-08-07",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_04d8bde246c11134006a7727bae1d88198bcd8538cf181b416",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqdye7kWcjJoCSgEggxmA-Gws-hP6Yd7iQ3JFrpUsa-lSdp03Y-FMrZD8IkfvEj4XhTOUekTf8N18EFUBgvlJc6IF-1akYzbK9IR4_RJiDEQGlP_1w5acamJirMNNbUho0_J67zpYKm9g5qyIVc1AcCd6YYAo7tbbb7ER6KLL7kYlEBjX6peDskPa7ByGv6sHmcYCkRk2ZVEu8a7pz4ii7wqCSMkuMDF_8rueKVvswbPvgcF9-28d7fPxXQKDQIo6YIPQAM07OHCDPMGlXMxiE1HBXbHVLH9SNv38e5nrAbh59QFzr_brohDa1bQyxZz7Mv-HCWsjz8rrBFiNW0s6cHTnCMa0dYq6YctrbyeLZY7XomW6WleLDI06sWr6lGopQYsGhjv75aUsj0BPNHkqTvyM9JrGC6_vTNli5F_3LmlvUJkYZiWjSv1Ysj2wUT3awyNv1SJI6V8XaJ0_IYW4Qv_U8PFmaTiPhgnLzfMqyfWlqEFlANOA0VojEM-WpTBUCQdk-rrMotpgBpf62_aj3dDnNR0XIAFM414H2xDZt7PQRDgfkwLX1Wyua9LFhmcAg3sEHgY9EGJQcQJjdHNER_l0HFJalksKv-gIWN9MEWqWDFe6aClQwvhuCHi1ap0ilfaSKiLRAkZpnPCdmwcUG4If_2Gn7PLYhBnEpikPNLhJYrD2syE2lPvYZd-NyH7ttMPNgMYjUq-JPiU99YlielEvfgqkK91FKGt_8JGG8zhPVEUOXOP1wedJ6lObIDjvI4ALQ4I97Ef-lhL7aiC5U1fvMee4LsTlcZEP71s_hqaMxrobz3O4x8j12pBpFyD8nxU-fJ4umPs4JzMqPpqz30VeSWUhewOU4tLt-Y2NtPT602dXbC2ZjrgsqtR30jPpbf8wsJg8iGda4iQhskYkvc6jFSCABWlvZS2k4dpVDnShzRKJfZRm5Z19GD0-GA6WAdaDjTXk9E-D6rjlMLW9XfIF39ucjcQ9z4gGeIOJGCpohregcmy4bnfbmdqyXQMvItW6ITlAgtwUBL8fyeGuLniwdfOCRwqPwdFfcwj11K8kwC03Iq6plciBxg8PhcUlW7CPN371nFI6qCZeEoItXB5pF2m9S2Ww_spMnBi8_oI3y4oACglmTjeudJ9gaM1FlxkJ-MOKuonPEEcsUsBCpdK4oxe7UZqb1pJ2Kv_xgdjkLX7obmy1CCkFuf_uOiBI1V9xYhs4xcQZkYkFugiNFL9l8YXK7pgyXzIGioWUewbRoPfpZU9AU1xn-_D2b2EtO_L0LGX9A2IG8dUgYh0R6kJRL288V6YTZ2gEnKoN6GsVRvtPXgyVuaJPqR0xDwy4pFhC3EVc0Gg4QVy3Y40Qw6hKE1G3H6qvalxqXBIOSSJzpcwaEedOQaQWX_ANkFprOD6_JGgVUOYjt3k_kiNSbI7m7iAWd_noha54OwOGUr5CETwzYlztyXV8LFfnRlwlUwZc2gvu9D4XkRvpIZICIXwSKlIWwzOPR7M1QTTDuIz67o5s=",
+      "summary": []
+    },
+    {
+      "id": "fc_04d8bde246c11134006a7727bb7f708198901f21c68f9e0a2b",
+      "type": "function_call",
+      "status": "completed",
+      "arguments": "{}",
+      "call_id": "call_nJWXjUhJduNDQUWYRvi2NSZt",
+      "name": "getLocation"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "in_memory",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": { "format": { "type": "text" }, "verbosity": "medium" },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": { "image_tokens": 0, "text_tokens": 0 },
+      "output_tokens": 0,
+      "output_tokens_details": { "image_tokens": 0, "text_tokens": 0 },
+      "total_tokens": 0
+    },
+    "web_search": { "num_requests": 0 }
+  },
+  "tools": [
+    {
+      "type": "function",
+      "description": "Get's the current location of the user.",
+      "name": "getLocation",
+      "output_schema": null,
+      "parameters": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    {
+      "type": "function",
+      "description": "Get's the current weather based on the location (latitude, longitude).",
+      "name": "getWeather",
+      "output_schema": null,
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "lat": { "type": "number" },
+          "lon": { "type": "number" }
+        },
+        "required": ["lat", "lon"],
+        "additionalProperties": false
+      },
+      "strict": true
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 1,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 116,
+    "input_tokens_details": { "cache_write_tokens": 0, "cached_tokens": 0 },
+    "output_tokens": 105,
+    "output_tokens_details": { "reasoning_tokens": 64 },
+    "total_tokens": 221
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": ""
+}

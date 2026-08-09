@@ -1,0 +1,105 @@
+{
+  "id": "resp_06b4c0bfbb5a8e65006a7730be34d0819989a5f957db778457",
+  "object": "response",
+  "created_at": 1786196158,
+  "status": "completed",
+  "background": false,
+  "billing": { "payer": "developer" },
+  "completed_at": 1786196159,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5-nano-2025-08-07",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_06b4c0bfbb5a8e65006a7730be8e048199999008e874db9f97",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqdzC_DQXN3dcIkSbkjkWAH05s_OJBBYrgB0F4iHzl1nKr5sG94iFYphtJucQezVfKMuuUViCL8eHUA5u4B5ZYKQWg5RsaV_QsCG1dVlkcmC5lZcwqORlK4XOs_EyJdiMNsjuU0Ci2eNS9S2n5ClJBMeHzoYtvBRTmbFqxFK5pjsbCSHgbS_Bz_T6j37RaAJh9Addrh6Gk6Qyen1tIXlGm4hyQ4FnZenlXWwJJ7D99eoNumuKyj5hwI4yOhSOnHCSd_Sv-HnBLMoFcaWwe5Rd349ARojVxDkFVNdW4YpW8dR66qqEjT4HASvKJYAqSdoDt2my8kpOWapwDGE-kcGXFxkCxEL9m70CaZzgfPdzgk-jXC89B20anpqttGAzDjL2u4Jyw9_Hv65Mc0RD1uhTzJ9wO0uP82JGCqK8brlhzSYbT04R64d5FzEY4jCiyqwwqsutuCR54Wby9cKF-z_HzlwefDV3alxsi8FLvrCQpw803RSHoHADlyJ4w4KvwwQ25sl21HubWaoPSqgJXY0U7lPLtMZ49xKJRi_sr2RJZy1vioZdQ2lfDiB1O3NJpgtoPVS_1vP3CIn6BAIK0v16FwA_i6qENMWSmlOgN9SVlENuKIE9Qn0nI4jDe2obpNSZoaLz7nPtuTV7Ap-1zCQPwALSmR3BALPFNJ8sErAE9zXCB-v69rHXBRwtziP7A9K1p2Bvaa4iDsoh1I3KIGH8wC4Cpp67pDXDmdw5WepEu-_JYoij-hhDhvhseolFye8VX5ncOQZo1B3tZ4T4g6TxYQ6UklgjhaJ9-O4Oc7jm5eLj0xGxQGOX0uVWog1goidWhEvkOY4E8xM_-B-WYJmqJK_RONXjRx8GUtLoqhufWAfi-9xEjG0YlIyX1XoLytSs-edAo8Gc2zLoFOyoLHE51ub7kKWj2pMOrPEuBOhzB7J321v261UfJlkVpueP4idnGHpJwuoX_Pd7JjPyLx82SkxiyY9lGkMlm_7vnWzIWNQ_ydUwkvm3ZMshV7TGpeIeXvkFIrPHGTzajFagWA7Os_pyB4L9Pu37__JKbx_3FKTICNiCKgo-bJPiI26T4L8n8LxODWB4htaUQs2vtB1b8oAvO-TKE7mQLVz1_t5vtIxgy6RAzTrfabhYnsiN_dQTaiwMlzwL9SULRx6GJG6KJ7jiT_RjipS7Y1QFBpcKa2XYWuJoP1O42p3QAWxlT_kIJPOUv111TY5_ocqPCM-CIqP2aayKLXgzpgBpMpNeSwAmWJUP_Bjkihfen0fGjn0u6l_9n2j518oAOuwREdbIC-kr03iaokC7J30QeA1aGtUK4oHIu2oGtq9FU3QdVi_am_m8i19Q4tVOimu2MyCZAK490F9vy8prZ7SN1oXJ8C0RNfwEw19q_SDSddN4wRzVA7CPgYfRHrwQYE_U0FywgAYfHQhKnZR_hwhqptZCi9crCLCswfGgQSId4LZVfOnaHEKuOonI_ZcTbsFdpIaRZzEi4XIrEO-HLe5UzuLAXbZCZttdJKBHCYn7cq_77xQ0LAYgcXksOkT3Ea2qQoLPixh_309H1qWwRv56-mjxEk0lGMlQoW4R6E70GbSJJpAH2gsnqyYTolbpEquTgx_LrFVMlCAYYhVwmWCedkRBSKZtIfoI=",
+      "summary": []
+    },
+    {
+      "id": "fc_06b4c0bfbb5a8e65006a7730bf649c819985ba5646fdfc79e1",
+      "type": "function_call",
+      "status": "completed",
+      "arguments": "{\"lat\":14.3181,\"lon\":120.7661}",
+      "call_id": "call_iHw4WMj20fqzZLr2sYh1EPCv",
+      "name": "getWeather"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "in_memory",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": { "format": { "type": "text" }, "verbosity": "medium" },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": { "image_tokens": 0, "text_tokens": 0 },
+      "output_tokens": 0,
+      "output_tokens_details": { "image_tokens": 0, "text_tokens": 0 },
+      "total_tokens": 0
+    },
+    "web_search": { "num_requests": 0 }
+  },
+  "tools": [
+    {
+      "type": "function",
+      "description": "Get's the current location of the user.",
+      "name": "getLocation",
+      "output_schema": null,
+      "parameters": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    {
+      "type": "function",
+      "description": "Get's the current weather based on the location (latitude, longitude).",
+      "name": "getWeather",
+      "output_schema": null,
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "lat": { "type": "number" },
+          "lon": { "type": "number" }
+        },
+        "required": ["lat", "lon"],
+        "additionalProperties": false
+      },
+      "strict": true
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 1,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 132,
+    "input_tokens_details": { "cache_write_tokens": 0, "cached_tokens": 0 },
+    "output_tokens": 156,
+    "output_tokens_details": { "reasoning_tokens": 64 },
+    "total_tokens": 288
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": ""
+}
