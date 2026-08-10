@@ -10,7 +10,7 @@ export type Location = {
 };
 
 export type Weather = {
-  tempInCelsius: string;
+  tempInCelsius: number;
   description: string;
   humidity: number;
   precipitationInMillimeters: number;
@@ -19,4 +19,20 @@ export type Weather = {
   windKph: number;
   gustKph: number;
   uv: number;
+};
+
+export type WeatherApiResponse = {
+  current: {
+    temp_c: number;
+    condition: {
+      text: string;
+    };
+    humidity: number;
+    precip_in: number;
+    chance_of_rain: number;
+    chance_of_snow: number;
+    wind_kph: number;
+    gust_kph: number;
+    uv: number;
+  };
 };

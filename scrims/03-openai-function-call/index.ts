@@ -66,25 +66,42 @@ export async function agent(query: string) {
       for (const toolCall of toolCalls) {
         const { name, arguments: args } = toolCall;
 
-        if (!isValidTool(name)) {
-          throw new Error(`Unknown tool call: ${name}`);
+        try {
+          if (!isValidTool(name)) {
+            throw new Error(`Unknown tool call: ${name}`);
+          }
+
+          const toolArgs = JSON.parse(args) as unknown;
+          console.log(`Tool Call: ${name}`);
+          console.log("Tool Arguments:");
+          console.dir(toolArgs, { depth: null });
+
+          const toolOutput = await availableTools[name](toolArgs);
+          console.log("Tool Output:");
+          console.dir(toolOutput, { depth: null });
+          console.log(" ");
+
+          messages.push({
+            type: "function_call_output",
+            call_id: toolCall.call_id,
+            output: JSON.stringify(toolOutput)
+          });
+        } catch (error) {
+          const errorMessage =
+            error instanceof Error ? error.message : "Tool call failed.";
+          console.error("Tool Error");
+          console.error(errorMessage);
+          console.log(" ");
+
+          messages.push({
+            type: "function_call_output",
+            call_id: toolCall.call_id,
+            output: JSON.stringify({
+              status: "failed",
+              error: errorMessage
+            })
+          });
         }
-
-        const toolArgs = JSON.parse(args) as unknown;
-        console.log(`Tool call: ${name}`);
-        console.log("Tool arguments:");
-        console.dir(toolArgs, { depth: null });
-
-        const toolOutput = await availableTools[name](toolArgs);
-        console.log("Tool output:");
-        console.dir(toolOutput, { depth: null });
-        console.log(" ");
-
-        messages.push({
-          type: "function_call_output",
-          call_id: toolCall.call_id,
-          output: JSON.stringify(toolOutput)
-        });
       }
     }
   }

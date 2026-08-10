@@ -1,20 +1,16 @@
 import type { Tool } from "openai/resources/responses/responses";
-import type { Location, Weather } from "./types/index.js";
+import type { Location, Weather, WeatherApiResponse } from "./types/index.js";
 
-async function handleResponse(response: Response) {
-  let result = null;
-
-  if (response.ok) {
-    result = response.json();
-  } else {
+async function handleResponse<T>(response: Response): Promise<T> {
+  if (!response.ok) {
     const errorMessage = await response.text();
-    console.error(`${response.status} ${errorMessage}`);
+    throw new Error(`${response.status} ${errorMessage}`);
   }
 
-  return result;
+  return response.json() as T;
 }
 
-async function getLocation(): Promise<Location | null> {
+async function getLocation(): Promise<Location> {
   const fields = [
     "status",
     "message",
@@ -30,40 +26,35 @@ async function getLocation(): Promise<Location | null> {
 
   const response = await fetch(`http://ip-api.com/json/?fields=${fields}`);
 
-  return (await handleResponse(response)) as Location | null;
+  return await handleResponse<Location>(response);
 }
 
-async function getWeather(location: string): Promise<Weather | null> {
-  let result = null;
+async function getWeather(location: string): Promise<Weather> {
   const { WEATHER_API_KEY } = process.env;
 
   if (!WEATHER_API_KEY) {
-    console.error("Missing WEATHER_API_KEY");
-    return null;
+    throw new Error("Missing WEATHER_API_KEY");
   }
 
   const response = await fetch(
     `http://api.weatherapi.com/v1/current.json?key=${WEATHER_API_KEY}&q=${encodeURIComponent(location)}&aqi=no`
   );
 
-  const data = (await handleResponse(response)) as { current: any };
+  const data = await handleResponse<WeatherApiResponse>(response);
 
-  if (data) {
-    const { current } = data;
-    result = {
-      tempInCelsius: current.temp_c,
-      description: current.condition.text,
-      humidity: current.humidity,
-      precipitationInMillimeters: current.precip_in,
-      chanceOfRain: current.chance_of_rain,
-      chanceOfSnow: current.chance_of_snow,
-      windKph: current.wind_kph,
-      gustKph: current.gust_kph,
-      uv: current.uv
-    };
-  }
+  const { current } = data;
 
-  return result;
+  return {
+    tempInCelsius: current.temp_c,
+    description: current.condition.text,
+    humidity: current.humidity,
+    precipitationInMillimeters: current.precip_in,
+    chanceOfRain: current.chance_of_rain,
+    chanceOfSnow: current.chance_of_snow,
+    windKph: current.wind_kph,
+    gustKph: current.gust_kph,
+    uv: current.uv
+  };
 }
 
 function isRecord(value: unknown): value is Record<string, unknown> {
