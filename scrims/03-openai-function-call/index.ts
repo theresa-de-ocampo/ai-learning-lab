@@ -70,7 +70,16 @@ export async function agent(query: string) {
           throw new Error(`Unknown tool call: ${name}`);
         }
 
-        const toolOutput = await availableTools[name](JSON.parse(args));
+        const toolArgs = JSON.parse(args) as unknown;
+        console.log(`Tool call: ${name}`);
+        console.log("Tool arguments:");
+        console.dir(toolArgs, { depth: null });
+
+        const toolOutput = await availableTools[name](toolArgs);
+        console.log("Tool output:");
+        console.dir(toolOutput, { depth: null });
+        console.log(" ");
+
         messages.push({
           type: "function_call_output",
           call_id: toolCall.call_id,
@@ -85,5 +94,8 @@ export async function agent(query: string) {
   );
 }
 
-const response = await agent("Give me some fun activity ideas for today.");
+const question = "Give me some fun activity ideas for today.";
+// const question = "Give me some fun activity ideas for today at California, USA."
+// const question = "What's my current location?"
+const response = await agent(question);
 console.log(response);

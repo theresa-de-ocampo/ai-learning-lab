@@ -33,7 +33,7 @@ async function getLocation(): Promise<Location | null> {
   return (await handleResponse(response)) as Location | null;
 }
 
-async function getWeather(lat: number, lon: number): Promise<Weather | null> {
+async function getWeather(location: string): Promise<Weather | null> {
   let result = null;
   const { WEATHER_API_KEY } = process.env;
 
@@ -43,7 +43,7 @@ async function getWeather(lat: number, lon: number): Promise<Weather | null> {
   }
 
   const response = await fetch(
-    `http://api.weatherapi.com/v1/current.json?key=${WEATHER_API_KEY}&q=${lat},${lon}&aqi=no`
+    `http://api.weatherapi.com/v1/current.json?key=${WEATHER_API_KEY}&q=${encodeURIComponent(location)}&aqi=no`
   );
 
   const data = (await handleResponse(response)) as { current: any };
@@ -70,11 +70,11 @@ function isRecord(value: unknown): value is Record<string, unknown> {
   return typeof value === "object" && value !== null;
 }
 
-function isWeatherArgs(args: unknown): args is { lat: number; lon: number } {
+function isWeatherArgs(args: unknown): args is { location: string } {
   return (
     isRecord(args) &&
-    typeof args.lat === "number" &&
-    typeof args.lon === "number"
+    typeof args.location === "string" &&
+    args.location.trim().length > 0
   );
 }
 
@@ -95,18 +95,17 @@ export const tools: Tool[] = [
     type: "function",
     name: "getWeather",
     description:
-      "Get's the current weather based on the location (latitude, longitude).",
+      "Gets the current weather for a location. Pass the user-provided location string when available. If no location is provided, call getLocation first and pass a comma-separated string using lat, and lon.",
     parameters: {
       type: "object",
       properties: {
-        lat: {
-          type: "number"
-        },
-        lon: {
-          type: "number"
+        location: {
+          type: "string",
+          description:
+            "A location query such as city, region, country, or latitude/longitude."
         }
       },
-      required: ["lat", "lon"],
+      required: ["location"],
       additionalProperties: false
     },
     strict: true
@@ -120,7 +119,7 @@ export const availableTools = {
       throw new Error("Invalid arguments for getWeather");
     }
 
-    return getWeather(args.lat, args.lon);
+    return getWeather(args.location);
   }
 };
 
