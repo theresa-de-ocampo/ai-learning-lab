@@ -1,4 +1,4 @@
-# OpenAI Function Call
+# OpenAI Function Agent
 
 A TypeScript example of an agentic workflow using the OpenAI Responses API. The agent can decide when to call available tools, such as looking up the user's location and fetching current weather, before producing its final answer.
 
