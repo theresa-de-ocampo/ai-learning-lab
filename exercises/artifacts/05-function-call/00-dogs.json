@@ -1,0 +1,111 @@
+{
+  "id": "resp_0d3e71736c380168006a7729c4d7f88198b06e3430a7fda265",
+  "object": "response",
+  "created_at": 1786194372,
+  "status": "completed",
+  "background": false,
+  "billing": { "payer": "developer" },
+  "completed_at": 1786194388,
+  "error": null,
+  "frequency_penalty": 0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5-nano-2025-08-07",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_0d3e71736c380168006a7729c596ec8198aead0e9589bf54e8",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqdynUpX8n8FJ8S9l400WKRS_sa4QsQR7Q3a8BOe6gm_zGkbq7vVH2_g_wqy-i6Q9wjWlZZEMFDpy2Uzk3mK3_WJVUQoXW6cVedjJsheFnbqiFE9kTBhVkp80TQ_0M7AyJPZobF0S5v5tiQ-oEDNYPO3QZyMpSmpcrIE3goVAisizV301SW3aivYCaLZU8nKEPfwStuYHZJmKKwic8DH2j3zozI25QefxG361ASsd6vnz4zH6pxGhpoJcGJrPmKLY2ukPbkm-wTG0GmF6ebGPYZCDF3I95hkQuISo04ZGBG3-sNF6_C-nK3bx0LeXVogIdlHFhTsupsnmN59ivwvC7Eeqzvr3lp97qd-PL1o_6tpc5uruzXaZseg1lfISEZraWyQgmQh_xWQF7P7UkBmSB2rEBIwbewv_l_LOlMcFtKvupDXO6wUwvROwhbDM-8lfvEAH7MmSznen_z3jZIREp7wQZ1sf73cqRJ6NkC5KfPF40MY8qAL4xYqld-nyyLHSDAG-2JvGoCW93FeglbKZ5At0nOWRU9URuA0PpvM7NWCi3LUtekSvEpC60swsnQFOeGsdQTf78A7fc32UykCx-jt_zq7ElJOZ3f6WEyuUQBiou1mgQS7_CwvQ_Y0EitfBc0zKzLXxQFxxvrx_sD6gs4DOpfuUsdtUbRMbeASXUtwLgGNkZLO-k6QxFN-QXHlGdjMxRi2NxmD8RswkbOPU4FiSH6l_nP-DzZ_3XyVtVYXjFjO77rFuDqYxzhMOEeVBQAHvRH-kT4JD_7Io0BEfftu5oKXT81a1Y8w0ylq49g_IR7KHbAbtJBGuuiSPzlmGDrFzSg3nxwAxS3i0tNFEB_UXo50t0DdIPjGehIBn5Cp_NRmLGrmus_5nMpo_BT5prprqYZCp7WSKrlWSetszL_NZFZ-rwPXyHxXpxux2oViWPPH-yFdlUCN-unEjKwqyvG7Ud0zjMb6Z-BnKd-knTXj6Mb0_-kw2ArzDG0xKkX0wyyspwNZPyfL3hrx1RZ-v3clKeAcPD8fYOlWNkjrP2j1sfHCaKjZFjRgZ_MHJ5m9VzhYjlDJ8Y-ZDgpCo72Zz-7wyxYWPaQWbcyxWzjJ_aQcnCEmYOhoWD100SGsZ3UaD8raGIeL8o25UQ7MGoiSl6bQCl6pG_jUlv1Fbh1nkGsd5zAGHkCopY-l7aeOqvw_qpVoFcJ15xuzcxZO2DDvPl9WSnRbQn1CY9yhG5TIm8ZkWlEPJOb7jA1B0S7edjROVUlam2fZeDWHfM1mDEFTdfhEhGnbdjVtTn4Anmq0rfqhVWigaEETsRLafKw6Bz0muhJRobasMmkVe-U2IbwW6bSAzsmmPDOQMv2W9y16Rsxi3OtzInYCFzcGnJgSDR3zfojLD4kaWtoG8A8mB1Gq5CCHUGs03VWQxKOAb2M68s19ViqoLZJqf0UzvOGDeBz1snjIJWIpIXyg-jKCgI9nN0TvHD1DJHpppQtSeSKsG9M5izOHrJ2Ur40gmtthuWFF3MwdWQGNgGvHmKQNJ6ycRtZlkm6TZ6-Aoom4OOxVXEs8dEzProyNOd4qJR6rDatw-ZD6l_EAsQ9kVs9Ij5nhWqv1to_rt1irDfpXwxT_7y7KhImJiW13vShaeumWzj17tlX3Ty23Mc0HxKfNgshEgGwQBQhxukMNEJwMxQneuNjkw5tr46wIsLgGvl16Int1lXMWjERGpspw9Om6ZS06FWDXLw2YHkA_OEdHtuup4M0g0X8JZwNGai9B4RP1BI-PjzU4OtEvzKeByvOoxoxnrU0xHkL2ilyUbbOquiKB-EpetIpNkb28cZbc3w3-IweHSvxHmDtyBoy5jzkwUyFaPeY5PkpfV1gZJ0Vcp31lHLxJ6bB-nsYFVtU6c3HbJfY-IrpenJEzzNllpXkPGznpSR4GUj3h0mPNO06CoawfjZu5MEqGpzf0aJ4vP2R35bHhlN1r2IMQge59LJQORQ62P6NAzOCBFK0ta0KTMHmmIwCkaaxy7mOL_4y-Cpw2DOB6lM043M_zbNXxOf7QYmnnpjVOue2QCGYcpaRNVYyzGHR5ghGJ1jAxjCE9uGn5DxmkXDIDSw2CjfXAufRxdiPhUdSWlMoC0mr8t_YGx48gRhdZBZ7XIQcLDIqDi9lpgqur9BejxdDzniC_Nr0ESGU2GMv6TYA7sJNjwiK6FZZFZGbziiUcSCffYR0t1g1HM8B3EWNBHq5LroGEEovznZTb9cfy8UnuYbwmzNBIOZnIn4nSA7BjxQVEy-4nuukxAqmhBe0XKSuQuCeoq70RQazIZwMmlLm-jVLDeyQp5ngA39JtOLpZVjinVhsoSXcxl9z2TikgiXNmqqYRmqGAVVxGIYQ5dZ_mlRXrmvspBs0smurVcAiQFfQDTbRD5GcH_cuZ-n0Sn8xFDfz46HqKwVI21tK1I2zYyfXrYGoivYRnj3oT6BjaXsE3zeyBVcCOP_HzFrjAH_h-LLX_q1FHxcDedbiywROpdNFbM87ZU5z3ebBDiX5s-kuYprR76PpdNCIAxdQYTANRQuAB6L4UoRkcY60yb8z7f5jNPorXTzFaeeNRJ8hzHlQOoqFW-OtKgq2jo6d6Q4Z_IFfOU0r99_deqO2EHJH1H_IyHV6k9qGqmuyVAnO2i_hmOSXsHpvQ4N99SmKhtW8vhO9xEBp7gSDRWyoYJHGoyaXSAT0h0OyrgrGD_q_SxhlColofZkiH8Mln8jvAms9til6jli5BKxWHvipgNWntBP-iq5XVTAcyZtNSoSyfqbY9irt3rzWFHAjKpg75XR3DJApBKR6Bga1aV6VojeU5xOi5Df7Fj1oLhS4VvbJrdg26wT5CBzzTJArUCVoXkl-cGNh-N546ee8UNY_WePrlPtZxq8aWNcGQ77imC2eKf_u_025lW_2PKdop5YL5iK6RWFl3lrQtqSBp6HCFNHQRNbPWsVrl4rjx_klOuAkNuOyxNHAMLoWjdoUeaJvwzgEDW16UgOsK9r2Len4hfbtrqKlSV9LyE0EeZqLxHt6txrXH-UVUAsAC0G5PMBXTZqDDaaqcV_Zxj_4yIt8UiULUdZiXdRkABM6Nl6CcapjmXSkXNxpSib4WAz4q2QNkO4zcbvFjZHx29PMHQvSOByk9PETNihdz1rL80vpQ3vzwc0lQFBXQ8_Cg2XY8HNzWHz5KSjis7N66OiShj9tPWPP0-kRw74J_lSMXvsmzCKreS9ZdWI6hge7tiJYh3ShPXRYOgCulISuj2dixnBdoxXS5DHGvNh6z6t5h3J_pg2wQcACXjs_p-DoTk94y6VcBFtMhEUKnhWa4VoFSmz19YtetoUHPeOcAGNcPpFyI9Xu5XykKAQ3EX7bZiH4rHTd3OBVgr4snxVKcNLBss3AnepD9NJiViW_rhYpsF-Ge8MOCYL_7C8VXbBFzD_cupcuYJ7Y6uJP3ee_GoQUa_KPoum3yDu6qy5kHJDHU5bYrbutthO6TSSwdmxcPjcZjJTXZefsRaHN8azwk4IoSMFHGtVcYCnOFmWZER2tjudMWt98SoqfAeZrzuVWiDgbaiMvAnYIG2e6UEw59oSjuTXqdpuTEv9k_9Dkh5IZkLdtnRPMU_GG5fvbQL2oOgJOKonGah1rsoUikrBoD3LsZkDeM8D2YkJ8yGaXnT8mrWdzeBc-DncLBzBpEDk0jvyjwtht-71oPQDxYUXX5zK27bYrsPZLCfI2Sx2IpCfyMcqMMF3uEXBtZjJ5EMLr9G-KBBS6HuRWebselPm_A_8RHLNdFZAh9YO5xeYTbCp5RDIW8l3XLz4zkjhvzUX2VA4-QxmvAEvKdaLx2mfvsT-piI84e5GzyJYfQpqRPYrvJnrb13NPPVxMblEtdpmB5gr2uJ5XkYqSL_SuI2HM_JaQLfI4rShpmopVh8ITR6_4v50XOtRofI9Lz-0jgg9b0TZiLmYKWu1xO0ul3AvlHDYoKly4DXPrBmypXiItC31_aieyKvJFprO9z8VhK1lBwyVjrLQwbYwBR6MRqriGRhu0hjzA2VctgpK_2hHFY3EXVXIbNULawipU0dRdeDjD-jJWr3gcFa_Fev8XYiZkxmcAemKMgBUj2Gj_XEq16jKH4FPEtnVzJP2nYSK1ze6lG6pFR5o3YqLmaY6k9WXDtsEqoMZjUkzJHYt1ATw2U-j8MFu5_-MGKcYLXUqbN9h-zOPinGt8xEi5nUvS1_-8tS4e_AZ5uUoNMUNhAD-UyUMg3B1TasCt224oYL8rh18pz0_HpLAzxF0FFqW365KABl3ub_SPPZAXkIJ7VHkcFzUygkC1hQrMjNh4thIOoDFqfVjFdOiJouiUzZlh7ZSdZgF3_DBEA-vQBBIPoYacxkJjGFXAt7hu1ouDXyZSd3d2nmz1JiSF5os86MmypzfxrOxPTQhhcePO5GXWKGALGd9v8g6k9Bsn2lBZ37YiMxk2uGfeeSBk9TZ3MWmTbnmP3-QUV18bnFx47-GXqhfKMjviqHlhIca2rXMKa9q45w23whVAdBZ_jiJo2BrIiJ3VOzDvdsFjW0ir36th-j9xvANkpjeQG0s3oD9l9bnGQPackAb72pnuOVu-WtdQ-2nr8m9CCOkytjjl74pupaD7L8KI9NDp2vw6YfKRh5ytVo4VHluhLu83Ea0XIL1--svk7C3YAK1Y0YGGf7qPUsmbHegNKugkrHh8BK35rpJTQzO-7AZto5L0g8HApq7V6MqHV6jO7NjmEUFiSpUhN8hH0btXZYI6aFP916SJFYSrDxoYUXAkoyFyfppYb3ZtL1CEOWn_XO9to8vcTkUtH4Yq7Q_ZbFKKuaHqR37z2IplrMLVWk9kqy0fryc8N1IW5xrzMEFN7IapXhV3sCwm0GRC5SpQTAYu43XA35pY9YvBN07BIlVGpcIvKrUCDffunE7gMxO3qCUzdXufaVmEEz6xefsAQR5jKGHoquBP8zXVMtkYkvG3kpD1l7m3wCMQgIHgtSyYIoKsLytLDWGhQURrVTBd4J7LyY40yKr-jmZFiIWFEed0ffGwheqUCg7ypah6PoezCagZ-l8B8lNyo17Ckg4_R9s0MLvC6ydFc3Z2MtOr-zGXSXmVy4eb0hA1DhTwenFbi_FVRfwFB6dZ0TKryLv6yHA-wfKQ2xRzBtEiMsDvXcgSgbVaMPLPduWGX-XuTYVBHB-JuD4pJD45q8amTpW-fwELKhL8Ow13X_jZxQsuL7aXxIECAPFtTxyPuD9-57daWqEbfEEEvvvV5aTBeATjQF-D92TJrSIEgx-tJrl2BOCQL3WLmBJ0bSzUOE54aW0jAi2Ox5CbGRWwAtQNfHsNvV4BV8Yl2uBMp-oq2GDpnivur2mla9PKWv8gieefEp47fwgSM-xdC_DiBgIoTc6FMQWtuThoMCwjg1HV-_h7sJSAUwXNqIhc7d824CbwxcsIuCZvISkmugJ-SRUr8g2dIqqrp-z6P0ngBx2BfuuHJ9_HSW5LT3XIEerbMCGXODcwZqLisSZ22MxlLcGYJuAoei7kReo8LvIq93g1bsH4QOg6CfS8zLmAM2osS5UoWT4ZbDp0v_S1TVgq75Dg-3TBJD8AT12RaElBGzzWWzg7s1yXvW8WHWfywYULbma-0nB1bH1WhG2EBd_ildkWtQsvVbJKacAib5jShUDSEAdfUpoGVD5uT2ZhL-AQZkNWScX_zVZe-TswkXzoTfar_73GqzUv5OUnOS7sJHv8JrTsMdtQh6k4P64NFp93bX-dWvPR9zbGMgNBz_X7kQeTyAOfnXKvSkz6fIlOqTG7K547CXfcMApkOBpzuY7XtUqyVeCIfNNIAN2JYaZ2bp1rcla3AGHATuZEao3L_Fp6wgOWYt0VuGSC6t9ymWAX33q2l9YJ0FC2hC00qJaM4pkluoORM4job6szSJo-eEqTpcSFZEYtEx9uAc4rQb--mdh-nDU2eDqzp6TRn2IggE3T7o89Gd-1UW0y4ffsDDTemCXSQM5uwwupDEJmbEU_kqeS-k3BMWoe8xbA1fSYcBXzjh0g62vC49me0CknIC-RY4xitGLWyANIu-lHKlNSI2aKMQdEC3MZCdsaxvG5iRy6bzRzMvv1UmxJhO10ELeJ1K1WyUyiersdGB6F6jobffBZe8gzTGCx8CyQkN1_dp3HZ9TtRhGh9LFLbQn6aU2WwRwWUxT86cIhpLLZrMm4hgCRrcLlos3aqslu5ORlfLLecIGsg80oWHOytd_wTHhag8Wa7K7JwPeLgbGESp0l31Eq_BkHZvXgZMqmiux4QrIWSGmThcXarJ0M1edWPD4VC-HBa2cP0W7L9_MgC5uU56vkkj5X0fkJTF8NNz_rScs6NubH9eFQhZ2f1MLfZFcvGjtYtHUiJIamQpypiwM2wcVFlvECAQaPs3ysogBJw3HzGkrdKjcTjsiZBl1dCRBQR7ut2ICQeJohrNy5pW1z7ekFQ2AbKN7UcTIXAtvdmSQ_zn4BTTBaOvV0rV3bYv6rHqzCh0w5FcDeAVE_LkNTdVFaOLUH_GxlTUgVB7L49Boa5vfBgeALXBUSct7b3_f2iB7TfVTuYlRGeTV4U0QoR_-AbfLcLAn1xRvowpDXNilzdvP19fz9h8Klpz-KSd50a1wmDL4pXme5wKrrxHI0fS3z61i5pkpSjtUhuxPuMaNYwhvS4Eo9qozPEqLE9TyUJysD0ZqHq-jhBb_bbJ5EIqkBlhY6euQFWo_4fBQ0tqa_6uYWOOn-yMDO4RqoKLbFmO2ApHJYOlsUGae_JBSIO3vXq4n350PPdw7p1SsYRe80F_HIePECrQaBQfNSJKwHARYBTApl5M4vp_W5CRW1Qrbh5qciSteVLdB5Vwq0hN3SqlDzvPSyp3TK-xSMaL82GL5-v16GYTDyViOWUHxX3TDgCsHM4h_TsXU0snUHdrsdL0Y51I4vxhsBnHRloGzbn6TvnGMNlqBDpOop7sBq7XvSNS3WK7HoFxFLwIaA-6X3v_U53CLO0RPi1ol6vM7aFKCOIdRgb_htShHTqIViW5x_HkZrtarASp_nICLMJ9yr0KMEwI5XU4R0rxZVrjsrKjyG_-swaSfwETqS9EFhSuiOUirS7rLZeAKK0-FNUpdTgJXUOvc96Xa8oMstygpHt9kVmm6z-1QJkrIEirIXHL1RvyqiyNC1tHPl9WGqLQ545BxvYszd8NJoKVydiBu0l5yvxNZ8_2nF133i3Cb4xRRuFnTJs6mMPS3wEvCSyKr_9mGnEEyQONzpHRSHYM5F7UPgaMsUG7J6-B3D7vpMcTlSTPT5H_cfibtu8_OjpFdKTgMibALjdEob-dwqYUazJ-2wbmgKU4VxhMMk0Yfpr1T0J-xDZJ-ucVsQkp_biHvjiQouxGEodtSn_SlKBr4RoiGgCbhB86fZmkEmc0qE3_uI3ZuLFjnrhLOD5Ld0rm1lRI9fONJEP3uuAZBUPyDbm5LovOhJh9diCTVno6V_nU4XgRWj2Apjk_rBWtwi-GpfxZWs-O0eMvBz2GqmJwm_wIxYIxYg-N7-buC1iE7FDIZMBOUYkRqrYXi493ysQepaBD2MzblJ2CguQIeL81gBrIeR9bI2r5lpg9EnZJoFbsLDRTmJNXW99z398Zw1vRBhVoEG9qBiulgl6TPnVwbw897UOigC3GkEwcoFb0_Rty7Q-BFMaoBxTp_GmaSlHF4UrmdwOcgNb3RMfkP6ZI0PtcNHT9NF9Tr7vn14X1r1vTI6J05IjSC1CQgKBsF08cubVE5ri0ZqkZaoOXQki-8PsdjBwR-kAvR1ZBdVY69743MDlzEU4unbp12GJzfOuwpnoTqkMoBazHfXhXnG3HX8jv3adQP7lXuA9Ymkiedtfo2NQCqHoCuQhm6HFz8abP5lYIEZmHA08bjlcAXOWNhknxcEEtGNlmA_Zg-e2bK7oiXtfRx_rz0vc1h2utRA8hEBOJPmyZWrX-N130e3Mlz2Azzb-cDRn4ch7awg0cUTQI9mzdz47jx5ImEw_W6Iq7zAC_Pb3fagR2eQWIFdnkomNUvrOFaIts9HYGhmUc2zGH_YDM110U5sNiH1uRFjo7-035Td3LxX7xmWsObq9Lix5r3_BwH0LDjDD7j8jNMwRcju52ejot6hBxJm6bOCH6rABvnOaAdtfWPDnfraKDS0YwGGr7287ewf3LoZF82v2bOvyrYyWOnVRKMtpBiyvDf_urf5UF2e8BMS1bLUFg-z_V_PAynqe_U2oWGwR3nB_XkyE3nyADKf5Xui-_fcv2QkY0m-qENYM8Savx1GK6Wh3G4JFND5zTqiteITXUBlfZVQ56cSMpk6u6FUIUOXFYMsFfpWYnlSmJ_4dfk8Y5WKVrGyfHTNlwjX_IrqK4TlCd-y1mWUkda4Y2cstsXhIAC8dyhbUBnAb_xkDGy9L9JyQVm6lfh30d-9W8k4sIDZ4B0QiHTV7-AWLCw",
+      "summary": []
+    },
+    {
+      "id": "msg_0d3e71736c380168006a7729cf8a8c8198a71f57b970e0a25c",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "Here’s a concise, practical overview of dogs, plus how to tailor this to you.\n\n- What dogs are\n  - Domestic dogs (Canis lupus familiaris) are descended from wolves and have been living with humans for thousands of years. They’re highly diverse in size, shape, coat, and temperament.\n  - There are many breeds and mixes. Breed groups (varied by kennel clubs) include Sporting, Hound, Working, Terrier, Toy, Non-Sporting, and Herding. Each group tends to have general traits, but individual dogs vary a lot.\n\n- Common roles and traits\n  - Companions: many dogs are great family pets and thrive on social interaction.\n  - Working roles: service dogs, police and military dogs, search-and-rescue, herding livestock, guarding, hauling.\n  - Most dogs are highly trainable with the right approach and motivation (often food or praise).\n\n- Basic needs and care\n  - Exercise: most dogs need daily physical activity plus mental stimulation. Amount depends on size, breed, and age.\n  - Diet: high-quality, age-appropriate dog food; portion control to maintain a healthy weight. Avoid toxic foods (e.g., chocolate, grapes/raisins, onions, xylitol).\n  - Grooming: coat type dictates brushing frequency; some require regular baths, nails trimmed, dental care.\n  - Vet care: regular check-ups, vaccines, parasite prevention, dental care, and spaying/neutering when appropriate.\n\n- Training and behavior\n  - Positive reinforcement (treats, praise, play) works best for most dogs.\n  - Socialization as a puppy is crucial to reduce fear and aggression later.\n  - Basic skills to start: sit, stay, come, loose-leash walking, and crate training for routine and safety.\n  - Communication: dogs use body language (tail, ears, posture) and vocalizations (barking, growling) to signal needs or emotions.\n\n- Health considerations (high-level)\n  - Common issues vary by size/breed: obesity, dental disease, hip/elbow dysplasia (larger breeds), allergies, ear infections, skin issues.\n  - Responsible owners monitor weight, provide regular veterinary care, and keep vaccinations and parasite prevention up to date.\n\n- How to pick a dog (if you’re browsing)\n  - Consider energy level, space (apartment vs house with yard), presence of kids or other pets, and how much time you can devote to training.\n  - Mixed-breed dogs often have fewer breed-specific health issues and can be wonderful companions.\n  - Meet-and-greet with a dog’s personality is key: observe if they’re relaxed, curious, and responsive to training cues.\n\nIf you’d like, tell me more about your situation (living space, activity level, experience with dogs, presence of kids or other pets, any breed preferences or allergies). I can suggest suitable breed groups or specific breeds, plus a starter care and training plan tailored to you."
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "in_memory",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": { "format": { "type": "text" }, "verbosity": "medium" },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": { "image_tokens": 0, "text_tokens": 0 },
+      "output_tokens": 0,
+      "output_tokens_details": { "image_tokens": 0, "text_tokens": 0 },
+      "total_tokens": 0
+    },
+    "web_search": { "num_requests": 0 }
+  },
+  "tools": [
+    {
+      "type": "function",
+      "description": "Get's the current location of the user.",
+      "name": "getLocation",
+      "output_schema": null,
+      "parameters": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    {
+      "type": "function",
+      "description": "Get's the current weather based on the location (latitude, longitude).",
+      "name": "getWeather",
+      "output_schema": null,
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "lat": { "type": "number" },
+          "lon": { "type": "number" }
+        },
+        "required": ["lat", "lon"],
+        "additionalProperties": false
+      },
+      "strict": true
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 1,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 118,
+    "input_tokens_details": { "cache_write_tokens": 0, "cached_tokens": 0 },
+    "output_tokens": 1818,
+    "output_tokens_details": { "reasoning_tokens": 1152 },
+    "total_tokens": 1936
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "Here’s a concise, practical overview of dogs, plus how to tailor this to you.\n\n- What dogs are\n  - Domestic dogs (Canis lupus familiaris) are descended from wolves and have been living with humans for thousands of years. They’re highly diverse in size, shape, coat, and temperament.\n  - There are many breeds and mixes. Breed groups (varied by kennel clubs) include Sporting, Hound, Working, Terrier, Toy, Non-Sporting, and Herding. Each group tends to have general traits, but individual dogs vary a lot.\n\n- Common roles and traits\n  - Companions: many dogs are great family pets and thrive on social interaction.\n  - Working roles: service dogs, police and military dogs, search-and-rescue, herding livestock, guarding, hauling.\n  - Most dogs are highly trainable with the right approach and motivation (often food or praise).\n\n- Basic needs and care\n  - Exercise: most dogs need daily physical activity plus mental stimulation. Amount depends on size, breed, and age.\n  - Diet: high-quality, age-appropriate dog food; portion control to maintain a healthy weight. Avoid toxic foods (e.g., chocolate, grapes/raisins, onions, xylitol).\n  - Grooming: coat type dictates brushing frequency; some require regular baths, nails trimmed, dental care.\n  - Vet care: regular check-ups, vaccines, parasite prevention, dental care, and spaying/neutering when appropriate.\n\n- Training and behavior\n  - Positive reinforcement (treats, praise, play) works best for most dogs.\n  - Socialization as a puppy is crucial to reduce fear and aggression later.\n  - Basic skills to start: sit, stay, come, loose-leash walking, and crate training for routine and safety.\n  - Communication: dogs use body language (tail, ears, posture) and vocalizations (barking, growling) to signal needs or emotions.\n\n- Health considerations (high-level)\n  - Common issues vary by size/breed: obesity, dental disease, hip/elbow dysplasia (larger breeds), allergies, ear infections, skin issues.\n  - Responsible owners monitor weight, provide regular veterinary care, and keep vaccinations and parasite prevention up to date.\n\n- How to pick a dog (if you’re browsing)\n  - Consider energy level, space (apartment vs house with yard), presence of kids or other pets, and how much time you can devote to training.\n  - Mixed-breed dogs often have fewer breed-specific health issues and can be wonderful companions.\n  - Meet-and-greet with a dog’s personality is key: observe if they’re relaxed, curious, and responsive to training cues.\n\nIf you’d like, tell me more about your situation (living space, activity level, experience with dogs, presence of kids or other pets, any breed preferences or allergies). I can suggest suitable breed groups or specific breeds, plus a starter care and training plan tailored to you."
+}
