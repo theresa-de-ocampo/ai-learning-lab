@@ -43,7 +43,7 @@ export async function agent(query: string) {
 
   const MAX_ITERATIONS = 5;
 
-  for (let i = 0; i <= MAX_ITERATIONS; i++) {
+  for (let i = 0; i < MAX_ITERATIONS; i++) {
     const response = await openai.responses.create({
       model: AI_MODEL,
       input: messages,

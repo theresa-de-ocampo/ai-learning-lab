@@ -28,7 +28,7 @@ export type WeatherApiResponse = {
       text: string;
     };
     humidity: number;
-    precip_in: number;
+    precip_mm: number;
     chance_of_rain: number;
     chance_of_snow: number;
     wind_kph: number;

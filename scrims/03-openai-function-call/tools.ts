@@ -37,7 +37,7 @@ async function getWeather(location: string): Promise<Weather> {
   }
 
   const response = await fetch(
-    `http://api.weatherapi.com/v1/current.json?key=${WEATHER_API_KEY}&q=${encodeURIComponent(location)}&aqi=no`
+    `https://api.weatherapi.com/v1/current.json?key=${WEATHER_API_KEY}&q=${encodeURIComponent(location)}&aqi=no`
   );
 
   const data = await handleResponse<WeatherApiResponse>(response);
@@ -48,7 +48,7 @@ async function getWeather(location: string): Promise<Weather> {
     tempInCelsius: current.temp_c,
     description: current.condition.text,
     humidity: current.humidity,
-    precipitationInMillimeters: current.precip_in,
+    precipitationInMillimeters: current.precip_mm,
     chanceOfRain: current.chance_of_rain,
     chanceOfSnow: current.chance_of_snow,
     windKph: current.wind_kph,
