@@ -47,6 +47,12 @@ body,
   margin: 0 auto;
 }
 
+#counters {
+  max-width: 800px;
+  padding: 0.75rem;
+  margin: 0 auto;
+}
+
 /* Message Bubbles */
 .message {
   max-width: 100%;

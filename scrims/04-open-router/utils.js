@@ -13,12 +13,27 @@ export function verifyEnv() {
   }
 }
 
+export function formatErrorMessage(error) {
+  if (error.message.includes("maximum context length")) {
+    return "Error: Your request does not fit within the model's context window.";
+  } else {
+    return `Error: ${error.message}`;
+  }
+}
+
 export class ChatView {
   constructor(chatContainer, messagesContainer) {
     this.chatContainer = chatContainer;
     this.messagesContainer = messagesContainer;
     this.messageCount = 0;
     this.maxMessages = 20;
+
+    this.totalMessagesCounter = chatContainer.querySelector(
+      "#total-messages-counter"
+    );
+    this.contextMessagesCounter = chatContainer.querySelector(
+      "#context-messages-counter"
+    );
   }
 
   addMessage(message) {
@@ -80,5 +95,13 @@ export class ChatView {
 
   scrollToBottom() {
     this.chatContainer.scrollTop = this.chatContainer.scrollHeight;
+  }
+
+  updateCounters(allMessages, contextMessages = null) {
+    const totalCount = allMessages.length;
+    const contextCount = contextMessages ? contextMessages.length : totalCount;
+
+    this.totalMessagesCounter.textContent = `${totalCount} total message${totalCount === 1 ? "" : "s"}`;
+    this.contextMessagesCounter.textContent = `${contextCount} context message${contextCount === 1 ? "" : "s"}`;
   }
 }

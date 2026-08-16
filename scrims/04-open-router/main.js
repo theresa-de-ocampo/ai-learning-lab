@@ -1,6 +1,7 @@
 import { createOpenRouter } from "@openrouter/ai-sdk-provider";
 import { streamText } from "ai";
-import { ChatView, verifyEnv } from "./utils.js";
+import { ChatView, verifyEnv, formatErrorMessage } from "./utils.js";
+import initialMessages from "./conversation.js";
 
 // Verify that environment variables are set
 verifyEnv();
@@ -20,9 +21,17 @@ const chatContainer = document.getElementById("chat-container");
 const chatView = new ChatView(chatContainer, messagesContainer);
 
 // Conversation is initially empty
-const messages = [];
+const messages = [...initialMessages];
 
 function start() {
+  // Display initial conversation
+  messages.forEach((message) => {
+    chatView.addMessage(message);
+  });
+
+  // Update initial message counter
+  chatView.updateCounters(messages);
+
   // Handle user's message to the AI
   chatForm.addEventListener("submit", handleUserMessage);
 }
@@ -57,18 +66,27 @@ async function handleUserMessage(event) {
     });
 
     // Update the assistant message as chunks arrive
-    for await (const textChunk of response.textStream) {
-      assistantMessage.content += textChunk;
-      chatView.updateLatestMessage(assistantMessage.content);
+    // for await (const textChunk of response.textStream) {
+    //   assistantMessage.content += textChunk;
+    //   chatView.updateLatestMessage(assistantMessage.content);
+    // }
+    for await (const event of response.stream) {
+      if (event.type === "error") {
+        throw event.error;
+      } else if (event.type === "text-delta") {
+        assistantMessage.content += event.text;
+        chatView.updateLatestMessage(assistantMessage.content);
+      }
     }
 
     messages.push(assistantMessage);
   } catch (err) {
-    assistantMessage.content = `**Error:** ${err.message}`;
+    assistantMessage.content = formatErrorMessage(err);
     chatView.updateLatestMessage(assistantMessage.content);
   }
 
   disableInputWhileLoading(false);
+  chatView.updateCounters(messages, contextMessages);
 }
 
 function disableInputWhileLoading(shouldDisable) {
