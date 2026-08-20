@@ -31,9 +31,13 @@ export function getTrimmedContent(messages, tokenLimit = 10_000) {
   let tokenCount = calculateTokens(messages);
   let trimmedMessages = [...messages];
 
-  while (tokenCount > tokenLimit && trimmedMessages.length > 1) {
+  while (tokenCount > tokenLimit) {
     trimmedMessages.shift();
     tokenCount = calculateTokens(trimmedMessages);
+  }
+
+  if (trimmedMessages.length === 0) {
+    throw new Error("maximum context length");
   }
 
   return trimmedMessages;

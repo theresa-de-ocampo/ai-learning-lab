@@ -59,11 +59,11 @@ async function handleUserMessage(event) {
   // Add assistant message placeholder
   const assistantMessage = { role: "assistant", content: "" };
   chatView.addMessage(assistantMessage);
-
-  const contextMessages = getTrimmedContent(messages);
-  console.log(contextMessages.length);
+  let contextMessages;
 
   try {
+    contextMessages = getTrimmedContent(messages);
+
     // Send conversation history and stream the response
     const response = streamText({
       model: openRouterModel,
