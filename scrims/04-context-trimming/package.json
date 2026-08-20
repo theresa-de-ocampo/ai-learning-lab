@@ -1,0 +1,21 @@
+{
+  "name": "s0asf684uk",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^8.2.1"
+  },
+  "dependencies": {
+    "@openrouter/ai-sdk-provider": "^3.0.0",
+    "ai": "^7.0.66",
+    "dompurify": "^3.4.13",
+    "gpt-tokenizer": "^4.0.0",
+    "marked": "^18.0.9"
+  }
+}

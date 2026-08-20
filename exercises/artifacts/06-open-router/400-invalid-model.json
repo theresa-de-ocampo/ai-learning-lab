@@ -1,0 +1,7 @@
+{
+  "error": {
+    "message": "arcee-mistralai/mistral-small-24b-instruct-2501 is not a valid model ID",
+    "code": 400
+  },
+  "user_id": "user_3H--Zss"
+}
