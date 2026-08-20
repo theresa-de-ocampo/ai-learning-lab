@@ -52,6 +52,7 @@ export class ChatView {
     this.contextMessagesCounter = chatContainer.querySelector(
       "#context-messages-counter"
     );
+    this.counterSeparator = chatContainer.querySelector(".separator");
   }
 
   addMessage(message) {
@@ -117,9 +118,15 @@ export class ChatView {
 
   updateCounters(allMessages, contextMessages = null) {
     const totalCount = allMessages.length;
-    const contextCount = contextMessages ? contextMessages.length : totalCount;
+    const hasContextMessages = contextMessages !== null;
 
     this.totalMessagesCounter.textContent = `${totalCount} total message${totalCount === 1 ? "" : "s"}`;
-    this.contextMessagesCounter.textContent = `${contextCount} context message${contextCount === 1 ? "" : "s"}`;
+    this.counterSeparator.hidden = !hasContextMessages;
+    this.contextMessagesCounter.hidden = !hasContextMessages;
+
+    if (hasContextMessages) {
+      const contextCount = contextMessages.length;
+      this.contextMessagesCounter.textContent = `${contextCount} context message${contextCount === 1 ? "" : "s"}`;
+    }
   }
 }
