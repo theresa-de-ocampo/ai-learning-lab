@@ -1,5 +1,6 @@
 import { marked } from "marked";
 import DOMPurify from "dompurify";
+import { encode } from "gpt-tokenizer";
 
 export function verifyEnv() {
   if (!process.env.OPENROUTER_KEY) {
@@ -19,6 +20,23 @@ export function formatErrorMessage(error) {
   } else {
     return `Error: ${error.message}`;
   }
+}
+
+export function calculateTokens(messages) {
+  const content = messages.map((message) => message.content).join("");
+  return encode(content).length;
+}
+
+export function getTrimmedContent(messages, tokenLimit = 10_000) {
+  let tokenCount = calculateTokens(messages);
+  let trimmedMessages = [...messages];
+
+  while (tokenCount > tokenLimit && trimmedMessages.length > 1) {
+    trimmedMessages.shift();
+    tokenCount = calculateTokens(trimmedMessages);
+  }
+
+  return trimmedMessages;
 }
 
 export class ChatView {

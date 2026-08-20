@@ -1,6 +1,11 @@
 import { createOpenRouter } from "@openrouter/ai-sdk-provider";
 import { streamText } from "ai";
-import { ChatView, verifyEnv, formatErrorMessage } from "./utils.js";
+import {
+  ChatView,
+  verifyEnv,
+  formatErrorMessage,
+  getTrimmedContent
+} from "./utils.js";
 import initialMessages from "./conversation.js";
 
 // Verify that environment variables are set
@@ -53,16 +58,18 @@ async function handleUserMessage(event) {
 
   // Add assistant message placeholder
   const assistantMessage = { role: "assistant", content: "" };
-  // messages.push(assistantMessage);
   chatView.addMessage(assistantMessage);
+
+  const contextMessages = getTrimmedContent(messages);
+  console.log(contextMessages.length);
 
   try {
     // Send conversation history and stream the response
-    const response = await streamText({
+    const response = streamText({
       model: openRouterModel,
       instructions:
         "You are a helpful assistant. Never guess what the user wants if the request is short or missing key details. First, ask up to three short questions to get the facts. Do not write the full response until the user answers your questions. No need to add intros and conclusions.",
-      messages
+      messages: contextMessages
     });
 
     // Update the assistant message as chunks arrive
