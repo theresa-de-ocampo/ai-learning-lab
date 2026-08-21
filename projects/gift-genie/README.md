@@ -22,4 +22,4 @@ Built with the OpenAI Responses API and web search to retrieve current informati
 4. Create a `.env` file.
 5. Start the application: `npm start`
 
-<video controls src="demo.mp4" title="Gift Genie Demo"></video>
+![Gift Genie Demo](demo.gif)
