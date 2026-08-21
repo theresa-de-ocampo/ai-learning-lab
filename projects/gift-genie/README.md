@@ -20,6 +20,11 @@ Built with the OpenAI Responses API and web search to retrieve current informati
 2. Make sure the OpenAI API account has credits available.
 3. Install dependencies: `npm i`
 4. Create a `.env` file.
+   ```
+   AI_URL=https://api.openai.com/v1
+   AI_MODEL=your_preferred_openai_model
+   AI_KEY=your_openai_api_key
+   ```
 5. Start the application: `npm start`
 
 ![Gift Genie Demo](demo.gif)

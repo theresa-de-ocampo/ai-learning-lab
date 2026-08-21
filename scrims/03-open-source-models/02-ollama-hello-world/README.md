@@ -21,3 +21,4 @@ This makes local models useful for scenarios where **privacy, data control, or o
 3. Make sure Ollama is running locally before starting the application.
 4. Install dependencies: `npm install`.
 5. Start the application: `npm start`.
+6. Ask a question through the query parameter: `http://localhost:3000/?question=Why do stars shine?`
