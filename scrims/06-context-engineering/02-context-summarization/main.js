@@ -11,8 +11,6 @@ verifyEnv();
 const openRouter = createOpenRouter({ apiKey: process.env.OPENROUTER_KEY });
 // Get current model and convert it to AI SDK compatible model
 const openRouterModel = openRouter(process.env.MODEL_ID);
-// Set maximum token limit for context
-const MAX_TOKENS = 20000;
 
 // Get UI Elements
 const chatForm = document.getElementById("chat-form");

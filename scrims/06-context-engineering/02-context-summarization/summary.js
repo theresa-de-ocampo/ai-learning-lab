@@ -1,4 +1,4 @@
-import { getTotalTokenCount } from "./utils.js";
+import { getTotalTokenCount, getMessageTokenCount } from "./utils.js";
 import { generateText } from "ai";
 import {
   SUMMARY_MAX_OUTPUT_TOKENS,
@@ -6,14 +6,17 @@ import {
 } from "./constants.js";
 
 export function splitForSummary(messages) {
-  let messagesToSummarize = [];
-  let remainingMessages = [...messages];
-  let tokenCount = getTotalTokenCount(remainingMessages);
+  let tokenCount = getTotalTokenCount(messages);
+  let remainingTokenCount = tokenCount;
+  let splitIndex = 0;
 
-  while (tokenCount > TARGET_CONTEXT_TOKENS) {
-    messagesToSummarize.push(remainingMessages.shift());
-    tokenCount = getTotalTokenCount(remainingMessages);
+  while (remainingTokenCount > TARGET_CONTEXT_TOKENS) {
+    remainingTokenCount -= getMessageTokenCount(messages[splitIndex]);
+    splitIndex++;
   }
+
+  let messagesToSummarize = messages.slice(0, splitIndex);
+  let remainingMessages = messages.slice(splitIndex);
 
   return {
     messagesToSummarize,
