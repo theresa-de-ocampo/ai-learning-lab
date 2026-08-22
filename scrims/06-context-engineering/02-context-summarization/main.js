@@ -113,11 +113,13 @@ async function handleUserMessage(event) {
       }
     }
 
-    // Update context messages with the completed assistant response
-    contextMessages.push({
+    const reply = {
       role: "assistant",
       content: assistantMessage.content
-    });
+    };
+
+    messages.push(reply);
+    contextMessages.push(reply);
   } catch (err) {
     assistantMessage.content = `**Error:** ${err.message}`;
     chatView.updateLatestMessage(assistantMessage.content);
