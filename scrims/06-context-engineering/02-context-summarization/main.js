@@ -3,6 +3,7 @@ import { streamText } from "ai";
 import initialMessages from "./conversation.js";
 import { getTotalTokenCount, ChatView, verifyEnv } from "./utils.js";
 import { splitForSummary, generateSummary } from "./summary.js";
+import { COMPACTION_TRIGGER_TOKENS } from "./constants.js";
 
 // Verify that environment variables are set
 verifyEnv();
@@ -57,18 +58,13 @@ async function handleUserMessage(event) {
 
   // Check if we need a summary
   let contextTokens = getTotalTokenCount(contextMessages);
-  if (contextTokens > MAX_TOKENS) {
+  if (contextTokens > COMPACTION_TRIGGER_TOKENS) {
     // Summarize context if token limit exceeded
     chatView.addSummarizingIndicator();
 
-    // Set token target to summarize enough messages to get under half the limit
-    let tokenTarget = MAX_TOKENS * 0.5;
-
     // Split messages into old (to summarize) and recent (to keep)
-    const { messagesToSummarize, remainingMessages } = splitForSummary(
-      contextMessages,
-      tokenTarget
-    );
+    const { messagesToSummarize, remainingMessages } =
+      splitForSummary(contextMessages);
 
     // Generate a Message object with an AI summary of older messages
     const summaryMessage = await generateSummary(

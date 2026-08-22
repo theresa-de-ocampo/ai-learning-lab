@@ -1,57 +1,42 @@
-import { getTotalTokenCount, getMessageTokenCount } from "./utils.js";
+import { getTotalTokenCount } from "./utils.js";
 import { generateText } from "ai";
+import {
+  SUMMARY_MAX_OUTPUT_TOKENS,
+  TARGET_CONTEXT_TOKENS
+} from "./constants.js";
 
-/**
- * Context Summarization Challenge
- *
- * Your task is to implement the two functions splitForSummary
- * and generateSummary below.
- *
- * Available utilities:
- * - getTotalTokenCount(messages) -> total token count for a messages array
- * - getMessageTokenCount(message) -> token count for a single message
- *
- * 💡 Check the hints folder if you're stuck.
- */
+export function splitForSummary(messages) {
+  let messagesToSummarize = [];
+  let remainingMessages = [...messages];
+  let tokenCount = getTotalTokenCount(remainingMessages);
 
-/**
- * Challenge 1: Implement splitForSummary
- *
- * This function's goal is to split the `messages` array into two parts:
- *
- * - messagesToSummarize: older messages that need to be summarized
- * - remainingMessages: recent messages to keep as-is
- *
- * You need to find the "split point" (an index) where the number of
- * tokens in remainingMessages is within the tokenTarget.
- */
-export function splitForSummary(messages, tokenTarget) {
-  // Your implementation here
+  while (tokenCount > TARGET_CONTEXT_TOKENS) {
+    messagesToSummarize.push(remainingMessages.shift());
+    tokenCount = getTotalTokenCount(remainingMessages);
+  }
 
   return {
-    messagesToSummarize: [],
-    remainingMessages: messages
+    messagesToSummarize,
+    remainingMessages
   };
 }
 
-/**
- * Challenge 2: Implement generateSummary
- *
- * This function takes an array of messages and uses the AI model
- * to create a condensed summary.
- *
- * Remember, you must add a new message to the array to explicitly
- * ask the AI to create a summary.
- *
- * Return a final message object containing the summary.
- */
 export async function generateSummary(messages, model) {
-  // Your implementation here
-
-  const summaryContent = "Placeholder summary";
+  const summary = await generateText({
+    model,
+    messages: [
+      ...messages,
+      {
+        role: "user",
+        content:
+          "Create a concise, well-organized summary of the entire conversation so far to preserve important context. Focus on extracting key user information, important decisions, and technical details that might be referenced later."
+      }
+    ],
+    maxOutputTokens: SUMMARY_MAX_OUTPUT_TOKENS
+  });
 
   return {
-    role: "system",
-    content: `${summaryContent}`
+    role: "assistant",
+    content: summary.text
   };
 }
