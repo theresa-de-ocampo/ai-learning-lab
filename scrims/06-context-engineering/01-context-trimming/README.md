@@ -27,10 +27,10 @@ Create an account at [OpenRouter](https://openrouter.ai/), generate an API key, 
 
 ```bash
 OPENROUTER_KEY=your_openrouter_api_key
-MODEL_ID=provider/model-id-with-16k-or-33k-context
+MODEL_ID=provider/model-id-with-16k-context
 ```
 
-Use a **16k or 33k context model** because the seeded conversation is intentionally long. The app trims outgoing context to about 10k tokens by default, leaving room for instructions and the model's response.
+Use a **16k context model** because the seeded conversation is intentionally long. The app trims outgoing context to about 10k tokens by default, leaving room for instructions and the model's response.
 
 Run the app:
 
