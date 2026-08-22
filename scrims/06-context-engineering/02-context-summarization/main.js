@@ -60,21 +60,32 @@ async function handleUserMessage(event) {
     // Summarize context if token limit exceeded
     chatView.addSummarizingIndicator();
 
-    // Split messages into old (to summarize) and recent (to keep)
-    const { messagesToSummarize, remainingMessages } =
-      splitForSummary(contextMessages);
+    try {
+      // Split messages into old (to summarize) and recent (to keep)
+      const { messagesToSummarize, remainingMessages } =
+        splitForSummary(contextMessages);
 
-    // Generate a Message object with an AI summary of older messages
-    const summaryMessage = await generateSummary(
-      messagesToSummarize,
-      openRouterModel
-    );
+      // Generate a Message object with an AI summary of older messages
+      const summaryMessage = await generateSummary(
+        messagesToSummarize,
+        openRouterModel
+      );
 
-    // Replace context with summary + recent messages
-    contextMessages = [summaryMessage, ...remainingMessages];
+      // Replace context with summary + recent messages
+      contextMessages = [summaryMessage, ...remainingMessages];
 
-    chatView.removeSummarizingIndicator();
-    chatView.showSummary(summaryMessage.content);
+      chatView.showSummary(summaryMessage.content);
+    } catch (err) {
+      chatView.addMessage({
+        role: "system",
+        content: `**Error summarizing conversation:** ${err.message}`
+      });
+      chatView.updateCounters(messages, contextMessages);
+      disableInputWhileLoading(false);
+      return;
+    } finally {
+      chatView.removeSummarizingIndicator();
+    }
   }
 
   // Add assistant message placeholder
