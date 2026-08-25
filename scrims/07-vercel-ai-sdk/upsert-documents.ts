@@ -69,9 +69,7 @@ async function insertDocuments(documents: Document[]) {
   const { error } = await supabase.from(TABLE_NAME).insert(documents);
 
   if (error) {
-    const errorMessage =
-      error instanceof Error && error.message ? `: ${error.message}` : "";
-    console.error(`Error inserting records ${errorMessage}`);
+    console.error(`Error inserting records: ${error.code} ${error.message}`);
   } else {
     console.log(`Successfully inserted ${documents.length} records.`);
   }
