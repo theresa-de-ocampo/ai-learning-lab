@@ -17,4 +17,7 @@ async function main(query: string) {
   console.log(response.output_text);
 }
 
-await main("In 1843, what was the key milestone in computing?");
+// const question = "In 1843, what was the key milestone in computing?"
+const question =
+  "How many houses were damaged during the great fire of london?";
+await main(question);

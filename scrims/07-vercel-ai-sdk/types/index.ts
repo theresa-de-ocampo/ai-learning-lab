@@ -1,7 +1,7 @@
 export type Document = {
   content: string;
   embedding: number[];
-  metadata: {
-    source: string;
-  };
+  metadata: Record<string, any>;
 };
+
+export type DocumentChunk = Omit<Document, "embedding">;
