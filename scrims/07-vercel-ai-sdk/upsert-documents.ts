@@ -1,6 +1,5 @@
 import fs from "fs/promises";
 import path from "node:path";
-import { fileURLToPath } from "node:url";
 
 import {
   CLEAR_TABLE,
@@ -13,9 +12,6 @@ import { openai, supabase } from "./utils/clients.js";
 import { splitter } from "./utils/helpers.js";
 
 import type { Document, DocumentChunk } from "./types/index.js";
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
 
 async function truncateTable() {
   if (CLEAR_TABLE) {
@@ -106,7 +102,7 @@ async function insertDocuments(documents: Document[]) {
 }
 
 async function ingestDocuments() {
-  const docsDir = path.join(__dirname, DOCUMENTS_DIR);
+  const docsDir = path.resolve(process.cwd(), DOCUMENTS_DIR);
   await fs.mkdir(docsDir, { recursive: true });
 
   try {
