@@ -1,6 +1,6 @@
 # AI Learning Lab
 
-A collection of projects, focused implementations, and hands-on exercises documenting my exploration of **AI engineering with JavaScript and TypeScript**.
+A collection of projects, focused implementations, and hands-on exercises documenting my exploration of AI engineering.
 
 The repository covers concepts including:
 
