@@ -20,8 +20,8 @@ async function truncateTable() {
     const { error } = await supabase.from(TABLE_NAME).delete().neq("id", -1);
 
     if (error) {
-      console.warn(
-        `Warning: Could not clear existing records: ${error.code} ${error.message}`
+      throw new Error(
+        `Could not clear existing records: ${error.code} ${error.message}`
       );
     } else {
       console.log(`Cleared existing records.`);
@@ -79,7 +79,7 @@ async function createEmbeddings(chunks: DocumentChunk[]) {
     } catch (error) {
       const errorMessage =
         error instanceof Error && error.message ? `: ${error.message}` : "";
-      console.error(
+      throw new Error(
         `Failed to embed chunk batch starting at ${i + 1}${errorMessage}`
       );
     }
@@ -95,7 +95,7 @@ async function insertDocuments(documents: Document[]) {
   const { error } = await supabase.from(TABLE_NAME).insert(documents);
 
   if (error) {
-    console.error(`Error inserting records: ${error.code} ${error.message}`);
+    throw new Error(`Error inserting records: ${error.code} ${error.message}`);
   } else {
     console.log(`Successfully inserted ${documents.length} records.`);
   }
@@ -113,7 +113,6 @@ async function ingestDocuments() {
       return;
     }
 
-    await truncateTable();
     const chunks = await splitDocuments(docsDir, files);
 
     if (chunks.length === 0) {
@@ -130,11 +129,13 @@ async function ingestDocuments() {
       return;
     }
 
+    await truncateTable();
     await insertDocuments(documents);
     console.log("--- Ingestion Complete ---");
   } catch (error) {
     console.error("--- Ingestion Failed! ---");
-    console.error(error);
+    console.error(error instanceof Error ? error.message : error);
+
     process.exit(1);
   }
 }
