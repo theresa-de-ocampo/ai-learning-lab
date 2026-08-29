@@ -40,13 +40,16 @@ async function generateResponseFromToolCalls() {
     stopWhen: stepCountIs(MAX_ITERATIONS)
   });
 
-  const toolEvents = result.steps.flatMap((step) =>
-    step.content.filter(
-      (part) => part.type === "tool-call" || part.type === "tool-result"
-    )
-  );
+  // * No need to use raw results since the SDK already exposes getters.
+  // const toolEvents = result.steps.flatMap((step) =>
+  //   step.content.filter(
+  //     (part) => part.type === "tool-call" || part.type === "tool-result"
+  //   )
+  // );
 
-  console.dir(toolEvents, { depth: null });
+  // console.dir(toolEvents, { depth: null });
+
+  console.dir([...result.toolCalls, ...result.toolResults], { depth: null });
 }
 
 generateResponseFromToolCalls();

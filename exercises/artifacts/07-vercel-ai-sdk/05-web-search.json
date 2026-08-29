@@ -1,0 +1,1324 @@
+{
+  "initialResponseMessages": [],
+  "steps": [
+    {
+      "callId": "call-yePVw3RyeL7lWuikxEoaCfXy",
+      "stepNumber": 0,
+      "model": { "provider": "openai.responses", "modelId": "gpt-5-nano" },
+      "runtimeContext": {},
+      "toolsContext": {},
+      "content": [
+        {
+          "type": "reasoning",
+          "text": "",
+          "providerMetadata": {
+            "openai": {
+              "itemId": "rs_0683f394e4f973bd006a9296d6e29487d092cb612676411179",
+              "reasoningEncryptedContent": "gAAAAABqkpbuOSF-jaoQtotUcHBXvWvEqiCsdDu3b-s77g4aGvWtoxSKnqZsJT8Oloqqfcr9YDCGEalQl6iFprLe6a3Tg9-4853uA4bsNb8JldJ2iQMX-UjcwkZi_1BbBuOEWrJilBwLyVLgJuE1FO6PfIdGGz8UI4TVEytmUq3Yo6wor5QUrkqD3tTsV06-2Y9INmKpzznNxPVrqyENbgcnCOg2x52DwnnugsgQ7FDGHpwLdBJBm0koPxJerhqJrhzjb5vIsv7mcvXGylcaHN1W372u3eqoz1Jg9Yu0xg1kJY-wxs_XpMSM944hbVeZAbxAOXGfj02hv8_vEOCyuyo1pdN7qIAzUsOOlUghdpDs7CXiHRKFfJUBKfPCgy1ExOgeT_3aKenShzLfkgHLI6bc2aUAWA9OGlnmQBOdbdp8dus8Hmcf8RtKifVpKVg5MadNOgv-K7Yala9FaMWWi3JuMbl6YGnKl2o1yRFO7spZ8FBoMNLNflQJNe8mJ9ltKUtG6oeARH1cm4Yt8Y8q4oT17r-gQ4uQd5H6wZdAC1m1vMQuf4PSEuBBSPBeZhdEIpny_AIiyz0WUB9TrvwcjUiwaoytlEh5LoBD-H2lUlag3pbnkJ8pRMI_mKTsUk-ksHVJgMo39-n287Feaf829AWsU7Ub8MzndY4Wb9XdsC2uagY1A7BWDsBGodzgawuxQbDyQkkxswThpL12cpLGAlo3MiDyNdl44QwVT5inFxXN2tdX3CH05DA3HZv3Bt-2WBuiFwrJ65FS6P1hzM0eayXiCAIRd6Z_YDDl-JKXCmBisCkf2GwrD_tiixyka6GPg0qHN6VKh43e6sKzDKd21GPNP_OR2qNDDeVtyfC2Ev2mewY23cIt_7qScpZrNkh1Y4IZBWDVQZbPH9rD-gpt7VMS8xY6H0V9EsYSkJWOp5y-uiefXuk7Fl_9KJGMNe5DuC6gk06ZLMFqxkMQs3czQeGK_qiVaAJi3IXUGC75RP5RdJCMRYa9VzApd1zmdryhKloI0ukLaSkQqJ4xNbLJJUaHEYraBqp-_xW3dw2Y44pubaUUbZGTuEQtxRy90ztAk8Kybn_RhSCtfAIcFg_TDP8yHJMJ7VPaujCrsRck6gVxqEIZPgms9uSvG3ww5iBk3-1TLfAxCDbG-y1v6NmbyPJQ8l-vqw18kdbEQ4Xk53ZdOkkAj93rhvnIIdjDeSMpgjyXB97laB9Lkn64G1u4lfbuzzDZgG7I1LanhDuLcXSiIV3iNYhceVTLakrxXfAsXknUDe20tGrPKuVtgGhYRNzQJd7R4Hk3X4z7iCRWl0A5zmjM_uNfWMJKrw91gE4Dv5Vvzpg-Ga94wIc--DhayZDlOxqiRy3tBMQcM2SYp6JCNhZXTTzTfioE0dNstBRPkkjLDRzOGG0WbU49PYN7xMGBfsPdYYaCcRKwOVVJYljDCQf4uEyMR-XwYwKmvn_Vx0W4-ouyISRVBFmCyvV1Xc0lmoJ4p7NNTRoLbOWxq9hIzAXcJt83lYT_BBbDMbTmLRAJ59M5KXcwaVaIXZSki-aK_RZbYIJBLhanj2NSV8RIZ5JDVG_w6MdTMjK6k7JEvpqM-Pqj71Z_KzkBORn4dPmBuMrdnt0Xg6MSM-KXXB_gfW6F2XIIinG44pIENl_l_AtlAhfc9_RwcGc10pkhKgSFR0B_QHUMIGAcGcvZEfMYQk10_G4uRMfBXAswktJ-lzKlyb2YydmmZmgFuplA3u_19W2aRYtppsWlg2JO0ocZvzx8Gcr1FrFASRfBrZMpKrU3G5KqXvsfWcUmjEyenoqotIyIiemBVD88gH0MrKOVl_AFkj-rjhWksniLz28zrstYLwQGzUAwctK9PDDZEjJ2faIlLK2aUdU3BQo1j7RZguOzTMg6fB0YHNljYfcp5gJcCUa4_IpeX5lnp2urzjJ-P2uLB-qAmNwUPKCGZo92on-M_Oeej7Yiil05YqWmgokDn2aAZ4npDvHBbOiEGN0vU0anWyjVT4QAUZWo_B-iaNxm5w7labjXdt-rkMV7QI7DM3fZg15_-mK-4qFx1TaLH-GsZvCebj1d5wgGYVA89Mim7nvCufnSWRqZkpdI_UF-247bzRXpDU8ot48pKxOG1feuWbwLvluT1iwlunjAWJUsUB8YNmG4aY6uCqCjE833gJzCqUZe1IFVzNB9DZFDrkkQuo2aIiLOG8adU_YVBKnEZ-zpHHiFg9SGUhPPX7IuBy4ZNLU_YzHYXI9CbUpf_vBKhZU6_4335JrSerRSAiSXUWTKKrjSM4vWZ4NBU9O2smDdlGdZeB3gGtutZKz8one1mxMBhboDMtiHcSghCbNHQLRjsFClsOevzm11WfWZMOWNllv1reUGf4kLkUSHfk0yZGM6PqOfteK1KSwtqqyzIOpz8DQTG_cjVO9md2QzY0HINowwhwg09YmXarQH_8oTlCTnTPT1mQNLWH9dovDgB5wiLtXOaib1B9W_wvy6QUJuUl6cbH-M38J9y-uvY4RuywUvclmIqYDpnQfNvMZcFI3pQb-EJivP1jtqgV9FpsgKQQ9bhdsFuFV5GOCCcFjqMQUi2MjwoPTZ3L4sMPSDRfww9zepvXAt1lccVddFvYI_pN7e"
+            }
+          }
+        },
+        {
+          "type": "tool-call",
+          "toolCallId": "ws_0683f394e4f973bd006a9296d9d1f487d0ab6a9486017dc06a",
+          "toolName": "webSearch",
+          "input": {},
+          "providerExecuted": true
+        },
+        {
+          "type": "tool-result",
+          "toolCallId": "ws_0683f394e4f973bd006a9296d9d1f487d0ab6a9486017dc06a",
+          "toolName": "webSearch",
+          "input": {},
+          "output": {
+            "action": {
+              "type": "search",
+              "query": "Makati AI Engineer jobs Philippines",
+              "queries": [
+                "Makati AI Engineer jobs Philippines",
+                "AI engineer Makati Philippines hiring",
+                "Makati job AI developer Makati",
+                "Makati AI engineer jobs 2026"
+              ]
+            },
+            "sources": [
+              {
+                "type": "url",
+                "url": "https://ph.jobstreet.com/artificial-intelligence-engineer-jobs/in-Makati-City%2C-Metro-Manila"
+              },
+              {
+                "type": "url",
+                "url": "https://www.linkedin.com/jobs/view/4446958487/"
+              },
+              {
+                "type": "url",
+                "url": "https://www.linkedin.com/jobs/view/4437710107/"
+              },
+              {
+                "type": "url",
+                "url": "https://ph.linkedin.com/jobs/view/junior-software-developer-at-relay-human-cloud-4376595921"
+              },
+              {
+                "type": "url",
+                "url": "https://ph.indeed.com/q-ai-engineer-l-makati-jobs.html"
+              },
+              {
+                "type": "url",
+                "url": "https://job-boards.greenhouse.io/encora10/jobs/5211060007"
+              },
+              {
+                "type": "url",
+                "url": "https://careers.unitedhealthgroup.com/job/makati-city/ai-ml-engineer/34088/92872113744"
+              },
+              {
+                "type": "url",
+                "url": "https://www.glassdoor.com/job-listing/ai-copilot-studio-developers-ing-JV_IC4778930_KO0%2C28_KE29%2C32.htm?jl=1010215411360"
+              },
+              {
+                "type": "url",
+                "url": "https://ph.indeed.com/viewjob?jk=4a3a58f399d59163"
+              },
+              {
+                "type": "url",
+                "url": "https://ph.indeed.com/viewjob?jk=2c8d1a4c3789cece"
+              },
+              {
+                "type": "url",
+                "url": "https://philjobnet.gov.ph/job-vacancies/job/web-developer-1340403"
+              },
+              {
+                "type": "url",
+                "url": "https://ph.linkedin.com/jobs/view/ai-software-developer-at-globe-telecom-4411190703"
+              },
+              {
+                "type": "url",
+                "url": "https://aim.edu/wp-content/uploads/2025/11/Career-Outcomes-Report-17112025.pdf"
+              },
+              {
+                "type": "url",
+                "url": "https://www.reddit.com/r/JobsPhilippines/comments/1uyvlk4/we_are_hiring/"
+              },
+              {
+                "type": "url",
+                "url": "https://www.reddit.com/r/JobsPhilippines/comments/1rikkwj/hiring_3_roles_seller_construction_team_itai/"
+              },
+              {
+                "type": "url",
+                "url": "https://www.reddit.com/r/philippinesjobs/comments/1vbg41t/hiring_ai_software_engineer_remote_based_in_the/"
+              },
+              {
+                "type": "url",
+                "url": "https://www.reddit.com/r/AI_India/comments/1vbz6kr/monthly_ai_job_megathread_august_2026_edition/"
+              },
+              {
+                "type": "url",
+                "url": "https://asti.dost.gov.ph/wp-content/uploads/Job-Posting_SG20_GATES_AILeadEngr-1.pdf"
+              },
+              {
+                "type": "url",
+                "url": "https://www.reddit.com/r/HiringPH/comments/1nidqlq"
+              },
+              {
+                "type": "url",
+                "url": "https://aswhiteglobal.com/wp-content/uploads/2025/12/ASW-PD-AI-Engineer.pdf"
+              },
+              {
+                "type": "url",
+                "url": "https://www.reddit.com/r/ITPhilippines/comments/1vncakv/senior_fullstack_ai_engineer_7_yrs_looking_for/"
+              },
+              { "type": "url", "url": "https://ir.helport.ai/node/7001/pdf" },
+              {
+                "type": "url",
+                "url": "https://www.reddit.com/r/BPOinPH/comments/1fynip2/hiring_hybrid_set_up_in_makati/"
+              },
+              {
+                "type": "url",
+                "url": "https://www.careercross.com/en/job/pdf-1543733"
+              },
+              {
+                "type": "url",
+                "url": "https://www.reddit.com/r/BPOinPH/comments/19cx8zp"
+              },
+              {
+                "type": "url",
+                "url": "https://www.reddit.com/r/JobsPhilippines/comments/1vtgtww/we_are_hiring_for_web_application_engineers_and/"
+              },
+              {
+                "type": "url",
+                "url": "https://www.reddit.com/r/PinoyProgrammer/comments/1ttaajv/who_is_hiring_june_2026/"
+              },
+              {
+                "type": "url",
+                "url": "https://www.reddit.com/r/MachineLearningJobs/comments/1tpynfh/hiring_manager_expert_technical_architect_for_ai/"
+              },
+              {
+                "type": "url",
+                "url": "https://www.reddit.com/r/JobsPhilippines/comments/1okkm2z"
+              },
+              {
+                "type": "url",
+                "url": "https://en.wikipedia.org/wiki/List_of_IT_companies_in_the_Philippines"
+              }
+            ]
+          },
+          "providerExecuted": true
+        },
+        {
+          "type": "reasoning",
+          "text": "",
+          "providerMetadata": {
+            "openai": {
+              "itemId": "rs_0683f394e4f973bd006a9296dc667487d087646b595a1f9df9",
+              "reasoningEncryptedContent": "gAAAAABqkpbuL4PxFh3UHIH6pfc8tpDX4pSKaPam4nrllp2QnF-pKLoKmo3FcZluwm7eZRt0y4V4OvcRHjVyDKQ7cTg4Vg0rvu_9YS7uLEMlHibC0xs7MKlaqhCpKCWi3IRTo1nkrwXa2eNjzh2oQyIy0WduMnaTHFnfe38YSUkRmQP8ZtE-dCXeFgAkCymTIY5lL232itJ53ngwzPQYbihiJteL4yoiFsRrPt-a4uGfTqLrPP89wAObwfk8JqGsPpvct3Dbde4cxCM70_wfTan_3i1tn0Aqkcfx74FnCBRQj4RDQvv3V1-eip2nOmclzl6ebVfc2mJU_ftwbCUtJz4jh0B0XpM3VS4mta1qZdNdLMxGXzQIlR_hxPVtmozEgzF7Pj37dtc_CfViVyM-tplAjnowCwQAUw-6QVkxoqdrcKjvnLecLQQfXbgNfGWSjARRYVmhzonNKXHE4C69ZKgd2hVjiMAT6DtT3VuF3WqC_62UVrPcli_P767wtuHc5G7HH-yXlyZRL-UByLC3geMTC3WwhYARP99SHOpEWBFs2v857rvn4HRp6C8rNIWDeNOFVvpJfFXfzgQC9pgUUvkL4nis1y3hOU_aR8fP84mxgsrWwaBM0WnVz30ivru_qoKlNxBgjndtGkzDkcvgGDWdv6qNdHih7e7D0kgkovCsObF55rI_EwnJSte98sQB1XB1D67FF4I6qL_Iy2kFgY5ZDvIK0wyLeAulLicRyMJtHmttEAGF3QgSVkLKDxtcRio7lSUgEcKsC-PlXswuTC5tVzSmTtByel2CC5FnA5KZ03HZxnUGh0pLLBnCW4116NpDjzJxyltDKGufH5HNRQusv_0kWjwr3m1n1BvvC0O4g8ZfNACOof4y7J0N5G6OzNOQZA3l-w7keMRB0XfQqSncRgTw8gG92Q4Za57pY9qdA2760JAp-dY3oNCO5OXigl9rEwMMJ_FUKKwnY-k3CVZqy1ZKZLQXwCF14L75v2tp-DvybQIFopbZxseAFj4JDEYkkkqdmAPUsvaV875tf3XqIN7NG2aPasCfLC2a852ARB5LT9DfCPPPjVzKOGYkMHGFe-OL-9AcYPfSPRk14cEIOMtSSiz-T_puw27JjbHG0cxGJvVwvmQHPx35i8pEDCm4ZNZO8WBI4cF9KJwV_s74E7cvZXQGrm0fVwXXikbrIZLgiE3vv2ZVTJtURQs1bnQ5w5lkHlo27lIIp_OqMPDLTqbFOhA27wsFxBZFqv1AwizGKr8GvMmI7UhqWEQBg8rVHG8BV5OgPbHjc2D9qGvK4P8qKrksR5uuLT3ofYLvMBWdMp89XFBLQxMyL637DzURgc57b8m9OgSdMNe8QK1FLzqhWgpncIPnnFEFq9T4vr4y13GMwknNowomd5LLXmUb0BL8qm6fDwemVb4SmlLB5qFDTpMeRhANhrLyhOgFA6tefsuiXzyFoLuShDkSLqoGKX9FiFXKRhD9tbSjAZkQDR_CP_bOP9gTI8BfhFthr8dOZv1FaZEqG0AyN85CNTcS1gZEpHH0e_iTErwoxCvdNKWR2dVx_4eYXDTqM9G_w_3EVYeTBjKTz8D4x23Sj3ZKxHHy-y77yvUWeIZOo7vDPSNotHchkqQF-ucPXbujMAh0Y-6xg8VRIIw0yAW7cl2W9W5nwnSJZdMjdWELca-3SQWbXiYBQ9VGjQnGUMYNRDeqaiQACY1jc3zKngH2JWHj6QCxC3QDRo3v6jVcZ49cYFE2ebOpZ-FWpmNMbmQuIwuvf0BikFlZhGDw55mhQ33vzQam-OkBTwh0mKuKaF1Zkd_gdPNbkP0A1cNLl6wQ5xEcUg2ZEX69vnti2c1jDYPhi1YyvPsG06wiWTu1zRuBZfeR5hj737-RZNBgawkQehtOrOfbITgfFsQpDE12lLhpVZGbLhBSODP5mVqT8Jiua-trnzifEmI7Bn_32JPADJiNB_sIlcmeVBonjezKvAB4nVLbXY7vV4zaEY4tRSoLGjyiJcPExkHRKF5iJLGJ_ZeRdtjKrJ-Aq9bzkeCsZ5EKP7T2U0k5GR2vKq7eBTuC5_4xl6NlP7ZU7qTLTyyyrgv3Sl4X6gPxNkKq_OHG8b1c53v5i_5670dl7VTub61i6q-oJayhM1R4EVrx79yVId6c_iAIr_lE4mZP_9TzZQDVSyxMQJRHkeC_OA0nHO2JIYCgBjztxa_enX65RWEync876gUytoVblF7QEEGBkF5zj7t-_rV7NplmEtUI2g4-OHa4W2FbwSM62KT26FBjzr_VJDoc95nKH6QCtJ3UBwSvU256-5iqPSLy191IIre3eS2Qiv-AHMU_HaOr5t2qe263B8fSZBum1cpBfNtSh9yk_hmjH6jCcEIRKLHUrbyJkAO32EDF9P_7bno7LhxJx1YYRuQtfPWaNJEvtS4NILfWaX3o2H2IqtS5sdA5SjEgJuVy3KA7iRiYUGe5GoshAhsVmDIgw6j9gPQ1GV56Me02cHdtFjMW-9hFgYvCZLkCXQ1Pi7uZc__Bob7iOMoAy88995qrX0avTYKeSgcngNgj8UX1IHfgqZRuFoMvObc457skyx3yJicfVBkMAVpJ9gLqXjj-sOBtEDZd518j9TJsvEuuL3y1dsAj5XnRa92mcfRJ4Ih5uL3etK9jVijrJA86bCRZ-P_OagduHdONI0hQ3fXgv_HghwnfRikay96dq0k97s7O-_TVdhA2bmx84jTxhpHKFPqrhef-krNQEJdOzLH1DTqCgJ_N9XgADLXFO-YP0dPYOvGGlQKi6TLQO_3y2MGIXxidgGh7R6XrQ7p62_gL_CrQPmjrcW393I5F6wpIsqRQWqYnXJ9Ih4n1bMxcgLdqBosM_WAFq_m12ViYcuAc6uKvxoK3cwIAqcU-yrIoNr6D-cZ4rDFtKD9aB7F57O5TFHB5SLnWqAgoV-KGhGRs2sULyqTVYvyUElf49CZ0lGZee1bQ8JCB5PoB6VP1aAlTtKxj18_v6JZ0KWytvZgQjx63uPirRtwcaTqvaRYKYnrCqrOCm_uO_TXvXKIB8JQG8iqhKwLwiExwd3wyqAqQZZyFNMd2cjfzAch1itkzQEShjqZGkMcwuMW9ctuJvxl3HpAXkSoZK8s7is0VxSh3J3nBSQLwPpcPbFpDTeDP8GFzyAyaI94nrf2DS4d39JeC4uJa1NTX7Oerwfkc3FZiEY6FXruIL1_gTiwgRetsEVQTw7iEhN251rtTRoQVVQnjg7sktD36Xtv5GBEg15iAX2fzzCnqzGO20lABkyOEnHJtpGYxjXv9_YEQTy2R8uI6iet2qG0N0503WLXt_f8oj7ga71QTTiOceMz-xoSGUaaUHc_spYVrOURc5Rc3fK_oRtFwQoY3TJRUwoENbVSbCSzcny2eObbfYgZXGU2wlPj5Tr7WzzfIF8GQ84Jp7M5nyqLLDyiBYZUhbT9Lr06vRyZSP9nWt2YWvsCmIUO1VGZ5tkbVOJp7v0mPUKUhGpFwfJuQBVY0vFXl8COCgBqKD_j19iRLjFwmVI_oKyKOKEwMZDz_Vs3-KtWyYOK0yW33Yeab3N3v4O8B2CfYKxw-QuOejxyhtl8Bq9USUfcqKKJFRp6wh-u2zeJt-bos0UsoAcr7bk5bgfUMex7ifUd0OqYaJVaoNvl8C4mNCyibIE4Ir0QVu1lJcDZwadKD8ITCmcmp2AFkl9MBFEDl0amsaqnKyoI63JNfHDA6Y2Q2CaKGfGzqnc1-vY6cp_Egx2IEpUihHv91GnSJWei1v24lltluMVZLu8EPAQ8hCsTyI-vB6Ef5LBW84rCTGk40NdyxRF8xKJLHMvKh-h8DIfwjgI2H7m1vcMPDWQetFYc6gaXJ84odFhlNNUfU7-4JVhtEglajBD4tUSdg8TUnM_y5tOu7MdkGHmNRJTHDSjeitj1yajsseDIIzVKWBpzdFvJ6EWt-EkNcx55ZQsOrP9h9XcRZLhqh_phnP1uVdmLhyqlQasoM5WxJ67GD0kv-BcxG2KLa2PzZJm_7xvkfYdvLPPu-_e40VkrEP3T-TT150YoB0FdouOO-Hs4EF0URZPqvKOQFbhg2PNAkTPguWiXPpFSMxVOgfMmQpdygunj6_sJq8MknEZX8spzIJSLUKsbpHuEUgK8YlcXBLiigma__goSD3ib9hC8jkU2RkynQ55u7dVtmfIRByOhBV4OlKLcuevnrWbt3AuPgRZmUR5Nm2Gvr9Ayi0wBxuOAIoQIdyNVoaFhB2uJz1FrYQ4pSMFevXnWY98GWWFOGDmdDMLEh8dsfHopGm7lVv0ueqiYSDTsP5a78ugQIY3I_d-NfIPEWafJng3Szi2AJTypTnlc4AMGQYgbNWYOio5Nd9_S8Ijii8JgFLyej7WhuBVyi5w-B41XC76NbjDeCnlVaFKyU-cjDtGN6lkbT8YDX4HyGOYBeQ0mO0YQfWX4RzbIhvGvyNX_amWyY-c1sfYmYUcgNxZ7tEDI-AMqpVBxvLlaTS_xXkBEqD-z1GG1sQMpJHaPXZ3G4izRXzR9Q7Mr_A_I0vH3nbE_a9qIIro3F7wU4WOJGW6Pq-FAczXUgsp74311PCY--ndFgrQ2vva9Gjksqf_sl2ZVXmB11jDd_znf7ya3m3BK817tkSzamIFVeZu7uu_-LocKyECBUB6OteC-cvHUZGbIVR09maAKuX3NOiX-ksgrrstplsZnGwFCOssrZLvZg2x1PA8aF_bPrUz1xrNHllBisGyQB3cyYLnCVkBA0CBnSaTdlDvsem7-MlQYCN6BpMiIvVpQos_N_fhig0xjPelaOXaYJeJoodEglwvxJchSIbb3ge-jvpR4Lyy_-4YQ96qmz4ID3ptUKr-vKxBmN11KQHuHPCwy-EErI8TNf_g=="
+            }
+          }
+        },
+        {
+          "type": "tool-call",
+          "toolCallId": "ws_0683f394e4f973bd006a9296de4ddc87d093e7ca8daaacbcb9",
+          "toolName": "webSearch",
+          "input": {},
+          "providerExecuted": true
+        },
+        {
+          "type": "tool-result",
+          "toolCallId": "ws_0683f394e4f973bd006a9296de4ddc87d093e7ca8daaacbcb9",
+          "toolName": "webSearch",
+          "input": {},
+          "output": {
+            "action": {
+              "type": "search",
+              "query": "Accenture Philippines AI Engineer Makati job",
+              "queries": [
+                "Accenture Philippines AI Engineer Makati job",
+                "AI Engineer Makati job Encora Makati",
+                "BPI AI Engineer Makati job"
+              ]
+            },
+            "sources": [
+              {
+                "type": "url",
+                "url": "https://job-boards.greenhouse.io/encora10/jobs/5211060007"
+              },
+              {
+                "type": "url",
+                "url": "https://www.linkedin.com/jobs/view/4446958487/"
+              },
+              {
+                "type": "url",
+                "url": "https://jobs-radar.com/en/job/machine-learning-specialist-at-encora-cada0f"
+              },
+              {
+                "type": "url",
+                "url": "https://jobs-radar.com/en/job/ai-powered-qa-lead-at-encora-113a7f"
+              },
+              {
+                "type": "url",
+                "url": "https://www.dreamworkhq.com/research/engineering-jobs-at-encora.com"
+              },
+              {
+                "type": "url",
+                "url": "https://ph.linkedin.com/jobs/view/software-development-engineer-in-test-at-encora-inc-3817297002"
+              },
+              {
+                "type": "url",
+                "url": "https://ph.linkedin.com/jobs/view/ai-engineer-at-bank-of-the-philippine-islands-bpi-4322184539"
+              },
+              {
+                "type": "url",
+                "url": "https://ph.jobstreet.com/encora-technologies-jobs/in-Carmona-Makati-City-Metro-Manila"
+              },
+              {
+                "type": "url",
+                "url": "https://ph.indeed.com/cmp/Encora-Management-Services-Philippines-Inc.-1?campaignid=mobvjcmp&fromjk=2a6e0355a3af8c4b"
+              },
+              {
+                "type": "url",
+                "url": "https://ph.linkedin.com/jobs/view/edi-analyst-gxs-ai-at-encora-3803006222"
+              },
+              {
+                "type": "url",
+                "url": "https://www.linkedin.com/jobs/view/4443803768/"
+              },
+              {
+                "type": "url",
+                "url": "https://ph.indeed.com/cmp/Encora-6/salaries?location=PH%2FP00%2FMakati"
+              },
+              {
+                "type": "url",
+                "url": "https://www.reddit.com/r/JobsPhilippines/comments/1uyvlk4/we_are_hiring/"
+              },
+              {
+                "type": "url",
+                "url": "https://www.reddit.com/r/VAjobsPH/comments/1twccg1/urgent_hiring/"
+              },
+              {
+                "type": "url",
+                "url": "https://assets.ctfassets.net/yon5rraf34cy/2TRWvdSZjAdnwP8fQrx7H7/9e320ac9b427bd6d5d846d47d340d638/FAQ_Encora_Canada__Inc_-_QC.pdf"
+              },
+              {
+                "type": "url",
+                "url": "https://www.reddit.com/r/HiringPH/comments/1rlaiof/accenture_hiring_technology_roles/"
+              },
+              {
+                "type": "url",
+                "url": "https://www.reddit.com/r/JobPH/comments/1tko7uu/accenture_philippines_is_hiring/"
+              },
+              {
+                "type": "url",
+                "url": "https://www.reddit.com/r/RecruitmentHub/comments/1tko1uq/accenture_philippines_is_hiring/"
+              },
+              {
+                "type": "url",
+                "url": "https://www.reddit.com/r/ITPhilippines/comments/1rnroya/accenture_is_hiring_tech_roles/"
+              },
+              {
+                "type": "url",
+                "url": "https://www.reddit.com/r/ITPhilippines/comments/1rlwydb/accenture_is_hiring_tech_roles/"
+              },
+              {
+                "type": "url",
+                "url": "https://aim.edu/wp-content/uploads/2025/11/Career-Outcomes-Report-27102025.pdf"
+              },
+              {
+                "type": "url",
+                "url": "https://www.reddit.com/r/ITPhilippines/comments/1rmu044/accenture_is_hiring_tech_roles/"
+              },
+              {
+                "type": "url",
+                "url": "https://www.reddit.com/r/ITPhilippines/comments/1rqd663/accenture_hiring_tech_roles/"
+              },
+              {
+                "type": "url",
+                "url": "https://www.reddit.com/r/Accenture_PH/comments/1khj3hh/akala_lang_pala/"
+              },
+              {
+                "type": "url",
+                "url": "https://assets.ctfassets.net/yon5rraf34cy/cGQzOLyZ35b5inUmkT133/628757c3d08424d1f5339454d6b7e71a/UK_FAQ_-26.pdf"
+              },
+              {
+                "type": "url",
+                "url": "https://www.reddit.com/r/JobsPhilippines/comments/1rlai0p/accenture_hiring_technology_roles/"
+              },
+              {
+                "type": "url",
+                "url": "https://www.reddit.com/r/Accenture_PH/comments/1oow0u7"
+              },
+              {
+                "type": "url",
+                "url": "https://www.accenture.com/content/dam/accenture/final/a-com-migration/manual/r2-2-r2-3/pdf/careers/pdf-25/Accenture-Pinays-Talk-Ep5.pdf"
+              },
+              {
+                "type": "url",
+                "url": "https://downloads.ctfassets.net/yon5rraf34cy/3wTXIMN6MMOprcCzGw3QJG/d00fde3994e50e260a602eb08aaf087e/Ebook_HiTech_AI_Legacy_Modernization_April_2025.pdf"
+              },
+              {
+                "type": "url",
+                "url": "https://www.accenture.com/content/dam/accenture/final/accenture-com/document/Accenture-Controller-BCR-Entity-List-March-2023.pdf"
+              },
+              {
+                "type": "url",
+                "url": "https://en.wikipedia.org/wiki/List_of_IT_companies_in_the_Philippines"
+              },
+              {
+                "type": "url",
+                "url": "https://en.wikipedia.org/wiki/Accenture"
+              }
+            ]
+          },
+          "providerExecuted": true
+        },
+        {
+          "type": "reasoning",
+          "text": "",
+          "providerMetadata": {
+            "openai": {
+              "itemId": "rs_0683f394e4f973bd006a9296e1e79887d0afe8756888e0a6af",
+              "reasoningEncryptedContent": "gAAAAABqkpbupTi_MWCjut-K9SW0WPwTYlMgM2LOULh3ZzxHPj-fRGExmfEEb4Bz_STiYNxNAsqCiJ-AysklT0F-RYaBHye-3g7XVc6w50-lclbiMhotM2d7Jf8u3PMJtJgBSzvZAN4_tkq4lmuQESpnqCQv7M4aPlGCyoa50_kcOplvrReX5cBU3bt9YiHGJAKASSo4XYGMFm74gLZUZwyMVwJGWpK3wr-44WHAdwmmeyGzEh_AGDLmsPOObW5pjK41kUowYQOKYBOr6QcASOSR-920rioMNHhsA2C7RJqKjvfhqcWbcbFS5W4oT4Sh4jUhSePN836qptMJaavt6Ao0vfGrU4YClwy-uE8uT2Wu5MkPapXJ0kSGAdhPX-g7SI8mDyxObizueOfNmo9rXDtQ4HqwfhyhvAijEpEHyk1S6si_t_R679tPECk9ddMls3LD7jwEiz3YEOIwWvx2e3GXNotkm2JGwbvjk4y4u5qGatmmA54QpY1acodlt5q8RHHstRj2W21OBbmDj1Y2ZNY8EPNvNKnYo0tZ7-jsQO-hck45fLkjuDiGXszigw4gBhYlIXuARUjx-ZYkKVRdnAR6bl4jU-h-8qHWVjuykKH8H8l5wUHcwW2Z5cV4__2Y3H4v6nlISMN7mU_0xGcjhIetVP3tycr1RuwCJrm_yS4GQU5XGZ-jtlG0CHWzu182wuupOAtJBH8nYgyCrQCguMoAXYq729Vb3bGimmfPcUBwCdaxzondtojuG4aRdeJSG-G-nYJczwZFPxWlh6zEfefh561P_vim8xnBbU9_WQbLpQ2ad8yKIbkXDL-qoKr8XwJSoxnH8EHHiBER-yC-5F0beQrtwUfKy2y6MkRB-KrTj0EyIrljX_6jmCMSZ7cSr6-ci_DZ9svfUEUOMNlcVWPPxiDb-Un0duIb2CbUl-Qdz3_x3OaWgTKa59alVY8WxucrQU9D63HCE1FAJ9XkVMZ0SQoEn7YBlOv3P7Y5I-g0H_TkVDzgZpFiRcrN7L86wLLnHMSbJBP6IK69t2_16eSsaiUawQTR4ZURl87bO-44L_J9Da0Jf3pGiXj1IXXM9Ky2GOlu2vI1leAJVKzdtD0bvJrc5OeNDTIxWqQquLqwW7txxmQLeHd6AOTaltjXNExPn2lJO8eFafL02V5lF6GVa3_G811EPodaUjqV1_qVa6_sLJebORM-sb_HN8idmksuXh-dtFyal9rXXl1fquPx47m8GqIDW8DUV1VAP7FwigZ2mZZLSvLwHABP8fzkvwArS717qXVX8w3C5iIZoh0owX6r-YaOHF2jyRjwrUurozmPabPWdda4s1yvq7DHm6iAwehfOI4rq6mIeDIU9XnfQJkbU65vf9le6DwuEnw6rsi3fa6vI8t70xreoPyPKii3ZkUS2iwwSVze_zmZy0JAYf0JkVjNL33htU5Ep8KYv6UvdDAle9Dg_8KCn6090UlKpmq02GwIrqm7nCePfwyQU5XfPPEL5TXK5MVGcisE6ByOagMI3ieHSG8B_RCrGZIxueFAynAXYwEQTqGDZi5MmIqtUzlMtiTdqXfwouuKMvFvWeU6PV5ia4hEGFGAGB5f57tDPvCUQFdv4iK9kyyhuu9p1q1qyDltvxL6--lKmmqzPfrzwiKcvfAdEcFdylzjG5WB4hwRB2_2o_mkVk5KnSHFC-6PVVAOwINnwSnnh7JE-flLcxXcpqhH7juk0cpUdrNNZbZmo1Hy-lEEz47EI3tF1rJIGV2nbD-A-bYPN0w_EyJMka1i7nmPffBoylpd8OgTn1Rc7QAQ_cq8zInId0GJSzVg3_tCVz3gUnSOVURoxB44wVV45A42a9aIFvVvOBWZRFdGJJaICrlTcvIJsAfRw4soxqK8TNMfdW_-TqxWeQPCAEqTeGvkNU26WSZ5w8alBNR9OuID6KRM7ZB3zovwywLNuEPAojFHYrxi_Gv3ekIvZ_RShQDN27p_0E4pyQBUFyMz0GzloFtXVQ65gI7rjHF7HNNM8_GTfMrMXYk-E451JTWhogKEmFiIetafeJTf_nl1TeL64re0ZWchUDHdLxYJ8N_SCYH-qanymbyvv8Yww6KBqpDfqtyDCfFHHjznXd0wSjf9C6TiLe4Tcpl9vvhCAXFsYrRaD86FcJWZXdVJ5cCPJcK93OrDIffwe2iS_vCwfZIDf5LeHrNknw_U6ugNIQfwgjbh79sjq-vXb1hRBcjzljAmO-SZDk2Hmropkllj1pQcKd55s-DnwjXe4A_JX486os0rFQRP_lriIibrT2C5FPE7r2VT3SwiSVC656INs_P6HqrrIO-xgCu0TixCzNGb0bwF-sMjvvMjWziHCBDEJGBTZYTjxUsFr-eIraTMAw-NJYHjaqYXHTsLyB7qVYVLbUsHxJAaQ3LvPZRiqK9dPzSWaaT-iQ4cHX1_-P2RACuHAN8PqBJdE60YkC9sx2fIBRjKYKl2nXeDLX75ltk_C2PYa0-GEaiRJPktwih1ur0Zb0jdx7SsgdGQnLyFIxCEoJU9QCrChDldjow_cKHZn95NZgEfaR86BMWKC80JfX3mZ5DzmVgvb3XfNzh5kb4oeQ9F2YyVZKMJRs8kzAgExtJNe_Hrg157TWEJqH_Z6-1Dj9aFTxOYfQAQil-88fxB9XD94uirL6WPTXfyd4hyG9KFclVEuHYfkXlDs2HaR4kwMldrl6LGcUBjkVN1rluQpJHYpmyUcflG_3pGV_Mw3CaoKRyX4BloqNOgKLbWMoCzjXe9kdO-weAIOUT2xlC8OamCp0337xjUmnhSa8cLiz3dIUyezSdquUwdMjBBJnevdnBiULRgMmt_dzW9bNkZNjgdbqumaW0uo4wzrZSGQpe6x3fezu2tMSaEtZsHV-lXOescwFn3L6He_HvfNmGyXz9Suks4UHeHEP82x0v9ro3xAN9Ypoq4jdVjymQ-ldX1tK3q3ALk0RNMW-bFn3ak82tFCZpDQODNIr0EXAu6DUpSGdOTnnrtbfZTLaDb8c1vpHChPzy0CiynP59zANGwBsHwEp6w8Q55l4qKnx_1q3wCmXJtHuD7wJip--Zcr5dJwiG6da83vUo2tzr81tcmn2UQWbEn0SDD3JNbP1MNUdWpc3uqaGCaFUgkLxJAysUEWEejRReTsscuc-xq9zv52JKLGGkXN9gevKua318m5NNkBuoXLB-khIhyNGpe3GHJe176HKvcJZKteiEP3LkhGT9wVoP7jzqTTf--54TFWAyvozqqJo_W0XTTwCb5CZQmpbeS3cvgnr899lF76lr5LkEcdntes4pkmLkLCw0aZkVGBI6DtrcVOQpiR5Kw6m0IPv7rjSImIHpf4yeX0s3KT8dbvKGzbAC9G4b5lFNYpPiO1tUyzsYpR-vrBxwK0qi36iMqMqKSGfNWH--IaSDCmQwAafFRStk1KFUSNlTN3nWmxPXYkCbMN7suwgSB"
+            }
+          }
+        },
+        {
+          "type": "tool-call",
+          "toolCallId": "ws_0683f394e4f973bd006a9296e33f4c87d0b2efcdf66cfbfd0f",
+          "toolName": "webSearch",
+          "input": {},
+          "providerExecuted": true
+        },
+        {
+          "type": "tool-result",
+          "toolCallId": "ws_0683f394e4f973bd006a9296e33f4c87d0b2efcdf66cfbfd0f",
+          "toolName": "webSearch",
+          "input": {},
+          "output": {
+            "action": {
+              "type": "search",
+              "query": "site:accenture.com Philippines Makati AI engineer job",
+              "queries": [
+                "site:accenture.com Philippines Makati AI engineer job",
+                "Accenture Makati AI engineer job posting"
+              ]
+            },
+            "sources": [
+              {
+                "type": "url",
+                "url": "https://www.reddit.com/r/JobsPhilippines/comments/1uyvlk4/we_are_hiring/"
+              },
+              { "type": "url", "url": "https://ph.jobstreet.com/job/90815794" },
+              { "type": "url", "url": "https://ph.jobstreet.com/job/91975534" },
+              { "type": "url", "url": "https://ph.jobstreet.com/job/90921279" },
+              {
+                "type": "url",
+                "url": "https://www.accenture.com/us-en/careers/jobdetails?id=ATCP-1444508-S425166_en"
+              },
+              {
+                "type": "url",
+                "url": "https://www.accenture.com/us-en/careers/jobdetails?id=ATCP-1462553-S426792_en"
+              },
+              {
+                "type": "url",
+                "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Fullstack-AI-Engineer--GEN-AI-_R00303022"
+              },
+              {
+                "type": "url",
+                "url": "https://ph.indeed.com/cmp/Accenture/locations/P00/Makati"
+              },
+              {
+                "type": "url",
+                "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Juniper-Network-Engineer_ATCP-1459075-S426633-1"
+              },
+              {
+                "type": "url",
+                "url": "https://sg.jobstreet.com/Accenture-jobs/in-Makati-City%2C-Metro-Manila%2C-PH"
+              },
+              {
+                "type": "url",
+                "url": "https://www.reddit.com/r/VAjobsPH/comments/1twccg1/urgent_hiring/"
+              },
+              {
+                "type": "url",
+                "url": "https://www.reddit.com/r/Accenture_PH/comments/1qbo0ea/associate_software_engineer/"
+              },
+              {
+                "type": "url",
+                "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Taguig/Generative-AI--Manila-_R00288844"
+              },
+              {
+                "type": "url",
+                "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Forward-Deployed-Engineer_ATCP-1446749-S425684"
+              },
+              {
+                "type": "url",
+                "url": "https://www.reddit.com/r/Accenture_PH/comments/1uqrxmj/removed/"
+              },
+              {
+                "type": "url",
+                "url": "https://www.reddit.com/r/HiringPH/comments/1rlaiof/accenture_hiring_technology_roles/"
+              },
+              {
+                "type": "url",
+                "url": "https://www.accenture.com/ae-en/careers/jobdetails?id=ATCP-1422790-S423149_en"
+              },
+              {
+                "type": "url",
+                "url": "https://www.reddit.com/r/ITPhilippines/comments/1rqd663/accenture_hiring_tech_roles/"
+              },
+              {
+                "type": "url",
+                "url": "https://www.reddit.com/r/ITPhilippines/comments/1rnroya/accenture_is_hiring_tech_roles/"
+              },
+              {
+                "type": "url",
+                "url": "https://www.reddit.com/r/Accenture_PH/comments/1vea5xk/acn_ase_job_2026/"
+              },
+              {
+                "type": "url",
+                "url": "https://www.reddit.com/r/ITPhilippines/comments/1rlwydb/accenture_is_hiring_tech_roles/"
+              },
+              {
+                "type": "url",
+                "url": "https://www.reddit.com/r/ITPhilippines/comments/1rmu044/accenture_is_hiring_tech_roles/"
+              },
+              {
+                "type": "url",
+                "url": "https://www.reddit.com/r/PHJobs/comments/1rlahks/accenture_hiring_technology_roles/"
+              },
+              {
+                "type": "url",
+                "url": "https://www.reddit.com/r/Accenture_PH/comments/1vvzfmn/accenture_lipa_job_application/"
+              },
+              {
+                "type": "url",
+                "url": "https://www.accenture.com/content/dam/accenture/final/careers/careers-materials/LCA/Document/69d60b4c0a33f1001cb6446a-AI-Refinery-15-1252-Mountain-View-California-7-May-2029.pdf"
+              },
+              {
+                "type": "url",
+                "url": "https://www.accenture.com/content/dam/accenture/final/accenture-com/document/Work-at-accenture-and-find-a-career-powered-by-purpose.pdf"
+              },
+              {
+                "type": "url",
+                "url": "https://www.hkdca.com/wp-content/uploads/2024/08/transformational-opportunity-ai-ict-jobs.pdf"
+              },
+              {
+                "type": "url",
+                "url": "https://www.icmai.in/upload/placement/June-25/Accenture_JD_Ben.pdf"
+              },
+              {
+                "type": "url",
+                "url": "https://en.wikipedia.org/wiki/List_of_IT_companies_in_the_Philippines"
+              },
+              {
+                "type": "url",
+                "url": "https://assets.swoogo.com/uploads/585945-5f47fb0be1328.pdf"
+              },
+              {
+                "type": "url",
+                "url": "https://ph.linkedin.com/jobs/view/ai-engineer-at-bank-of-the-philippine-islands-bpi-4322184539?utm_source=openai"
+              },
+              {
+                "type": "url",
+                "url": "https://ph.linkedin.com/jobs/view/ai-software-developer-at-globe-telecom-4411190703?utm_source=openai"
+              },
+              {
+                "type": "url",
+                "url": "https://careers.unitedhealthgroup.com/job/makati-city/ai-ml-engineer/34088/92872113744?utm_source=openai"
+              },
+              {
+                "type": "url",
+                "url": "https://job-boards.greenhouse.io/encora10/jobs/5211060007?utm_source=openai"
+              },
+              {
+                "type": "url",
+                "url": "https://ph.jobstreet.com/job/90815794?utm_source=openai"
+              },
+              {
+                "type": "url",
+                "url": "https://www.linkedin.com/jobs/view/4437710107/?utm_source=openai"
+              },
+              {
+                "type": "url",
+                "url": "https://ph.jobstreet.com/artificial-intelligence-engineer-jobs/in-Makati-City%2C-Metro-Manila?utm_source=openai"
+              },
+              {
+                "type": "url",
+                "url": "https://www.glassdoor.com/job-listing/ai-copilot-studio-developers-ing-JV_IC4778930_KO0%2C28_KE29%2C32.htm?jl=1010215411360&utm_source=openai"
+              }
+            ]
+          },
+          "providerExecuted": true
+        },
+        {
+          "type": "reasoning",
+          "text": "",
+          "providerMetadata": {
+            "openai": {
+              "itemId": "rs_0683f394e4f973bd006a9296e72dd887d0880abd40f335607e",
+              "reasoningEncryptedContent": "gAAAAABqkpbu71GReuZBY1vhXQaNyPBo_zPu8aLY2vqxkMNgD8xyETGw4VFtDQdyIDjruQ5WKTM1P61Rhw_4gOEPLMV1ICETdfOnQQYhNqabrkRQgtiQ_PaKUW_4ov2ICSunAnHcDPOXxbvGIxg9JbL0O7KebGCALAQidDvHpPHS2yI-MMBJE6vL-3e7VTgAtqkQ2odPV3Twiq92AE4gPCJxvg_zPPWImrUCKhUPlKBmzeP8kgQ9AUdrpaZ7NIH1Sbpu0GxzIa8dQdR-OP-KZW6-ZbKJ_rqijEXhIiQ-z78nN8guYCFZiCMefVGGkJ0S6a00Ij78EIz8lNCGJRDbNOvsD-h8uq0PH7g4yC6EhhSVX0t12PhHm6YC5asPu8K4Le93tZYK_ECWo_ZRnu99waNL0zkcMYun3sA8APBZmpMP6IXZHDHA63PwYAOY6vXmwVw-yQscn6S0oVJS2eWMrCoRqkKlqL8LdUV-IS8LWmz_5qtWroXuODFez0acZlCKmIo8izmHaVp8imqF3IrjFTQTusrM0uHZzpuO1QNdxrxtOULF7I5sLfqPb-13Ppj5n4iCKA0xmEwpZrdcZHdD27ngeCRFIvysgb09EZaxZ5rfTwDGKP9Eb2odQfRwfCquRCcUwwPPlLw_Vr_eZjwELR_9oNh0Q2MpEcEuGTok4E5XZ-HW9jYBuRErhlb5xzMlP8kzjZZpefXI1G8AsB2hPBUjgVzymuMENTkOEOcFxmpsVmsJubi92ZbohsZ4RhBNbaTkAGHDJhZ2BlM2XeQHc2Veh0OVjIfJflTnz5lfgPWTrtU1eV6DrHklnmber4g4Z0PfIhH2xD783OBkexmmtX8D-C0yuryXYp9iUtM_kHCTzbwZUMsdOvQHmgPWdUTkE9dmxHTUvEcwmWsDbrSERpuYnINONcScb3JPH000hyqktllJibMqF9k8Tm2knU-7Mee2lEKUxksJGLB97Jc3DEqvC3yqtdOHkVsMUkeFQcRF9LI8fRM7Q_0tpz0z0IAYZl94lWxJRu0Xmj4FVHoq-kFjo5yDgDufleiVZK1kxqfEd2VnXhwyKdQqgL6WurbGV5qJF_l94-AYqXKZMHbbepaCRbA35ItqKvIMYwZLDRYrh79xcvdkwBwxlU2Yuioo3hmHYmAkyK_nqMEL-O5UUS5Szf6Ve-Swscq8aRKlndisruO8xE_y4cuOBhxf5BTiJ3D94NaP5Tp5DWU3QwO0s_5PaWcS_0T7mXmWOYOuf3MMv6P_Bi_zD8bDmvyDiIma-74Kaozk97kOpFg2M-SK3sQuK4OLlh7Z4otXHHS6zj_3D_Yvr2tP_cuuyXjogVxRdIUpZlaAk6lbphU2QbUUdBeMT1xHRVMly8F2rIKfyrusQloNBTGLqWaM5yZ5wotVPl9MDuUhOInr8TQRllyE68ygyGAcZe5Pgcplcd-wCzO6OJZ23-pugajc0pWGZ7UmOfnbGsVudDRDDf4gNJ5xrIRVjHapbj2bemMdt7j0k7HHIP3uOxhoSOzuK_Ugm5V2qfspZd41DlSXjI2Wu3eYeMJf0-ltztyO8yt1vQwrkg9zhpwf0rkWLVFXHmJwr6F5-VXHW-R35WpqN2uQLbfrMACj8fhp0DI1LtTyQqwGN6ljqWuaCY5J37eQazdwzSL3MwlDiSwemMV06SfxdHfUIskUGKCjTtojm1-egU3sKjrN3qh22jgRsoGo1_tzRZL_x75vPo1s0pTw5Gg6nu5mQJqoVb2WBbdFTbt2SZVG11oXxJPCXf1tRa0m0tROPg0aTg5_HPmDUlVsMh-Ux5BKjRqWGjXVyxWtMrTPuPzgd_aEqgedmxZaBoAgjpF97nXEOKbIBbyggR7mP9HTV7pmLHSPTzNuErR3HO5tOuupXY_APeZ24CU54FQGFae8J2lgJoRTknyhoMO-iQWAlJZ_jKb8Z0kGDRaXdnjmwMbCMU3MmYwA8SaM-Uvj_7oCIgJwKVIUA4H1CfmRL5ggAmaCIT3AWft7lAUwjsYOLCTyyN6wvWTCg1qHExXFCOeU7Z_xcI4OMOqurwF_FDY6vYnYkhipzPWxXXxpQAEa7wS3WXD45inlnMxFxvmCnRjsZliMlFCcxh-AWsnBgjkMlMoQOA3KB7k3Oz2SfQ9FC9afpEQa-jD8U_ba3ZNdQugdQhc2N51oPO2JdezTTSS4IEiDOzNeZJZVY45TJ3ofvqTM6n0pjYog25OfUfii21qcbAYXvRmmfGI1VtsHjmSaLNewLfYsDSsJF8eBvPXV2TpY8IYJupBloqwPa3Wa0AWRrjZPW_-gpRIeQsgRVvtPgjHSywLb2fSjcwO_8JsYUCwbXQIKtGdGqhfg8eKTMU_Y_Hjsd-J__MD77diGjO60ktMAPB-Swr2DiiJndNAyCxyAMBJIWOZ9YEsvPRQqWnrpO0n-wAvP5PG5lY-O9H8rez3_IMErppcJgtAdoYzDghZuku-FRkG9wvWBpOsmrd54SbXhS8s7kMsO7YJ3kUefslKejUVSCo-zHC4o-yevH-teHA9jsNMjNIPS9nx2QSn_4uao2FeHnRaFkCYUSSNNi5whAwi2RMz54fudAzrcUVwizDKr9Q5e8A6wAXVe7px5Eh5vGiB5Y--4m9QNE9K-pHp8jOeq3BYGuwCps2Si9OUHa_n1eIDKNS_SF6A2k_O5dP3hDrnyeOK8VLQfHIdsyJuRk9NOUdb0JxHueX-4ZijJ3RC5E_I0Ucd2_fCib69i-Jd3SoFU-9m9ivY3Qh_JA1K00LQur41qQC7_o-MftnvjEDvywDTFLO9Fk6azyzIBnsgfoiCKsFltNW3dNNzShQbGPLvtez2P8VsDU_0YxVYDCX6x5qR05A7rGI1HOEWL5Y5xC1MwS2bIBspEDNgR7rbbF0zW8Po4wvmS3sVV30bQfZDOv2b-SOeTGcb2MpeYH4J_F7BF6G96GhAbBtvZVzAQsbpvjzn8RADl5M8qv3Q1_VqeULXB5g3212deZE6e4wZRxjaxyBgftimpMR95UhWk9H-7mIGWBrk329_a3siee8Lw8Rmb6BxbL0Cv2l_bHEK3GEuWA2a4wDRCdm7Xo94tmHKEWMN-dwJU74f02y26NkkpKzXImOU3Lfg3oVHLObVwuaEShe5MICk_Jq6f2VPq1dcBqfOQ3gjiSCV_kNU4BtbDtIwPzQy_xbjrb8z4Ivfr3PAl0BaWTj7k8n7CGL3GCp0Q3cJlXVR37pxKbdfCNw4ZoYy8tlsDtbjXyQhP5Ru8ZLlLOsMzpi3KupzkIPVjmX7Ct0QPbaMTCX5v0LQN2TUQbYBqEBt9c9R7NdcMiaGhKn0PtrLWT3o2cnaxNF5esbPa6ye3kXxpkVtIcRIg5cIal4lGFWaMq_b_aVqMVQ16xEND6EBMssKZFbLKq7w-sZjaS23f6V7adC-C8RCOWnDpniDuoQh37CK1NeUu_VpAYZQ4re3ncz4x7Eq8VsoFNf43gKDKwlKc84hhpjITsfE0X8RNKLLSmmUNTrVzyrolE7jHqcfr3JTRJ_oDveNV9Qvhwu1cgcLz74HaGO-jBi7QudZC8nC4lJcREojkLkw4SfO-G3YQUTKtdF7HBPCxrVAJjKs5D5rLq3NW71T6Y7LtSlGzXiIAaO0AgOQWiDK8sS4r_uL1gz0smNwKFD04iRHZ5EPV2GU9PMaIqGQU4gcJRXVr_nWvxMhJGr2U-ZHLjt447C3g3bHrmGdQRx3Dp1jPr7wRIY7V5v9FG-nzkqr2UzZuRLBX_vb7KAbaE_M_5BcAz4i1ftVc_rlglnQNEOcErj6OMQmxhovuJVIiT0KtqljfSoRWGc1qx1gdwbuJ2MkDQeD3mM2TO9elpvwPT05rHFmSuIxCAVzQZbs2MpsRQP3CYBF40GN6eRGhqjrVw688qLschcMDiOmPvPPQkYYeFymK55e4o_4oKQb-jvTHoNKkHnktnkPqo8gYae4TbKfoCFnlju1PlAwKxnRog50pXuqiHjujqMe-57olLIP0VHNAT2Y8EsxoHsX6WRtWJqb4zUjcd-ksPaUfcy8I9uU46ve1xyp0_MlbeHkXPKZzRWzokTPXhowGr5EfZoVf20dU3ymIMKBJsjm2N3DRo6_lMC8rp_6OJ6Iyg1mptvSkkhB_i5Fv1nK1sB5-3nKoHypsWGsnIspJ-Udy7X23_Zr--8H_c0IFcdHVgZ4w9L8Da3-ey1Gc7T5SsEOPo7-oSQEom77vDhY5QPSlpZHP9lBHC5q6o92AReDoja6a1cteZ5VxCGiW0fE25GJKnuqbadkV4qs4jzxSz7qzXrIHhf_loBiuZEYnC7KXQ2neZHH8hRotGHGuObCqwobwSmlSnltflcNp6w4dExNZxm0Q3rRGfaik5OemWjHE7mZZwIoGG3Qr4ZILcKWSTq6J-Q-bzHu0mtD0do75Y3kI3bpvrFsDpwvihzKEFN5quI-PWaHoiM2pdVfScDKmBj82hL7fgxrzFYTC3aD5iXMM33aRvtospLY9ZV3GZMCry4b6Efb_pPbXICEbeB1OHwzzM6lJ22Z9ELav4BPrBsbuEfbo7YOYlKhFYIL-6GI9LlNxob29GfWWJTOTFBh3RKR4U70gVE6F2TlAOrE0xH6PaNw_-IIxgZ1qcEm-f2DbX3Ryxu6qH9wdJwF4fuwXPpvo7IGYQkyOCqwigXlJ0PNXwzT9B8nE1D1ApQyV5SO2nm2jUMLeZ6fQsP08RhPBapBOxadDRpXF3Yz8e_fFy0mGymy2EvTnbA9DRp6ocrg2ho7Dzf6xzOvDXAAxGPzswHteOjQTS0PF81mxv9LjESkUvxTSLrdD6HCIc63gH8gXulyaPY4UG8qot1P-MX8TcJYO1PCCuxssVDfEsZHIgKUq4aY0Zxd6_wcTZ_ccs8ib5JNp4EbB6XPhsEmMM8mXnsTG5h991wSlEMSCHTeEb377LOi7KTn-C3mwbgn9l4_voRfkGf1IWGwMCAtPjw9AD5of8XlPF0QQXDuvTNR4yeWLSasfYCPkPfllTXfPPSqK-TkP_YLWxyrJCktsM3tMmUkQ0eiHbFGQb1np6O5gw6MzBWcd4ZweXT4kXlkNBcXzf8Q1owj61hzsYCauCJDxbATWXwhJBFCH6oartTvabLEF3dfQf-cYVBax3LBUTEzTumOyG3dgaIucqHxewvfm-9RoNuJ-uRt8nToikN85vzGbnTXZh1AlPZrtrhwn_Fs7ip7EkszNejFiE8753nKFBv2Gqrrs1o6uIG6TcR82kWvcu-ZjRgz-oo3IhA3rDrkBn2WSkA4Q2DfdOdj8QBV4HowIPN_VWbXtZ6b32ezfAdsLLlXq1Bta_6_GMnmZbSuGwuTeHzYr4DdYd_GRvbh4AtGMb3WUVS-XxzYadzN871oqy9krI0MaN4V7e6JXMACIYaOJJEy6dTnpnvkJLA1qNNQ63EUfLrPgZIpWeFeHfMSpOfBGyyALbOvPjbN12c3AvI0Qltv4UEj9Q13gnt5p2kHUu4_qsj2tprqJwIHW1x_IrGXZMtJmxf4oMqhObiC_sPkaxX6AKr21cS3IuJXDKMrNUD53H1ax7Yj7vW-DxLzt74ejw1dBypEuKbloKoSHBT-sQLwxyZ6_TEa_aXLEQ8C0I0ceKvebsghUaMqkUWvjvHcMZlNpiZQ589PcLnmnpxxnUG_sDh-fGYpxrrG15h2XeT4IlMt9tZX2U_DwWOPjppEGV1WT4ex4bdIpRxkL-KVtB7XCW89kJwctEKqfIUwDqSogqyJWKXIamGAcP1qLgn43Ty_s2fGq-n5tNWk9Ez4qoMDk745pA8v3TMN-p7G1e8J-qOufKhVw30C5pDAc7VdYN4JEQq9ETkQ7VV1MQxLlIiWLDZaX7z1MkurE9loOWEIxfIDYQP42nle7e9Kj2AUf9HuBCUBS03dpscQWNjUEE_pFZNoSeenMzk8oo4RKar0QBsSEmPq1TewX1AJbveMGXOk97iAyxVBxLjD_nj4r_DNuqpG6cHLG1r0Mb6kdgFhGiSeVlKFDIqAuJWH5GnNCTj6PBzX5OVY3byXImE2hjH5IQ0oMS3jC6sjOYmsPAXxx4LSvSX1xtgdiz0AgIm8LWCqxPHg5pfrIZBwYud4BvYQYSTMbFfhvMw6Ms8Mb-uAJ16pvU-jwPq0msK5fkvee8u7WBWtIlKvSQ198VdLlQXj3Q6sA65u0Rg9AHzNI2IyIHdYKrvwVybK18cK5PClPzfWvOuXaf2OHXMhmqBbcB-8PSAlWDAz899KPdmHCRJ1J_MrM_e3RZhwlrBnzORSHiYYUPmoLuXtdw4apR0L56lYD10NlvLe5sizDdllqK96bUCKecXCiDe9Zb42x7RQjmTrtnzy3Zb-BIZ4WDMWciJtQA07A5QKy0wDuYG8tXKhEh9pS98Fz-a_SXS9Iav4NanAyUaDIDqcdIc3LFiqHolnomwYdOAzJ-XupgLohgclDsvt1MaaJ6Ye_js1IfXWzzjC2_kDJKxog7TK9r_xaoylXh5yxqDhu1SSxx6J3eA-IbxT0-YJrYDWsfZxQlNIjKm72YdpX6z41dBPlg1Qprrwm1PKKHKmpFWhyJyyFTCDNyFmHKde6nUuxhlquMhqMgp16EZLfwFN-onsEMS7v1vd_Mn5-J2-PhyrqFHJKDD9iaxu9GhMMQfc5nty52tBhl4abF52pBnxc8zuygib0gYjM5C02KzMBoqAvmEn-vVBqqK45Ygut-pRBEKQL0YHc9ZTTJtOLPujQkVcycl-rRdQ0_IeV1l1Gt0GG9EREda-yt0mlms81rX35k1t1CpmVL_MnTQ0YJWOajAQ8XmO7Zv_-yCENX8KGjdOfINS5SFtgkdZuE9VX4VmL0aN_n3CuUONdd9iq2-Kugrl-sJuUzXgIwO70XC9rh6tmu-4GJ7QYA1aP6MjEPjFeEPFPdH8q1T_ihy8ETfHICJ8Q7OdLFuxXdf1RhrZm69yfA-NT49RuK1vhiLyzRssou0Bwb6ABSVDn_HkdgfKgsvZljQ8kd5dhcqu83WLpytqOOOM8jZ_JAglUsyk4AT_Cu9MpxxG-4blS8Pu85TnzSoO9JHYhcrDyuCWxuqzrkq2VC-DXQkPiAPIkbb9tiejT7mCv3FHElxYfxxNmhsWeAiocoravFUvcTvCLu9naJbyQtecSx_sL7_dnvkW3zg-wU2AaJ9lQOFZeYuAFGepc61vs7TaDG4spgeHyArXUlpKYSUuMTsk6eXB-FiVpd4ThmYIjlIY-UFd4uZSt-CNe1Hk3E68m5e1b0SpIfG4s0jfus6Nzd-56EH41m5l_qnIK87F-ycdC3Z9LzfhMkYxjb195p9ilbzRehh5di1cYer4bv31reeBulvoy0p9E936B2TcdIOG-fwK2gvVigeE1QzydeMY09HI4bPWXqOAChY5zxocyQKH06-vmxqTrSyGgdonG-Q_dy8RiIInk99pMNFMxjmFhRRfw9NQZZxE-hqBBYIyfjPzQW1kbRHX-NA0a-BmiFqBXlPjRwzVte97qMYmzOTXrydXI8LJBtaebAF9IvmLjBPVL4mpsYpc5MQ3eOx9p_CJLyIVWUzEYCywiXtoXZISpekz-ZTLLDNPRQ8YV9LSlOJ9zwSsOWK-KNv3nwfjYMtuYHj22tPP9PtCvYCF0svAp0ysPELO1e43kD6SINOy-0deSMrQ1NSio-HdieM5VWt_gCRvCPgRE6zBSjpEVqzd3Tmg33I3LGO_6wplx96CRKCNAVJ8sphTyKtJLflCftg5pFV9VgAu_2vosxmha9W--GZ3HGBQprdHlKNX2AVXrtOYADZnEwxWIPY69wHx_p4tA2qastBgGt6hqYMAaMtAfEYxbMqgUlawCTFJ72dZq5Xn9nKUWZ7irydfrvGTO-zxU7e2NrkkU6kdj8TvG3Xfm_cC0pBU4GxmDzyDaLWwQWhUICoSvfCj4mZRI9WXPLOJpeehYCN4L2m1csjeHyMJj_NyHDOkcga3l9mc5DQxy1RfYg1U6qDH5HAQsAchxJkggvo2oh1zHbQu9IWPq1HlowgOdbGe1hIRscRIibfPnM8KLX0ldmP6PecD-c85OjjHRaEP6BZ1skmHMgwPFJveMLaDBdjmFaMNpF6uVUeBO2EeA30PbSU4Gdyb4gWF-o0DD1t2Wj4SW8nWrzXhwYOuPQmZeB9hur-ZfKWkxZ9EWaZmk_Nj6QAnHCyOSMfc0zml1rekFVKU3CgQhmbPwAcrJHcB2_7xrgcKeiTkLqqrrnYEcwkU1onqdYTATOwNcv30Rm8w2VCFIOx-4xK5icd1HA8vlO12Ukn3TCcmyfuU3V6g9VEqvI-mKT5YHhd0HeTxZEAi_i7I8bOcH7kK_BjvNL78sYIItTt535AQxR8ckUdMQ7orqlOF7cTuMIjQTtL9trt1ZNN6_Jd9z2IOJhCZNrFWyneaSg8CzpeIPi32fIexWZROIQkaEx5jHVItBpCqzG7XweXCQN-4CMnGMCw_yyv5lVPis-pCyqSzHOlOgvTMoAfiSxSfGhDgfVSeIKCrwypLpZJRvFIFIxc5OEsLa2_WLSeeqFTKXLK3dWqsokC5bEPDN937xN8NMU0-mLJrQWfrCZeyU7aGdQI9TKcZEKpgz6-kfOEKC2Tv4sS4MAFUAGqC4sPx1Sw76ogH0aSbGypk1qeie43qyAxlvsrXa_DjZ9Im3zDkoUScOaw5h8J2FnCqNufeOp5_IsIRPP51YabetqGGnOKJ5Y4-9V722OonyuAI8ZIJYcnG6A7OH74t2ybCF-nfLl4gvlGx9ct86o_QbU-6tfVXAdoN9xvAGgg9o8XHol2R8mcNSjq6iVyEtKB5IblY2fDXVbQJpe61gCBSj_c3eH3I5gH3mN2ichPvMRD1TFMH8mko07pKet_dsusyDdo7S64Dp6k8dshgu57cL56iLqB10m0RjyZl_R_gZ_uIk8BK3DevXqoAaUEtGwYNuFov5imiD_2whrJbHpkxSu0LCjEdx70X6-PKMFBoYrRQRCaDbdjMZDJC51lb2gNfoQv9BZjQeOQamgqCPOMTBSSZ-u0r_cD-qAhseZigkezdVqafAGK8kN8O-maFdFmjQ63W5wAJ_W-OfuTf83BT4goC69sGAeJg2cs9XAJUw8y_vlwx1mwqhkdhGSPLqqTVpPxmAWCdh45L-k4tvbaFPfBU6td7QYiHaf1vRpd2pQ-dbah2mUNGGSGWCgeqUm7RWqL6ZW7k6aBus_9ZkDWPHuM6Z5iMaglmjmv3tPPVSK7tp8HmTBrGTYPQMo91uQNUGNbA67GhjvhNWxPLpOCccCY9S-5X7i4Va1_T1cXs4MRREBhqUOBwrLslz5aqxnPxHn2xC1LWse2SBSfDLvDTNlY5edJrF0Uc10iJT4z0fmoRO3zfxj6SUDZTk403krSK8r7FoxW0PuVSG_agbIsl4vk6M1x17zeU8EOSDN-KNB7ZJT_RbTxUKjYeGwQJl8pdv5uU6_a_t1rIASQI7ckZ5AgZIGdWUAB_dh6oKj7n80De6HHWsdzCxF7Uz61QseD-7e4R1x8zMF0whi21NaDwdQm3ZPDq_yqEsn6_PHJIUczRUYPMbag_wwwwpEwBt-zf5dnsjIJq3rTdP9jy8Cx4Gsn5EVE48oXgWC003dgXFTk7WHXW-uBI5AueBxU3TNl2VsDR6g5Rpyg7-xXVlmWkbqyz83HDNHc4W1M5NPyPdUoB9VybuAgc8IF6r4PiXoLTP4olJhuyuQ-WfGDY2-iVVRhDRle-7LJwPNrVCkzofpJTSAj90M9y8DYWw75QmdJUqTNd1pkaOZrMNdP0Hg2xQ02BZEdNHjnL2ZGybnZ70aUXqgsE1f-WaNWM5gL5OKSxwS8j0ntJDwoXAI2c2Gla0ZELhPFRXlixUdjgb4VkvgcK67P7NoZVgTb5dgHuz6IAdIDMSNNqd6GPfGJMFQJp9hMF9e6JC4nHsaIgy6X5pebXMm7yamcUE4eRBritMpA7Ag5TBtaOx"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "Here are some companies that are advertising AI Engineer (or closely related AI/ML) roles in Makati or the immediate Metro Manila area as of today. I’ve included the role and a quick note on location/hybrid setup, with sources you can click to verify.\n\n- Bank of the Philippine Islands (BPI) — AI Engineer — Makati, National Capital Region\n  - Source: LinkedIn job posting (shows Makati area) ([ph.linkedin.com](https://ph.linkedin.com/jobs/view/ai-engineer-at-bank-of-the-philippine-islands-bpi-4322184539?utm_source=openai))\n\n- Globe Telecom — AI Software Developer — Makati\n  - Source: LinkedIn job posting (Globe, Makati) ([ph.linkedin.com](https://ph.linkedin.com/jobs/view/ai-software-developer-at-globe-telecom-4411190703?utm_source=openai))\n\n- UnitedHealth Group — AI/ML Engineer — Makati City\n  - Source: UnitedHealth Group careers page (Makati) ([careers.unitedhealthgroup.com](https://careers.unitedhealthgroup.com/job/makati-city/ai-ml-engineer/34088/92872113744?utm_source=openai))\n\n- Encora — AI Engineer (Makati) — Hybrid setup (2x weekly onsite at Paseo De Roxas, Makati; listed as Makati in postings)\n  - Source: Encora Greenhouse job posting (AI Engineer, Makati) ([job-boards.greenhouse.io](https://job-boards.greenhouse.io/encora10/jobs/5211060007?utm_source=openai))\n\n- Accenture — Lead AI/ML Engineer (GenAI) — Metro Manila ( postings in Makati/nearby area listed on JobStreet)\n  - Source: JobStreet posting for “Lead AI/ML Engineer (GenAI) - Cognitive Engineering” (Metro Manila) ([ph.jobstreet.com](https://ph.jobstreet.com/job/90815794?utm_source=openai))\n\n- Leighton Asia — Low Code & Agentic AI Developer — Makati\n  - Source: LinkedIn job listing (Makati) ([linkedin.com](https://www.linkedin.com/jobs/view/4437710107/?utm_source=openai))\n\n- Federis & Associates Law Offices — AI Engineer — Makati (part-time)\n  - Source: JobStreet listing (AI Engineer, Makati City) ([ph.jobstreet.com](https://ph.jobstreet.com/artificial-intelligence-engineer-jobs/in-Makati-City%2C-Metro-Manila?utm_source=openai))\n\n- ING (copilot/AI studio roles) — AI-related Engineer roles — Makati City (Glassdoor listing)\n  - Source: Glassdoor posting (ING Makati) ([glassdoor.com](https://www.glassdoor.com/job-listing/ai-copilot-studio-developers-ing-JV_IC4778930_KO0%2C28_KE29%2C32.htm?jl=1010215411360&utm_source=openai))\n\nNotes and caveats\n- These postings were active when I checked and can change quickly. Some roles may be hybrid or multi-location within Metro Manila (Makati/Taguig/Bonifacio Global City areas often cluster together).\n- Some listings (like Accenture or Globe) appear in nearby Metro Manila postings rather than strictly “one office in Makati,” but they’re within the Makati/central business district ecosystem.\n\nWould you like me to do a live, up-to-the-minute search and pull a fresh list with direct application links, salary ranges (if shown), and preferred seniority (entry, mid, senior) for you? I can also filter by on-site vs. hybrid vs. remote, and by industry (finance, IT services, telecom, etc.). If you have preferences (e.g., only on-site Makati offices, or only large banks, or only GenAI-focused roles), tell me and I’ll tailor the search.",
+          "providerMetadata": {
+            "openai": {
+              "itemId": "msg_0683f394e4f973bd006a9296ebfc6487d0abed076e2ce8deb4",
+              "annotations": [
+                {
+                  "type": "url_citation",
+                  "start_index": 393,
+                  "end_index": 526,
+                  "url": "https://ph.linkedin.com/jobs/view/ai-engineer-at-bank-of-the-philippine-islands-bpi-4322184539?utm_source=openai",
+                  "title": "Nagha-hire ang Bank of the Philippine Islands (BPI) ng AI ENGINEER sa Makati | LinkedIn"
+                },
+                {
+                  "type": "url_citation",
+                  "start_index": 626,
+                  "end_index": 748,
+                  "url": "https://ph.linkedin.com/jobs/view/ai-software-developer-at-globe-telecom-4411190703?utm_source=openai",
+                  "title": "Nagha-hire ang Globe Telecom ng AI Software Developer sa Makati | LinkedIn"
+                },
+                {
+                  "type": "url_citation",
+                  "start_index": 855,
+                  "end_index": 994,
+                  "url": "https://careers.unitedhealthgroup.com/job/makati-city/ai-ml-engineer/34088/92872113744?utm_source=openai",
+                  "title": "AI/ML Engineer at UnitedHealth Group"
+                },
+                {
+                  "type": "url_citation",
+                  "start_index": 1182,
+                  "end_index": 1287,
+                  "url": "https://job-boards.greenhouse.io/encora10/jobs/5211060007?utm_source=openai",
+                  "title": "Job Application for AI Engineer at Encora"
+                },
+                {
+                  "type": "url_citation",
+                  "start_index": 1503,
+                  "end_index": 1580,
+                  "url": "https://ph.jobstreet.com/job/90815794?utm_source=openai",
+                  "title": "Engineering Role Job in Metro Manila at Accenture - Jobstreet"
+                },
+                {
+                  "type": "url_citation",
+                  "start_index": 1683,
+                  "end_index": 1765,
+                  "url": "https://www.linkedin.com/jobs/view/4437710107/?utm_source=openai",
+                  "title": "Leighton Asia hiring Low Code and Agentic AI Developer in Makati, National Capital Region, Philippines | LinkedIn"
+                },
+                {
+                  "type": "url_citation",
+                  "start_index": 1894,
+                  "end_index": 2027,
+                  "url": "https://ph.jobstreet.com/artificial-intelligence-engineer-jobs/in-Makati-City%2C-Metro-Manila?utm_source=openai",
+                  "title": "Artificial Intelligence Engineer Jobs, Hiring in Makati City Metro Manila - Jul 2026 | Jobstreet"
+                },
+                {
+                  "type": "url_citation",
+                  "start_index": 2166,
+                  "end_index": 2326,
+                  "url": "https://www.glassdoor.com/job-listing/ai-copilot-studio-developers-ing-JV_IC4778930_KO0%2C28_KE29%2C32.htm?jl=1010215411360&utm_source=openai",
+                  "title": "ING hiring AI / Copilot Studio Developers Job in Makati City | Glassdoor"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": "source",
+          "sourceType": "url",
+          "id": "X7Xbv0ZrJlYXgIqa",
+          "url": "https://ph.linkedin.com/jobs/view/ai-engineer-at-bank-of-the-philippine-islands-bpi-4322184539?utm_source=openai",
+          "title": "Nagha-hire ang Bank of the Philippine Islands (BPI) ng AI ENGINEER sa Makati | LinkedIn"
+        },
+        {
+          "type": "source",
+          "sourceType": "url",
+          "id": "YEeXdaQlZLBOsqlu",
+          "url": "https://ph.linkedin.com/jobs/view/ai-software-developer-at-globe-telecom-4411190703?utm_source=openai",
+          "title": "Nagha-hire ang Globe Telecom ng AI Software Developer sa Makati | LinkedIn"
+        },
+        {
+          "type": "source",
+          "sourceType": "url",
+          "id": "V09pHZhEu3tgOxBr",
+          "url": "https://careers.unitedhealthgroup.com/job/makati-city/ai-ml-engineer/34088/92872113744?utm_source=openai",
+          "title": "AI/ML Engineer at UnitedHealth Group"
+        },
+        {
+          "type": "source",
+          "sourceType": "url",
+          "id": "dI3Sbwbjzr0t4yDK",
+          "url": "https://job-boards.greenhouse.io/encora10/jobs/5211060007?utm_source=openai",
+          "title": "Job Application for AI Engineer at Encora"
+        },
+        {
+          "type": "source",
+          "sourceType": "url",
+          "id": "ti6U1siOHUtCojA1",
+          "url": "https://ph.jobstreet.com/job/90815794?utm_source=openai",
+          "title": "Engineering Role Job in Metro Manila at Accenture - Jobstreet"
+        },
+        {
+          "type": "source",
+          "sourceType": "url",
+          "id": "MsEfPLRrOotPgWXm",
+          "url": "https://www.linkedin.com/jobs/view/4437710107/?utm_source=openai",
+          "title": "Leighton Asia hiring Low Code and Agentic AI Developer in Makati, National Capital Region, Philippines | LinkedIn"
+        },
+        {
+          "type": "source",
+          "sourceType": "url",
+          "id": "sVUkAXpsIfSg3v1x",
+          "url": "https://ph.jobstreet.com/artificial-intelligence-engineer-jobs/in-Makati-City%2C-Metro-Manila?utm_source=openai",
+          "title": "Artificial Intelligence Engineer Jobs, Hiring in Makati City Metro Manila - Jul 2026 | Jobstreet"
+        },
+        {
+          "type": "source",
+          "sourceType": "url",
+          "id": "wcToeSo3IbX1DT8s",
+          "url": "https://www.glassdoor.com/job-listing/ai-copilot-studio-developers-ing-JV_IC4778930_KO0%2C28_KE29%2C32.htm?jl=1010215411360&utm_source=openai",
+          "title": "ING hiring AI / Copilot Studio Developers Job in Makati City | Glassdoor"
+        }
+      ],
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 18418,
+        "inputTokenDetails": {
+          "noCacheTokens": 18418,
+          "cacheReadTokens": 0,
+          "cacheWriteTokens": 0
+        },
+        "outputTokens": 3589,
+        "outputTokenDetails": { "textTokens": 837, "reasoningTokens": 2752 },
+        "totalTokens": 22007,
+        "raw": {
+          "input_tokens": 18418,
+          "input_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0
+          },
+          "output_tokens": 3589,
+          "output_tokens_details": { "reasoning_tokens": 2752 }
+        }
+      },
+      "performance": {
+        "effectiveOutputTokensPerSecond": 130.70028356134827,
+        "effectiveTotalTokensPerSecond": 801.4268989508474,
+        "stepTimeMs": 27460.428900000003,
+        "responseTimeMs": 27459.772100000002,
+        "toolExecutionMs": {}
+      },
+      "warnings": [],
+      "request": {},
+      "response": {
+        "id": "resp_0683f394e4f973bd006a9296d567a887d09ccf46167eb985fc",
+        "timestamp": "2026-08-29T08:22:45.000Z",
+        "modelId": "gpt-5-nano-2025-08-07",
+        "headers": {
+          "access-control-expose-headers": "X-Request-ID, CF-Ray, CF-Ray",
+          "alt-svc": "h3=\":443\"; ma=86400",
+          "cf-cache-status": "DYNAMIC",
+          "cf-ray": "a32a264c98c39cac-HKG",
+          "connection": "keep-alive",
+          "content-encoding": "br",
+          "content-type": "application/json",
+          "date": "Sat, 29 Aug 2026 08:23:10 GMT",
+          "openai-organization": "user-zzjbe1ezynsdvayks9oxyeir",
+          "openai-processing-ms": "25500",
+          "openai-project": "proj_s2uNN9enKNxsy2sSOWpCmaE7",
+          "openai-version": "2020-10-01",
+          "server": "cloudflare",
+          "set-cookie": "__cf_bm=rznNssnCRnRcWLBLhth9XH_H0uJL.1j.HF1nWz_o9wA-1787991763.9406505-1.0.1.1-.ysIMUVlt0ExzSBMvb1tRxfR36kzV0PHjYqto9Iv0JkHQKtd3Jfp6ZESpAO.OWvBom11nJci1afemHNLq_3vfhk1cDYnAJsiIki0CtrYJrE3y3L_FrP9vHN7MZrgLXNc; HttpOnly; SameSite=None; Secure; Path=/; Domain=api.openai.com; Expires=Sat, 29 Aug 2026 08:53:10 GMT",
+          "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+          "transfer-encoding": "chunked",
+          "x-content-type-options": "nosniff",
+          "x-ratelimit-limit-requests": "500",
+          "x-ratelimit-limit-tokens": "200000",
+          "x-ratelimit-remaining-requests": "499",
+          "x-ratelimit-remaining-tokens": "192299",
+          "x-ratelimit-reset-requests": "120ms",
+          "x-ratelimit-reset-tokens": "2.31s",
+          "x-request-id": "req_9d0b9b44dc804396bb012d0c848ab18d"
+        },
+        "messages": [
+          {
+            "role": "assistant",
+            "content": [
+              {
+                "type": "reasoning",
+                "text": "",
+                "providerOptions": {
+                  "openai": {
+                    "itemId": "rs_0683f394e4f973bd006a9296d6e29487d092cb612676411179",
+                    "reasoningEncryptedContent": "gAAAAABqkpbuOSF-jaoQtotUcHBXvWvEqiCsdDu3b-s77g4aGvWtoxSKnqZsJT8Oloqqfcr9YDCGEalQl6iFprLe6a3Tg9-4853uA4bsNb8JldJ2iQMX-UjcwkZi_1BbBuOEWrJilBwLyVLgJuE1FO6PfIdGGz8UI4TVEytmUq3Yo6wor5QUrkqD3tTsV06-2Y9INmKpzznNxPVrqyENbgcnCOg2x52DwnnugsgQ7FDGHpwLdBJBm0koPxJerhqJrhzjb5vIsv7mcvXGylcaHN1W372u3eqoz1Jg9Yu0xg1kJY-wxs_XpMSM944hbVeZAbxAOXGfj02hv8_vEOCyuyo1pdN7qIAzUsOOlUghdpDs7CXiHRKFfJUBKfPCgy1ExOgeT_3aKenShzLfkgHLI6bc2aUAWA9OGlnmQBOdbdp8dus8Hmcf8RtKifVpKVg5MadNOgv-K7Yala9FaMWWi3JuMbl6YGnKl2o1yRFO7spZ8FBoMNLNflQJNe8mJ9ltKUtG6oeARH1cm4Yt8Y8q4oT17r-gQ4uQd5H6wZdAC1m1vMQuf4PSEuBBSPBeZhdEIpny_AIiyz0WUB9TrvwcjUiwaoytlEh5LoBD-H2lUlag3pbnkJ8pRMI_mKTsUk-ksHVJgMo39-n287Feaf829AWsU7Ub8MzndY4Wb9XdsC2uagY1A7BWDsBGodzgawuxQbDyQkkxswThpL12cpLGAlo3MiDyNdl44QwVT5inFxXN2tdX3CH05DA3HZv3Bt-2WBuiFwrJ65FS6P1hzM0eayXiCAIRd6Z_YDDl-JKXCmBisCkf2GwrD_tiixyka6GPg0qHN6VKh43e6sKzDKd21GPNP_OR2qNDDeVtyfC2Ev2mewY23cIt_7qScpZrNkh1Y4IZBWDVQZbPH9rD-gpt7VMS8xY6H0V9EsYSkJWOp5y-uiefXuk7Fl_9KJGMNe5DuC6gk06ZLMFqxkMQs3czQeGK_qiVaAJi3IXUGC75RP5RdJCMRYa9VzApd1zmdryhKloI0ukLaSkQqJ4xNbLJJUaHEYraBqp-_xW3dw2Y44pubaUUbZGTuEQtxRy90ztAk8Kybn_RhSCtfAIcFg_TDP8yHJMJ7VPaujCrsRck6gVxqEIZPgms9uSvG3ww5iBk3-1TLfAxCDbG-y1v6NmbyPJQ8l-vqw18kdbEQ4Xk53ZdOkkAj93rhvnIIdjDeSMpgjyXB97laB9Lkn64G1u4lfbuzzDZgG7I1LanhDuLcXSiIV3iNYhceVTLakrxXfAsXknUDe20tGrPKuVtgGhYRNzQJd7R4Hk3X4z7iCRWl0A5zmjM_uNfWMJKrw91gE4Dv5Vvzpg-Ga94wIc--DhayZDlOxqiRy3tBMQcM2SYp6JCNhZXTTzTfioE0dNstBRPkkjLDRzOGG0WbU49PYN7xMGBfsPdYYaCcRKwOVVJYljDCQf4uEyMR-XwYwKmvn_Vx0W4-ouyISRVBFmCyvV1Xc0lmoJ4p7NNTRoLbOWxq9hIzAXcJt83lYT_BBbDMbTmLRAJ59M5KXcwaVaIXZSki-aK_RZbYIJBLhanj2NSV8RIZ5JDVG_w6MdTMjK6k7JEvpqM-Pqj71Z_KzkBORn4dPmBuMrdnt0Xg6MSM-KXXB_gfW6F2XIIinG44pIENl_l_AtlAhfc9_RwcGc10pkhKgSFR0B_QHUMIGAcGcvZEfMYQk10_G4uRMfBXAswktJ-lzKlyb2YydmmZmgFuplA3u_19W2aRYtppsWlg2JO0ocZvzx8Gcr1FrFASRfBrZMpKrU3G5KqXvsfWcUmjEyenoqotIyIiemBVD88gH0MrKOVl_AFkj-rjhWksniLz28zrstYLwQGzUAwctK9PDDZEjJ2faIlLK2aUdU3BQo1j7RZguOzTMg6fB0YHNljYfcp5gJcCUa4_IpeX5lnp2urzjJ-P2uLB-qAmNwUPKCGZo92on-M_Oeej7Yiil05YqWmgokDn2aAZ4npDvHBbOiEGN0vU0anWyjVT4QAUZWo_B-iaNxm5w7labjXdt-rkMV7QI7DM3fZg15_-mK-4qFx1TaLH-GsZvCebj1d5wgGYVA89Mim7nvCufnSWRqZkpdI_UF-247bzRXpDU8ot48pKxOG1feuWbwLvluT1iwlunjAWJUsUB8YNmG4aY6uCqCjE833gJzCqUZe1IFVzNB9DZFDrkkQuo2aIiLOG8adU_YVBKnEZ-zpHHiFg9SGUhPPX7IuBy4ZNLU_YzHYXI9CbUpf_vBKhZU6_4335JrSerRSAiSXUWTKKrjSM4vWZ4NBU9O2smDdlGdZeB3gGtutZKz8one1mxMBhboDMtiHcSghCbNHQLRjsFClsOevzm11WfWZMOWNllv1reUGf4kLkUSHfk0yZGM6PqOfteK1KSwtqqyzIOpz8DQTG_cjVO9md2QzY0HINowwhwg09YmXarQH_8oTlCTnTPT1mQNLWH9dovDgB5wiLtXOaib1B9W_wvy6QUJuUl6cbH-M38J9y-uvY4RuywUvclmIqYDpnQfNvMZcFI3pQb-EJivP1jtqgV9FpsgKQQ9bhdsFuFV5GOCCcFjqMQUi2MjwoPTZ3L4sMPSDRfww9zepvXAt1lccVddFvYI_pN7e"
+                  }
+                }
+              },
+              {
+                "type": "tool-call",
+                "toolCallId": "ws_0683f394e4f973bd006a9296d9d1f487d0ab6a9486017dc06a",
+                "toolName": "webSearch",
+                "input": {},
+                "providerExecuted": true
+              },
+              {
+                "type": "tool-result",
+                "toolCallId": "ws_0683f394e4f973bd006a9296d9d1f487d0ab6a9486017dc06a",
+                "toolName": "webSearch",
+                "output": {
+                  "type": "json",
+                  "value": {
+                    "action": {
+                      "type": "search",
+                      "query": "Makati AI Engineer jobs Philippines",
+                      "queries": [
+                        "Makati AI Engineer jobs Philippines",
+                        "AI engineer Makati Philippines hiring",
+                        "Makati job AI developer Makati",
+                        "Makati AI engineer jobs 2026"
+                      ]
+                    },
+                    "sources": [
+                      {
+                        "type": "url",
+                        "url": "https://ph.jobstreet.com/artificial-intelligence-engineer-jobs/in-Makati-City%2C-Metro-Manila"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://www.linkedin.com/jobs/view/4446958487/"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://www.linkedin.com/jobs/view/4437710107/"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://ph.linkedin.com/jobs/view/junior-software-developer-at-relay-human-cloud-4376595921"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://ph.indeed.com/q-ai-engineer-l-makati-jobs.html"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://job-boards.greenhouse.io/encora10/jobs/5211060007"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://careers.unitedhealthgroup.com/job/makati-city/ai-ml-engineer/34088/92872113744"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://www.glassdoor.com/job-listing/ai-copilot-studio-developers-ing-JV_IC4778930_KO0%2C28_KE29%2C32.htm?jl=1010215411360"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://ph.indeed.com/viewjob?jk=4a3a58f399d59163"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://ph.indeed.com/viewjob?jk=2c8d1a4c3789cece"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://philjobnet.gov.ph/job-vacancies/job/web-developer-1340403"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://ph.linkedin.com/jobs/view/ai-software-developer-at-globe-telecom-4411190703"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://aim.edu/wp-content/uploads/2025/11/Career-Outcomes-Report-17112025.pdf"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://www.reddit.com/r/JobsPhilippines/comments/1uyvlk4/we_are_hiring/"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://www.reddit.com/r/JobsPhilippines/comments/1rikkwj/hiring_3_roles_seller_construction_team_itai/"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://www.reddit.com/r/philippinesjobs/comments/1vbg41t/hiring_ai_software_engineer_remote_based_in_the/"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://www.reddit.com/r/AI_India/comments/1vbz6kr/monthly_ai_job_megathread_august_2026_edition/"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://asti.dost.gov.ph/wp-content/uploads/Job-Posting_SG20_GATES_AILeadEngr-1.pdf"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://www.reddit.com/r/HiringPH/comments/1nidqlq"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://aswhiteglobal.com/wp-content/uploads/2025/12/ASW-PD-AI-Engineer.pdf"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://www.reddit.com/r/ITPhilippines/comments/1vncakv/senior_fullstack_ai_engineer_7_yrs_looking_for/"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://ir.helport.ai/node/7001/pdf"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://www.reddit.com/r/BPOinPH/comments/1fynip2/hiring_hybrid_set_up_in_makati/"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://www.careercross.com/en/job/pdf-1543733"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://www.reddit.com/r/BPOinPH/comments/19cx8zp"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://www.reddit.com/r/JobsPhilippines/comments/1vtgtww/we_are_hiring_for_web_application_engineers_and/"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://www.reddit.com/r/PinoyProgrammer/comments/1ttaajv/who_is_hiring_june_2026/"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://www.reddit.com/r/MachineLearningJobs/comments/1tpynfh/hiring_manager_expert_technical_architect_for_ai/"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://www.reddit.com/r/JobsPhilippines/comments/1okkm2z"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://en.wikipedia.org/wiki/List_of_IT_companies_in_the_Philippines"
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "reasoning",
+                "text": "",
+                "providerOptions": {
+                  "openai": {
+                    "itemId": "rs_0683f394e4f973bd006a9296dc667487d087646b595a1f9df9",
+                    "reasoningEncryptedContent": "gAAAAABqkpbuL4PxFh3UHIH6pfc8tpDX4pSKaPam4nrllp2QnF-pKLoKmo3FcZluwm7eZRt0y4V4OvcRHjVyDKQ7cTg4Vg0rvu_9YS7uLEMlHibC0xs7MKlaqhCpKCWi3IRTo1nkrwXa2eNjzh2oQyIy0WduMnaTHFnfe38YSUkRmQP8ZtE-dCXeFgAkCymTIY5lL232itJ53ngwzPQYbihiJteL4yoiFsRrPt-a4uGfTqLrPP89wAObwfk8JqGsPpvct3Dbde4cxCM70_wfTan_3i1tn0Aqkcfx74FnCBRQj4RDQvv3V1-eip2nOmclzl6ebVfc2mJU_ftwbCUtJz4jh0B0XpM3VS4mta1qZdNdLMxGXzQIlR_hxPVtmozEgzF7Pj37dtc_CfViVyM-tplAjnowCwQAUw-6QVkxoqdrcKjvnLecLQQfXbgNfGWSjARRYVmhzonNKXHE4C69ZKgd2hVjiMAT6DtT3VuF3WqC_62UVrPcli_P767wtuHc5G7HH-yXlyZRL-UByLC3geMTC3WwhYARP99SHOpEWBFs2v857rvn4HRp6C8rNIWDeNOFVvpJfFXfzgQC9pgUUvkL4nis1y3hOU_aR8fP84mxgsrWwaBM0WnVz30ivru_qoKlNxBgjndtGkzDkcvgGDWdv6qNdHih7e7D0kgkovCsObF55rI_EwnJSte98sQB1XB1D67FF4I6qL_Iy2kFgY5ZDvIK0wyLeAulLicRyMJtHmttEAGF3QgSVkLKDxtcRio7lSUgEcKsC-PlXswuTC5tVzSmTtByel2CC5FnA5KZ03HZxnUGh0pLLBnCW4116NpDjzJxyltDKGufH5HNRQusv_0kWjwr3m1n1BvvC0O4g8ZfNACOof4y7J0N5G6OzNOQZA3l-w7keMRB0XfQqSncRgTw8gG92Q4Za57pY9qdA2760JAp-dY3oNCO5OXigl9rEwMMJ_FUKKwnY-k3CVZqy1ZKZLQXwCF14L75v2tp-DvybQIFopbZxseAFj4JDEYkkkqdmAPUsvaV875tf3XqIN7NG2aPasCfLC2a852ARB5LT9DfCPPPjVzKOGYkMHGFe-OL-9AcYPfSPRk14cEIOMtSSiz-T_puw27JjbHG0cxGJvVwvmQHPx35i8pEDCm4ZNZO8WBI4cF9KJwV_s74E7cvZXQGrm0fVwXXikbrIZLgiE3vv2ZVTJtURQs1bnQ5w5lkHlo27lIIp_OqMPDLTqbFOhA27wsFxBZFqv1AwizGKr8GvMmI7UhqWEQBg8rVHG8BV5OgPbHjc2D9qGvK4P8qKrksR5uuLT3ofYLvMBWdMp89XFBLQxMyL637DzURgc57b8m9OgSdMNe8QK1FLzqhWgpncIPnnFEFq9T4vr4y13GMwknNowomd5LLXmUb0BL8qm6fDwemVb4SmlLB5qFDTpMeRhANhrLyhOgFA6tefsuiXzyFoLuShDkSLqoGKX9FiFXKRhD9tbSjAZkQDR_CP_bOP9gTI8BfhFthr8dOZv1FaZEqG0AyN85CNTcS1gZEpHH0e_iTErwoxCvdNKWR2dVx_4eYXDTqM9G_w_3EVYeTBjKTz8D4x23Sj3ZKxHHy-y77yvUWeIZOo7vDPSNotHchkqQF-ucPXbujMAh0Y-6xg8VRIIw0yAW7cl2W9W5nwnSJZdMjdWELca-3SQWbXiYBQ9VGjQnGUMYNRDeqaiQACY1jc3zKngH2JWHj6QCxC3QDRo3v6jVcZ49cYFE2ebOpZ-FWpmNMbmQuIwuvf0BikFlZhGDw55mhQ33vzQam-OkBTwh0mKuKaF1Zkd_gdPNbkP0A1cNLl6wQ5xEcUg2ZEX69vnti2c1jDYPhi1YyvPsG06wiWTu1zRuBZfeR5hj737-RZNBgawkQehtOrOfbITgfFsQpDE12lLhpVZGbLhBSODP5mVqT8Jiua-trnzifEmI7Bn_32JPADJiNB_sIlcmeVBonjezKvAB4nVLbXY7vV4zaEY4tRSoLGjyiJcPExkHRKF5iJLGJ_ZeRdtjKrJ-Aq9bzkeCsZ5EKP7T2U0k5GR2vKq7eBTuC5_4xl6NlP7ZU7qTLTyyyrgv3Sl4X6gPxNkKq_OHG8b1c53v5i_5670dl7VTub61i6q-oJayhM1R4EVrx79yVId6c_iAIr_lE4mZP_9TzZQDVSyxMQJRHkeC_OA0nHO2JIYCgBjztxa_enX65RWEync876gUytoVblF7QEEGBkF5zj7t-_rV7NplmEtUI2g4-OHa4W2FbwSM62KT26FBjzr_VJDoc95nKH6QCtJ3UBwSvU256-5iqPSLy191IIre3eS2Qiv-AHMU_HaOr5t2qe263B8fSZBum1cpBfNtSh9yk_hmjH6jCcEIRKLHUrbyJkAO32EDF9P_7bno7LhxJx1YYRuQtfPWaNJEvtS4NILfWaX3o2H2IqtS5sdA5SjEgJuVy3KA7iRiYUGe5GoshAhsVmDIgw6j9gPQ1GV56Me02cHdtFjMW-9hFgYvCZLkCXQ1Pi7uZc__Bob7iOMoAy88995qrX0avTYKeSgcngNgj8UX1IHfgqZRuFoMvObc457skyx3yJicfVBkMAVpJ9gLqXjj-sOBtEDZd518j9TJsvEuuL3y1dsAj5XnRa92mcfRJ4Ih5uL3etK9jVijrJA86bCRZ-P_OagduHdONI0hQ3fXgv_HghwnfRikay96dq0k97s7O-_TVdhA2bmx84jTxhpHKFPqrhef-krNQEJdOzLH1DTqCgJ_N9XgADLXFO-YP0dPYOvGGlQKi6TLQO_3y2MGIXxidgGh7R6XrQ7p62_gL_CrQPmjrcW393I5F6wpIsqRQWqYnXJ9Ih4n1bMxcgLdqBosM_WAFq_m12ViYcuAc6uKvxoK3cwIAqcU-yrIoNr6D-cZ4rDFtKD9aB7F57O5TFHB5SLnWqAgoV-KGhGRs2sULyqTVYvyUElf49CZ0lGZee1bQ8JCB5PoB6VP1aAlTtKxj18_v6JZ0KWytvZgQjx63uPirRtwcaTqvaRYKYnrCqrOCm_uO_TXvXKIB8JQG8iqhKwLwiExwd3wyqAqQZZyFNMd2cjfzAch1itkzQEShjqZGkMcwuMW9ctuJvxl3HpAXkSoZK8s7is0VxSh3J3nBSQLwPpcPbFpDTeDP8GFzyAyaI94nrf2DS4d39JeC4uJa1NTX7Oerwfkc3FZiEY6FXruIL1_gTiwgRetsEVQTw7iEhN251rtTRoQVVQnjg7sktD36Xtv5GBEg15iAX2fzzCnqzGO20lABkyOEnHJtpGYxjXv9_YEQTy2R8uI6iet2qG0N0503WLXt_f8oj7ga71QTTiOceMz-xoSGUaaUHc_spYVrOURc5Rc3fK_oRtFwQoY3TJRUwoENbVSbCSzcny2eObbfYgZXGU2wlPj5Tr7WzzfIF8GQ84Jp7M5nyqLLDyiBYZUhbT9Lr06vRyZSP9nWt2YWvsCmIUO1VGZ5tkbVOJp7v0mPUKUhGpFwfJuQBVY0vFXl8COCgBqKD_j19iRLjFwmVI_oKyKOKEwMZDz_Vs3-KtWyYOK0yW33Yeab3N3v4O8B2CfYKxw-QuOejxyhtl8Bq9USUfcqKKJFRp6wh-u2zeJt-bos0UsoAcr7bk5bgfUMex7ifUd0OqYaJVaoNvl8C4mNCyibIE4Ir0QVu1lJcDZwadKD8ITCmcmp2AFkl9MBFEDl0amsaqnKyoI63JNfHDA6Y2Q2CaKGfGzqnc1-vY6cp_Egx2IEpUihHv91GnSJWei1v24lltluMVZLu8EPAQ8hCsTyI-vB6Ef5LBW84rCTGk40NdyxRF8xKJLHMvKh-h8DIfwjgI2H7m1vcMPDWQetFYc6gaXJ84odFhlNNUfU7-4JVhtEglajBD4tUSdg8TUnM_y5tOu7MdkGHmNRJTHDSjeitj1yajsseDIIzVKWBpzdFvJ6EWt-EkNcx55ZQsOrP9h9XcRZLhqh_phnP1uVdmLhyqlQasoM5WxJ67GD0kv-BcxG2KLa2PzZJm_7xvkfYdvLPPu-_e40VkrEP3T-TT150YoB0FdouOO-Hs4EF0URZPqvKOQFbhg2PNAkTPguWiXPpFSMxVOgfMmQpdygunj6_sJq8MknEZX8spzIJSLUKsbpHuEUgK8YlcXBLiigma__goSD3ib9hC8jkU2RkynQ55u7dVtmfIRByOhBV4OlKLcuevnrWbt3AuPgRZmUR5Nm2Gvr9Ayi0wBxuOAIoQIdyNVoaFhB2uJz1FrYQ4pSMFevXnWY98GWWFOGDmdDMLEh8dsfHopGm7lVv0ueqiYSDTsP5a78ugQIY3I_d-NfIPEWafJng3Szi2AJTypTnlc4AMGQYgbNWYOio5Nd9_S8Ijii8JgFLyej7WhuBVyi5w-B41XC76NbjDeCnlVaFKyU-cjDtGN6lkbT8YDX4HyGOYBeQ0mO0YQfWX4RzbIhvGvyNX_amWyY-c1sfYmYUcgNxZ7tEDI-AMqpVBxvLlaTS_xXkBEqD-z1GG1sQMpJHaPXZ3G4izRXzR9Q7Mr_A_I0vH3nbE_a9qIIro3F7wU4WOJGW6Pq-FAczXUgsp74311PCY--ndFgrQ2vva9Gjksqf_sl2ZVXmB11jDd_znf7ya3m3BK817tkSzamIFVeZu7uu_-LocKyECBUB6OteC-cvHUZGbIVR09maAKuX3NOiX-ksgrrstplsZnGwFCOssrZLvZg2x1PA8aF_bPrUz1xrNHllBisGyQB3cyYLnCVkBA0CBnSaTdlDvsem7-MlQYCN6BpMiIvVpQos_N_fhig0xjPelaOXaYJeJoodEglwvxJchSIbb3ge-jvpR4Lyy_-4YQ96qmz4ID3ptUKr-vKxBmN11KQHuHPCwy-EErI8TNf_g=="
+                  }
+                }
+              },
+              {
+                "type": "tool-call",
+                "toolCallId": "ws_0683f394e4f973bd006a9296de4ddc87d093e7ca8daaacbcb9",
+                "toolName": "webSearch",
+                "input": {},
+                "providerExecuted": true
+              },
+              {
+                "type": "tool-result",
+                "toolCallId": "ws_0683f394e4f973bd006a9296de4ddc87d093e7ca8daaacbcb9",
+                "toolName": "webSearch",
+                "output": {
+                  "type": "json",
+                  "value": {
+                    "action": {
+                      "type": "search",
+                      "query": "Accenture Philippines AI Engineer Makati job",
+                      "queries": [
+                        "Accenture Philippines AI Engineer Makati job",
+                        "AI Engineer Makati job Encora Makati",
+                        "BPI AI Engineer Makati job"
+                      ]
+                    },
+                    "sources": [
+                      {
+                        "type": "url",
+                        "url": "https://job-boards.greenhouse.io/encora10/jobs/5211060007"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://www.linkedin.com/jobs/view/4446958487/"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://jobs-radar.com/en/job/machine-learning-specialist-at-encora-cada0f"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://jobs-radar.com/en/job/ai-powered-qa-lead-at-encora-113a7f"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://www.dreamworkhq.com/research/engineering-jobs-at-encora.com"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://ph.linkedin.com/jobs/view/software-development-engineer-in-test-at-encora-inc-3817297002"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://ph.linkedin.com/jobs/view/ai-engineer-at-bank-of-the-philippine-islands-bpi-4322184539"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://ph.jobstreet.com/encora-technologies-jobs/in-Carmona-Makati-City-Metro-Manila"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://ph.indeed.com/cmp/Encora-Management-Services-Philippines-Inc.-1?campaignid=mobvjcmp&fromjk=2a6e0355a3af8c4b"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://ph.linkedin.com/jobs/view/edi-analyst-gxs-ai-at-encora-3803006222"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://www.linkedin.com/jobs/view/4443803768/"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://ph.indeed.com/cmp/Encora-6/salaries?location=PH%2FP00%2FMakati"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://www.reddit.com/r/JobsPhilippines/comments/1uyvlk4/we_are_hiring/"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://www.reddit.com/r/VAjobsPH/comments/1twccg1/urgent_hiring/"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://assets.ctfassets.net/yon5rraf34cy/2TRWvdSZjAdnwP8fQrx7H7/9e320ac9b427bd6d5d846d47d340d638/FAQ_Encora_Canada__Inc_-_QC.pdf"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://www.reddit.com/r/HiringPH/comments/1rlaiof/accenture_hiring_technology_roles/"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://www.reddit.com/r/JobPH/comments/1tko7uu/accenture_philippines_is_hiring/"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://www.reddit.com/r/RecruitmentHub/comments/1tko1uq/accenture_philippines_is_hiring/"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://www.reddit.com/r/ITPhilippines/comments/1rnroya/accenture_is_hiring_tech_roles/"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://www.reddit.com/r/ITPhilippines/comments/1rlwydb/accenture_is_hiring_tech_roles/"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://aim.edu/wp-content/uploads/2025/11/Career-Outcomes-Report-27102025.pdf"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://www.reddit.com/r/ITPhilippines/comments/1rmu044/accenture_is_hiring_tech_roles/"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://www.reddit.com/r/ITPhilippines/comments/1rqd663/accenture_hiring_tech_roles/"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://www.reddit.com/r/Accenture_PH/comments/1khj3hh/akala_lang_pala/"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://assets.ctfassets.net/yon5rraf34cy/cGQzOLyZ35b5inUmkT133/628757c3d08424d1f5339454d6b7e71a/UK_FAQ_-26.pdf"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://www.reddit.com/r/JobsPhilippines/comments/1rlai0p/accenture_hiring_technology_roles/"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://www.reddit.com/r/Accenture_PH/comments/1oow0u7"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://www.accenture.com/content/dam/accenture/final/a-com-migration/manual/r2-2-r2-3/pdf/careers/pdf-25/Accenture-Pinays-Talk-Ep5.pdf"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://downloads.ctfassets.net/yon5rraf34cy/3wTXIMN6MMOprcCzGw3QJG/d00fde3994e50e260a602eb08aaf087e/Ebook_HiTech_AI_Legacy_Modernization_April_2025.pdf"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://www.accenture.com/content/dam/accenture/final/accenture-com/document/Accenture-Controller-BCR-Entity-List-March-2023.pdf"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://en.wikipedia.org/wiki/List_of_IT_companies_in_the_Philippines"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://en.wikipedia.org/wiki/Accenture"
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "reasoning",
+                "text": "",
+                "providerOptions": {
+                  "openai": {
+                    "itemId": "rs_0683f394e4f973bd006a9296e1e79887d0afe8756888e0a6af",
+                    "reasoningEncryptedContent": "gAAAAABqkpbupTi_MWCjut-K9SW0WPwTYlMgM2LOULh3ZzxHPj-fRGExmfEEb4Bz_STiYNxNAsqCiJ-AysklT0F-RYaBHye-3g7XVc6w50-lclbiMhotM2d7Jf8u3PMJtJgBSzvZAN4_tkq4lmuQESpnqCQv7M4aPlGCyoa50_kcOplvrReX5cBU3bt9YiHGJAKASSo4XYGMFm74gLZUZwyMVwJGWpK3wr-44WHAdwmmeyGzEh_AGDLmsPOObW5pjK41kUowYQOKYBOr6QcASOSR-920rioMNHhsA2C7RJqKjvfhqcWbcbFS5W4oT4Sh4jUhSePN836qptMJaavt6Ao0vfGrU4YClwy-uE8uT2Wu5MkPapXJ0kSGAdhPX-g7SI8mDyxObizueOfNmo9rXDtQ4HqwfhyhvAijEpEHyk1S6si_t_R679tPECk9ddMls3LD7jwEiz3YEOIwWvx2e3GXNotkm2JGwbvjk4y4u5qGatmmA54QpY1acodlt5q8RHHstRj2W21OBbmDj1Y2ZNY8EPNvNKnYo0tZ7-jsQO-hck45fLkjuDiGXszigw4gBhYlIXuARUjx-ZYkKVRdnAR6bl4jU-h-8qHWVjuykKH8H8l5wUHcwW2Z5cV4__2Y3H4v6nlISMN7mU_0xGcjhIetVP3tycr1RuwCJrm_yS4GQU5XGZ-jtlG0CHWzu182wuupOAtJBH8nYgyCrQCguMoAXYq729Vb3bGimmfPcUBwCdaxzondtojuG4aRdeJSG-G-nYJczwZFPxWlh6zEfefh561P_vim8xnBbU9_WQbLpQ2ad8yKIbkXDL-qoKr8XwJSoxnH8EHHiBER-yC-5F0beQrtwUfKy2y6MkRB-KrTj0EyIrljX_6jmCMSZ7cSr6-ci_DZ9svfUEUOMNlcVWPPxiDb-Un0duIb2CbUl-Qdz3_x3OaWgTKa59alVY8WxucrQU9D63HCE1FAJ9XkVMZ0SQoEn7YBlOv3P7Y5I-g0H_TkVDzgZpFiRcrN7L86wLLnHMSbJBP6IK69t2_16eSsaiUawQTR4ZURl87bO-44L_J9Da0Jf3pGiXj1IXXM9Ky2GOlu2vI1leAJVKzdtD0bvJrc5OeNDTIxWqQquLqwW7txxmQLeHd6AOTaltjXNExPn2lJO8eFafL02V5lF6GVa3_G811EPodaUjqV1_qVa6_sLJebORM-sb_HN8idmksuXh-dtFyal9rXXl1fquPx47m8GqIDW8DUV1VAP7FwigZ2mZZLSvLwHABP8fzkvwArS717qXVX8w3C5iIZoh0owX6r-YaOHF2jyRjwrUurozmPabPWdda4s1yvq7DHm6iAwehfOI4rq6mIeDIU9XnfQJkbU65vf9le6DwuEnw6rsi3fa6vI8t70xreoPyPKii3ZkUS2iwwSVze_zmZy0JAYf0JkVjNL33htU5Ep8KYv6UvdDAle9Dg_8KCn6090UlKpmq02GwIrqm7nCePfwyQU5XfPPEL5TXK5MVGcisE6ByOagMI3ieHSG8B_RCrGZIxueFAynAXYwEQTqGDZi5MmIqtUzlMtiTdqXfwouuKMvFvWeU6PV5ia4hEGFGAGB5f57tDPvCUQFdv4iK9kyyhuu9p1q1qyDltvxL6--lKmmqzPfrzwiKcvfAdEcFdylzjG5WB4hwRB2_2o_mkVk5KnSHFC-6PVVAOwINnwSnnh7JE-flLcxXcpqhH7juk0cpUdrNNZbZmo1Hy-lEEz47EI3tF1rJIGV2nbD-A-bYPN0w_EyJMka1i7nmPffBoylpd8OgTn1Rc7QAQ_cq8zInId0GJSzVg3_tCVz3gUnSOVURoxB44wVV45A42a9aIFvVvOBWZRFdGJJaICrlTcvIJsAfRw4soxqK8TNMfdW_-TqxWeQPCAEqTeGvkNU26WSZ5w8alBNR9OuID6KRM7ZB3zovwywLNuEPAojFHYrxi_Gv3ekIvZ_RShQDN27p_0E4pyQBUFyMz0GzloFtXVQ65gI7rjHF7HNNM8_GTfMrMXYk-E451JTWhogKEmFiIetafeJTf_nl1TeL64re0ZWchUDHdLxYJ8N_SCYH-qanymbyvv8Yww6KBqpDfqtyDCfFHHjznXd0wSjf9C6TiLe4Tcpl9vvhCAXFsYrRaD86FcJWZXdVJ5cCPJcK93OrDIffwe2iS_vCwfZIDf5LeHrNknw_U6ugNIQfwgjbh79sjq-vXb1hRBcjzljAmO-SZDk2Hmropkllj1pQcKd55s-DnwjXe4A_JX486os0rFQRP_lriIibrT2C5FPE7r2VT3SwiSVC656INs_P6HqrrIO-xgCu0TixCzNGb0bwF-sMjvvMjWziHCBDEJGBTZYTjxUsFr-eIraTMAw-NJYHjaqYXHTsLyB7qVYVLbUsHxJAaQ3LvPZRiqK9dPzSWaaT-iQ4cHX1_-P2RACuHAN8PqBJdE60YkC9sx2fIBRjKYKl2nXeDLX75ltk_C2PYa0-GEaiRJPktwih1ur0Zb0jdx7SsgdGQnLyFIxCEoJU9QCrChDldjow_cKHZn95NZgEfaR86BMWKC80JfX3mZ5DzmVgvb3XfNzh5kb4oeQ9F2YyVZKMJRs8kzAgExtJNe_Hrg157TWEJqH_Z6-1Dj9aFTxOYfQAQil-88fxB9XD94uirL6WPTXfyd4hyG9KFclVEuHYfkXlDs2HaR4kwMldrl6LGcUBjkVN1rluQpJHYpmyUcflG_3pGV_Mw3CaoKRyX4BloqNOgKLbWMoCzjXe9kdO-weAIOUT2xlC8OamCp0337xjUmnhSa8cLiz3dIUyezSdquUwdMjBBJnevdnBiULRgMmt_dzW9bNkZNjgdbqumaW0uo4wzrZSGQpe6x3fezu2tMSaEtZsHV-lXOescwFn3L6He_HvfNmGyXz9Suks4UHeHEP82x0v9ro3xAN9Ypoq4jdVjymQ-ldX1tK3q3ALk0RNMW-bFn3ak82tFCZpDQODNIr0EXAu6DUpSGdOTnnrtbfZTLaDb8c1vpHChPzy0CiynP59zANGwBsHwEp6w8Q55l4qKnx_1q3wCmXJtHuD7wJip--Zcr5dJwiG6da83vUo2tzr81tcmn2UQWbEn0SDD3JNbP1MNUdWpc3uqaGCaFUgkLxJAysUEWEejRReTsscuc-xq9zv52JKLGGkXN9gevKua318m5NNkBuoXLB-khIhyNGpe3GHJe176HKvcJZKteiEP3LkhGT9wVoP7jzqTTf--54TFWAyvozqqJo_W0XTTwCb5CZQmpbeS3cvgnr899lF76lr5LkEcdntes4pkmLkLCw0aZkVGBI6DtrcVOQpiR5Kw6m0IPv7rjSImIHpf4yeX0s3KT8dbvKGzbAC9G4b5lFNYpPiO1tUyzsYpR-vrBxwK0qi36iMqMqKSGfNWH--IaSDCmQwAafFRStk1KFUSNlTN3nWmxPXYkCbMN7suwgSB"
+                  }
+                }
+              },
+              {
+                "type": "tool-call",
+                "toolCallId": "ws_0683f394e4f973bd006a9296e33f4c87d0b2efcdf66cfbfd0f",
+                "toolName": "webSearch",
+                "input": {},
+                "providerExecuted": true
+              },
+              {
+                "type": "tool-result",
+                "toolCallId": "ws_0683f394e4f973bd006a9296e33f4c87d0b2efcdf66cfbfd0f",
+                "toolName": "webSearch",
+                "output": {
+                  "type": "json",
+                  "value": {
+                    "action": {
+                      "type": "search",
+                      "query": "site:accenture.com Philippines Makati AI engineer job",
+                      "queries": [
+                        "site:accenture.com Philippines Makati AI engineer job",
+                        "Accenture Makati AI engineer job posting"
+                      ]
+                    },
+                    "sources": [
+                      {
+                        "type": "url",
+                        "url": "https://www.reddit.com/r/JobsPhilippines/comments/1uyvlk4/we_are_hiring/"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://ph.jobstreet.com/job/90815794"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://ph.jobstreet.com/job/91975534"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://ph.jobstreet.com/job/90921279"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://www.accenture.com/us-en/careers/jobdetails?id=ATCP-1444508-S425166_en"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://www.accenture.com/us-en/careers/jobdetails?id=ATCP-1462553-S426792_en"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Fullstack-AI-Engineer--GEN-AI-_R00303022"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://ph.indeed.com/cmp/Accenture/locations/P00/Makati"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Juniper-Network-Engineer_ATCP-1459075-S426633-1"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://sg.jobstreet.com/Accenture-jobs/in-Makati-City%2C-Metro-Manila%2C-PH"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://www.reddit.com/r/VAjobsPH/comments/1twccg1/urgent_hiring/"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://www.reddit.com/r/Accenture_PH/comments/1qbo0ea/associate_software_engineer/"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Taguig/Generative-AI--Manila-_R00288844"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Forward-Deployed-Engineer_ATCP-1446749-S425684"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://www.reddit.com/r/Accenture_PH/comments/1uqrxmj/removed/"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://www.reddit.com/r/HiringPH/comments/1rlaiof/accenture_hiring_technology_roles/"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://www.accenture.com/ae-en/careers/jobdetails?id=ATCP-1422790-S423149_en"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://www.reddit.com/r/ITPhilippines/comments/1rqd663/accenture_hiring_tech_roles/"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://www.reddit.com/r/ITPhilippines/comments/1rnroya/accenture_is_hiring_tech_roles/"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://www.reddit.com/r/Accenture_PH/comments/1vea5xk/acn_ase_job_2026/"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://www.reddit.com/r/ITPhilippines/comments/1rlwydb/accenture_is_hiring_tech_roles/"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://www.reddit.com/r/ITPhilippines/comments/1rmu044/accenture_is_hiring_tech_roles/"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://www.reddit.com/r/PHJobs/comments/1rlahks/accenture_hiring_technology_roles/"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://www.reddit.com/r/Accenture_PH/comments/1vvzfmn/accenture_lipa_job_application/"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://www.accenture.com/content/dam/accenture/final/careers/careers-materials/LCA/Document/69d60b4c0a33f1001cb6446a-AI-Refinery-15-1252-Mountain-View-California-7-May-2029.pdf"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://www.accenture.com/content/dam/accenture/final/accenture-com/document/Work-at-accenture-and-find-a-career-powered-by-purpose.pdf"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://www.hkdca.com/wp-content/uploads/2024/08/transformational-opportunity-ai-ict-jobs.pdf"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://www.icmai.in/upload/placement/June-25/Accenture_JD_Ben.pdf"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://en.wikipedia.org/wiki/List_of_IT_companies_in_the_Philippines"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://assets.swoogo.com/uploads/585945-5f47fb0be1328.pdf"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://ph.linkedin.com/jobs/view/ai-engineer-at-bank-of-the-philippine-islands-bpi-4322184539?utm_source=openai"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://ph.linkedin.com/jobs/view/ai-software-developer-at-globe-telecom-4411190703?utm_source=openai"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://careers.unitedhealthgroup.com/job/makati-city/ai-ml-engineer/34088/92872113744?utm_source=openai"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://job-boards.greenhouse.io/encora10/jobs/5211060007?utm_source=openai"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://ph.jobstreet.com/job/90815794?utm_source=openai"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://www.linkedin.com/jobs/view/4437710107/?utm_source=openai"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://ph.jobstreet.com/artificial-intelligence-engineer-jobs/in-Makati-City%2C-Metro-Manila?utm_source=openai"
+                      },
+                      {
+                        "type": "url",
+                        "url": "https://www.glassdoor.com/job-listing/ai-copilot-studio-developers-ing-JV_IC4778930_KO0%2C28_KE29%2C32.htm?jl=1010215411360&utm_source=openai"
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "reasoning",
+                "text": "",
+                "providerOptions": {
+                  "openai": {
+                    "itemId": "rs_0683f394e4f973bd006a9296e72dd887d0880abd40f335607e",
+                    "reasoningEncryptedContent": "gAAAAABqkpbu71GReuZBY1vhXQaNyPBo_zPu8aLY2vqxkMNgD8xyETGw4VFtDQdyIDjruQ5WKTM1P61Rhw_4gOEPLMV1ICETdfOnQQYhNqabrkRQgtiQ_PaKUW_4ov2ICSunAnHcDPOXxbvGIxg9JbL0O7KebGCALAQidDvHpPHS2yI-MMBJE6vL-3e7VTgAtqkQ2odPV3Twiq92AE4gPCJxvg_zPPWImrUCKhUPlKBmzeP8kgQ9AUdrpaZ7NIH1Sbpu0GxzIa8dQdR-OP-KZW6-ZbKJ_rqijEXhIiQ-z78nN8guYCFZiCMefVGGkJ0S6a00Ij78EIz8lNCGJRDbNOvsD-h8uq0PH7g4yC6EhhSVX0t12PhHm6YC5asPu8K4Le93tZYK_ECWo_ZRnu99waNL0zkcMYun3sA8APBZmpMP6IXZHDHA63PwYAOY6vXmwVw-yQscn6S0oVJS2eWMrCoRqkKlqL8LdUV-IS8LWmz_5qtWroXuODFez0acZlCKmIo8izmHaVp8imqF3IrjFTQTusrM0uHZzpuO1QNdxrxtOULF7I5sLfqPb-13Ppj5n4iCKA0xmEwpZrdcZHdD27ngeCRFIvysgb09EZaxZ5rfTwDGKP9Eb2odQfRwfCquRCcUwwPPlLw_Vr_eZjwELR_9oNh0Q2MpEcEuGTok4E5XZ-HW9jYBuRErhlb5xzMlP8kzjZZpefXI1G8AsB2hPBUjgVzymuMENTkOEOcFxmpsVmsJubi92ZbohsZ4RhBNbaTkAGHDJhZ2BlM2XeQHc2Veh0OVjIfJflTnz5lfgPWTrtU1eV6DrHklnmber4g4Z0PfIhH2xD783OBkexmmtX8D-C0yuryXYp9iUtM_kHCTzbwZUMsdOvQHmgPWdUTkE9dmxHTUvEcwmWsDbrSERpuYnINONcScb3JPH000hyqktllJibMqF9k8Tm2knU-7Mee2lEKUxksJGLB97Jc3DEqvC3yqtdOHkVsMUkeFQcRF9LI8fRM7Q_0tpz0z0IAYZl94lWxJRu0Xmj4FVHoq-kFjo5yDgDufleiVZK1kxqfEd2VnXhwyKdQqgL6WurbGV5qJF_l94-AYqXKZMHbbepaCRbA35ItqKvIMYwZLDRYrh79xcvdkwBwxlU2Yuioo3hmHYmAkyK_nqMEL-O5UUS5Szf6Ve-Swscq8aRKlndisruO8xE_y4cuOBhxf5BTiJ3D94NaP5Tp5DWU3QwO0s_5PaWcS_0T7mXmWOYOuf3MMv6P_Bi_zD8bDmvyDiIma-74Kaozk97kOpFg2M-SK3sQuK4OLlh7Z4otXHHS6zj_3D_Yvr2tP_cuuyXjogVxRdIUpZlaAk6lbphU2QbUUdBeMT1xHRVMly8F2rIKfyrusQloNBTGLqWaM5yZ5wotVPl9MDuUhOInr8TQRllyE68ygyGAcZe5Pgcplcd-wCzO6OJZ23-pugajc0pWGZ7UmOfnbGsVudDRDDf4gNJ5xrIRVjHapbj2bemMdt7j0k7HHIP3uOxhoSOzuK_Ugm5V2qfspZd41DlSXjI2Wu3eYeMJf0-ltztyO8yt1vQwrkg9zhpwf0rkWLVFXHmJwr6F5-VXHW-R35WpqN2uQLbfrMACj8fhp0DI1LtTyQqwGN6ljqWuaCY5J37eQazdwzSL3MwlDiSwemMV06SfxdHfUIskUGKCjTtojm1-egU3sKjrN3qh22jgRsoGo1_tzRZL_x75vPo1s0pTw5Gg6nu5mQJqoVb2WBbdFTbt2SZVG11oXxJPCXf1tRa0m0tROPg0aTg5_HPmDUlVsMh-Ux5BKjRqWGjXVyxWtMrTPuPzgd_aEqgedmxZaBoAgjpF97nXEOKbIBbyggR7mP9HTV7pmLHSPTzNuErR3HO5tOuupXY_APeZ24CU54FQGFae8J2lgJoRTknyhoMO-iQWAlJZ_jKb8Z0kGDRaXdnjmwMbCMU3MmYwA8SaM-Uvj_7oCIgJwKVIUA4H1CfmRL5ggAmaCIT3AWft7lAUwjsYOLCTyyN6wvWTCg1qHExXFCOeU7Z_xcI4OMOqurwF_FDY6vYnYkhipzPWxXXxpQAEa7wS3WXD45inlnMxFxvmCnRjsZliMlFCcxh-AWsnBgjkMlMoQOA3KB7k3Oz2SfQ9FC9afpEQa-jD8U_ba3ZNdQugdQhc2N51oPO2JdezTTSS4IEiDOzNeZJZVY45TJ3ofvqTM6n0pjYog25OfUfii21qcbAYXvRmmfGI1VtsHjmSaLNewLfYsDSsJF8eBvPXV2TpY8IYJupBloqwPa3Wa0AWRrjZPW_-gpRIeQsgRVvtPgjHSywLb2fSjcwO_8JsYUCwbXQIKtGdGqhfg8eKTMU_Y_Hjsd-J__MD77diGjO60ktMAPB-Swr2DiiJndNAyCxyAMBJIWOZ9YEsvPRQqWnrpO0n-wAvP5PG5lY-O9H8rez3_IMErppcJgtAdoYzDghZuku-FRkG9wvWBpOsmrd54SbXhS8s7kMsO7YJ3kUefslKejUVSCo-zHC4o-yevH-teHA9jsNMjNIPS9nx2QSn_4uao2FeHnRaFkCYUSSNNi5whAwi2RMz54fudAzrcUVwizDKr9Q5e8A6wAXVe7px5Eh5vGiB5Y--4m9QNE9K-pHp8jOeq3BYGuwCps2Si9OUHa_n1eIDKNS_SF6A2k_O5dP3hDrnyeOK8VLQfHIdsyJuRk9NOUdb0JxHueX-4ZijJ3RC5E_I0Ucd2_fCib69i-Jd3SoFU-9m9ivY3Qh_JA1K00LQur41qQC7_o-MftnvjEDvywDTFLO9Fk6azyzIBnsgfoiCKsFltNW3dNNzShQbGPLvtez2P8VsDU_0YxVYDCX6x5qR05A7rGI1HOEWL5Y5xC1MwS2bIBspEDNgR7rbbF0zW8Po4wvmS3sVV30bQfZDOv2b-SOeTGcb2MpeYH4J_F7BF6G96GhAbBtvZVzAQsbpvjzn8RADl5M8qv3Q1_VqeULXB5g3212deZE6e4wZRxjaxyBgftimpMR95UhWk9H-7mIGWBrk329_a3siee8Lw8Rmb6BxbL0Cv2l_bHEK3GEuWA2a4wDRCdm7Xo94tmHKEWMN-dwJU74f02y26NkkpKzXImOU3Lfg3oVHLObVwuaEShe5MICk_Jq6f2VPq1dcBqfOQ3gjiSCV_kNU4BtbDtIwPzQy_xbjrb8z4Ivfr3PAl0BaWTj7k8n7CGL3GCp0Q3cJlXVR37pxKbdfCNw4ZoYy8tlsDtbjXyQhP5Ru8ZLlLOsMzpi3KupzkIPVjmX7Ct0QPbaMTCX5v0LQN2TUQbYBqEBt9c9R7NdcMiaGhKn0PtrLWT3o2cnaxNF5esbPa6ye3kXxpkVtIcRIg5cIal4lGFWaMq_b_aVqMVQ16xEND6EBMssKZFbLKq7w-sZjaS23f6V7adC-C8RCOWnDpniDuoQh37CK1NeUu_VpAYZQ4re3ncz4x7Eq8VsoFNf43gKDKwlKc84hhpjITsfE0X8RNKLLSmmUNTrVzyrolE7jHqcfr3JTRJ_oDveNV9Qvhwu1cgcLz74HaGO-jBi7QudZC8nC4lJcREojkLkw4SfO-G3YQUTKtdF7HBPCxrVAJjKs5D5rLq3NW71T6Y7LtSlGzXiIAaO0AgOQWiDK8sS4r_uL1gz0smNwKFD04iRHZ5EPV2GU9PMaIqGQU4gcJRXVr_nWvxMhJGr2U-ZHLjt447C3g3bHrmGdQRx3Dp1jPr7wRIY7V5v9FG-nzkqr2UzZuRLBX_vb7KAbaE_M_5BcAz4i1ftVc_rlglnQNEOcErj6OMQmxhovuJVIiT0KtqljfSoRWGc1qx1gdwbuJ2MkDQeD3mM2TO9elpvwPT05rHFmSuIxCAVzQZbs2MpsRQP3CYBF40GN6eRGhqjrVw688qLschcMDiOmPvPPQkYYeFymK55e4o_4oKQb-jvTHoNKkHnktnkPqo8gYae4TbKfoCFnlju1PlAwKxnRog50pXuqiHjujqMe-57olLIP0VHNAT2Y8EsxoHsX6WRtWJqb4zUjcd-ksPaUfcy8I9uU46ve1xyp0_MlbeHkXPKZzRWzokTPXhowGr5EfZoVf20dU3ymIMKBJsjm2N3DRo6_lMC8rp_6OJ6Iyg1mptvSkkhB_i5Fv1nK1sB5-3nKoHypsWGsnIspJ-Udy7X23_Zr--8H_c0IFcdHVgZ4w9L8Da3-ey1Gc7T5SsEOPo7-oSQEom77vDhY5QPSlpZHP9lBHC5q6o92AReDoja6a1cteZ5VxCGiW0fE25GJKnuqbadkV4qs4jzxSz7qzXrIHhf_loBiuZEYnC7KXQ2neZHH8hRotGHGuObCqwobwSmlSnltflcNp6w4dExNZxm0Q3rRGfaik5OemWjHE7mZZwIoGG3Qr4ZILcKWSTq6J-Q-bzHu0mtD0do75Y3kI3bpvrFsDpwvihzKEFN5quI-PWaHoiM2pdVfScDKmBj82hL7fgxrzFYTC3aD5iXMM33aRvtospLY9ZV3GZMCry4b6Efb_pPbXICEbeB1OHwzzM6lJ22Z9ELav4BPrBsbuEfbo7YOYlKhFYIL-6GI9LlNxob29GfWWJTOTFBh3RKR4U70gVE6F2TlAOrE0xH6PaNw_-IIxgZ1qcEm-f2DbX3Ryxu6qH9wdJwF4fuwXPpvo7IGYQkyOCqwigXlJ0PNXwzT9B8nE1D1ApQyV5SO2nm2jUMLeZ6fQsP08RhPBapBOxadDRpXF3Yz8e_fFy0mGymy2EvTnbA9DRp6ocrg2ho7Dzf6xzOvDXAAxGPzswHteOjQTS0PF81mxv9LjESkUvxTSLrdD6HCIc63gH8gXulyaPY4UG8qot1P-MX8TcJYO1PCCuxssVDfEsZHIgKUq4aY0Zxd6_wcTZ_ccs8ib5JNp4EbB6XPhsEmMM8mXnsTG5h991wSlEMSCHTeEb377LOi7KTn-C3mwbgn9l4_voRfkGf1IWGwMCAtPjw9AD5of8XlPF0QQXDuvTNR4yeWLSasfYCPkPfllTXfPPSqK-TkP_YLWxyrJCktsM3tMmUkQ0eiHbFGQb1np6O5gw6MzBWcd4ZweXT4kXlkNBcXzf8Q1owj61hzsYCauCJDxbATWXwhJBFCH6oartTvabLEF3dfQf-cYVBax3LBUTEzTumOyG3dgaIucqHxewvfm-9RoNuJ-uRt8nToikN85vzGbnTXZh1AlPZrtrhwn_Fs7ip7EkszNejFiE8753nKFBv2Gqrrs1o6uIG6TcR82kWvcu-ZjRgz-oo3IhA3rDrkBn2WSkA4Q2DfdOdj8QBV4HowIPN_VWbXtZ6b32ezfAdsLLlXq1Bta_6_GMnmZbSuGwuTeHzYr4DdYd_GRvbh4AtGMb3WUVS-XxzYadzN871oqy9krI0MaN4V7e6JXMACIYaOJJEy6dTnpnvkJLA1qNNQ63EUfLrPgZIpWeFeHfMSpOfBGyyALbOvPjbN12c3AvI0Qltv4UEj9Q13gnt5p2kHUu4_qsj2tprqJwIHW1x_IrGXZMtJmxf4oMqhObiC_sPkaxX6AKr21cS3IuJXDKMrNUD53H1ax7Yj7vW-DxLzt74ejw1dBypEuKbloKoSHBT-sQLwxyZ6_TEa_aXLEQ8C0I0ceKvebsghUaMqkUWvjvHcMZlNpiZQ589PcLnmnpxxnUG_sDh-fGYpxrrG15h2XeT4IlMt9tZX2U_DwWOPjppEGV1WT4ex4bdIpRxkL-KVtB7XCW89kJwctEKqfIUwDqSogqyJWKXIamGAcP1qLgn43Ty_s2fGq-n5tNWk9Ez4qoMDk745pA8v3TMN-p7G1e8J-qOufKhVw30C5pDAc7VdYN4JEQq9ETkQ7VV1MQxLlIiWLDZaX7z1MkurE9loOWEIxfIDYQP42nle7e9Kj2AUf9HuBCUBS03dpscQWNjUEE_pFZNoSeenMzk8oo4RKar0QBsSEmPq1TewX1AJbveMGXOk97iAyxVBxLjD_nj4r_DNuqpG6cHLG1r0Mb6kdgFhGiSeVlKFDIqAuJWH5GnNCTj6PBzX5OVY3byXImE2hjH5IQ0oMS3jC6sjOYmsPAXxx4LSvSX1xtgdiz0AgIm8LWCqxPHg5pfrIZBwYud4BvYQYSTMbFfhvMw6Ms8Mb-uAJ16pvU-jwPq0msK5fkvee8u7WBWtIlKvSQ198VdLlQXj3Q6sA65u0Rg9AHzNI2IyIHdYKrvwVybK18cK5PClPzfWvOuXaf2OHXMhmqBbcB-8PSAlWDAz899KPdmHCRJ1J_MrM_e3RZhwlrBnzORSHiYYUPmoLuXtdw4apR0L56lYD10NlvLe5sizDdllqK96bUCKecXCiDe9Zb42x7RQjmTrtnzy3Zb-BIZ4WDMWciJtQA07A5QKy0wDuYG8tXKhEh9pS98Fz-a_SXS9Iav4NanAyUaDIDqcdIc3LFiqHolnomwYdOAzJ-XupgLohgclDsvt1MaaJ6Ye_js1IfXWzzjC2_kDJKxog7TK9r_xaoylXh5yxqDhu1SSxx6J3eA-IbxT0-YJrYDWsfZxQlNIjKm72YdpX6z41dBPlg1Qprrwm1PKKHKmpFWhyJyyFTCDNyFmHKde6nUuxhlquMhqMgp16EZLfwFN-onsEMS7v1vd_Mn5-J2-PhyrqFHJKDD9iaxu9GhMMQfc5nty52tBhl4abF52pBnxc8zuygib0gYjM5C02KzMBoqAvmEn-vVBqqK45Ygut-pRBEKQL0YHc9ZTTJtOLPujQkVcycl-rRdQ0_IeV1l1Gt0GG9EREda-yt0mlms81rX35k1t1CpmVL_MnTQ0YJWOajAQ8XmO7Zv_-yCENX8KGjdOfINS5SFtgkdZuE9VX4VmL0aN_n3CuUONdd9iq2-Kugrl-sJuUzXgIwO70XC9rh6tmu-4GJ7QYA1aP6MjEPjFeEPFPdH8q1T_ihy8ETfHICJ8Q7OdLFuxXdf1RhrZm69yfA-NT49RuK1vhiLyzRssou0Bwb6ABSVDn_HkdgfKgsvZljQ8kd5dhcqu83WLpytqOOOM8jZ_JAglUsyk4AT_Cu9MpxxG-4blS8Pu85TnzSoO9JHYhcrDyuCWxuqzrkq2VC-DXQkPiAPIkbb9tiejT7mCv3FHElxYfxxNmhsWeAiocoravFUvcTvCLu9naJbyQtecSx_sL7_dnvkW3zg-wU2AaJ9lQOFZeYuAFGepc61vs7TaDG4spgeHyArXUlpKYSUuMTsk6eXB-FiVpd4ThmYIjlIY-UFd4uZSt-CNe1Hk3E68m5e1b0SpIfG4s0jfus6Nzd-56EH41m5l_qnIK87F-ycdC3Z9LzfhMkYxjb195p9ilbzRehh5di1cYer4bv31reeBulvoy0p9E936B2TcdIOG-fwK2gvVigeE1QzydeMY09HI4bPWXqOAChY5zxocyQKH06-vmxqTrSyGgdonG-Q_dy8RiIInk99pMNFMxjmFhRRfw9NQZZxE-hqBBYIyfjPzQW1kbRHX-NA0a-BmiFqBXlPjRwzVte97qMYmzOTXrydXI8LJBtaebAF9IvmLjBPVL4mpsYpc5MQ3eOx9p_CJLyIVWUzEYCywiXtoXZISpekz-ZTLLDNPRQ8YV9LSlOJ9zwSsOWK-KNv3nwfjYMtuYHj22tPP9PtCvYCF0svAp0ysPELO1e43kD6SINOy-0deSMrQ1NSio-HdieM5VWt_gCRvCPgRE6zBSjpEVqzd3Tmg33I3LGO_6wplx96CRKCNAVJ8sphTyKtJLflCftg5pFV9VgAu_2vosxmha9W--GZ3HGBQprdHlKNX2AVXrtOYADZnEwxWIPY69wHx_p4tA2qastBgGt6hqYMAaMtAfEYxbMqgUlawCTFJ72dZq5Xn9nKUWZ7irydfrvGTO-zxU7e2NrkkU6kdj8TvG3Xfm_cC0pBU4GxmDzyDaLWwQWhUICoSvfCj4mZRI9WXPLOJpeehYCN4L2m1csjeHyMJj_NyHDOkcga3l9mc5DQxy1RfYg1U6qDH5HAQsAchxJkggvo2oh1zHbQu9IWPq1HlowgOdbGe1hIRscRIibfPnM8KLX0ldmP6PecD-c85OjjHRaEP6BZ1skmHMgwPFJveMLaDBdjmFaMNpF6uVUeBO2EeA30PbSU4Gdyb4gWF-o0DD1t2Wj4SW8nWrzXhwYOuPQmZeB9hur-ZfKWkxZ9EWaZmk_Nj6QAnHCyOSMfc0zml1rekFVKU3CgQhmbPwAcrJHcB2_7xrgcKeiTkLqqrrnYEcwkU1onqdYTATOwNcv30Rm8w2VCFIOx-4xK5icd1HA8vlO12Ukn3TCcmyfuU3V6g9VEqvI-mKT5YHhd0HeTxZEAi_i7I8bOcH7kK_BjvNL78sYIItTt535AQxR8ckUdMQ7orqlOF7cTuMIjQTtL9trt1ZNN6_Jd9z2IOJhCZNrFWyneaSg8CzpeIPi32fIexWZROIQkaEx5jHVItBpCqzG7XweXCQN-4CMnGMCw_yyv5lVPis-pCyqSzHOlOgvTMoAfiSxSfGhDgfVSeIKCrwypLpZJRvFIFIxc5OEsLa2_WLSeeqFTKXLK3dWqsokC5bEPDN937xN8NMU0-mLJrQWfrCZeyU7aGdQI9TKcZEKpgz6-kfOEKC2Tv4sS4MAFUAGqC4sPx1Sw76ogH0aSbGypk1qeie43qyAxlvsrXa_DjZ9Im3zDkoUScOaw5h8J2FnCqNufeOp5_IsIRPP51YabetqGGnOKJ5Y4-9V722OonyuAI8ZIJYcnG6A7OH74t2ybCF-nfLl4gvlGx9ct86o_QbU-6tfVXAdoN9xvAGgg9o8XHol2R8mcNSjq6iVyEtKB5IblY2fDXVbQJpe61gCBSj_c3eH3I5gH3mN2ichPvMRD1TFMH8mko07pKet_dsusyDdo7S64Dp6k8dshgu57cL56iLqB10m0RjyZl_R_gZ_uIk8BK3DevXqoAaUEtGwYNuFov5imiD_2whrJbHpkxSu0LCjEdx70X6-PKMFBoYrRQRCaDbdjMZDJC51lb2gNfoQv9BZjQeOQamgqCPOMTBSSZ-u0r_cD-qAhseZigkezdVqafAGK8kN8O-maFdFmjQ63W5wAJ_W-OfuTf83BT4goC69sGAeJg2cs9XAJUw8y_vlwx1mwqhkdhGSPLqqTVpPxmAWCdh45L-k4tvbaFPfBU6td7QYiHaf1vRpd2pQ-dbah2mUNGGSGWCgeqUm7RWqL6ZW7k6aBus_9ZkDWPHuM6Z5iMaglmjmv3tPPVSK7tp8HmTBrGTYPQMo91uQNUGNbA67GhjvhNWxPLpOCccCY9S-5X7i4Va1_T1cXs4MRREBhqUOBwrLslz5aqxnPxHn2xC1LWse2SBSfDLvDTNlY5edJrF0Uc10iJT4z0fmoRO3zfxj6SUDZTk403krSK8r7FoxW0PuVSG_agbIsl4vk6M1x17zeU8EOSDN-KNB7ZJT_RbTxUKjYeGwQJl8pdv5uU6_a_t1rIASQI7ckZ5AgZIGdWUAB_dh6oKj7n80De6HHWsdzCxF7Uz61QseD-7e4R1x8zMF0whi21NaDwdQm3ZPDq_yqEsn6_PHJIUczRUYPMbag_wwwwpEwBt-zf5dnsjIJq3rTdP9jy8Cx4Gsn5EVE48oXgWC003dgXFTk7WHXW-uBI5AueBxU3TNl2VsDR6g5Rpyg7-xXVlmWkbqyz83HDNHc4W1M5NPyPdUoB9VybuAgc8IF6r4PiXoLTP4olJhuyuQ-WfGDY2-iVVRhDRle-7LJwPNrVCkzofpJTSAj90M9y8DYWw75QmdJUqTNd1pkaOZrMNdP0Hg2xQ02BZEdNHjnL2ZGybnZ70aUXqgsE1f-WaNWM5gL5OKSxwS8j0ntJDwoXAI2c2Gla0ZELhPFRXlixUdjgb4VkvgcK67P7NoZVgTb5dgHuz6IAdIDMSNNqd6GPfGJMFQJp9hMF9e6JC4nHsaIgy6X5pebXMm7yamcUE4eRBritMpA7Ag5TBtaOx"
+                  }
+                }
+              },
+              {
+                "type": "text",
+                "text": "Here are some companies that are advertising AI Engineer (or closely related AI/ML) roles in Makati or the immediate Metro Manila area as of today. I’ve included the role and a quick note on location/hybrid setup, with sources you can click to verify.\n\n- Bank of the Philippine Islands (BPI) — AI Engineer — Makati, National Capital Region\n  - Source: LinkedIn job posting (shows Makati area) ([ph.linkedin.com](https://ph.linkedin.com/jobs/view/ai-engineer-at-bank-of-the-philippine-islands-bpi-4322184539?utm_source=openai))\n\n- Globe Telecom — AI Software Developer — Makati\n  - Source: LinkedIn job posting (Globe, Makati) ([ph.linkedin.com](https://ph.linkedin.com/jobs/view/ai-software-developer-at-globe-telecom-4411190703?utm_source=openai))\n\n- UnitedHealth Group — AI/ML Engineer — Makati City\n  - Source: UnitedHealth Group careers page (Makati) ([careers.unitedhealthgroup.com](https://careers.unitedhealthgroup.com/job/makati-city/ai-ml-engineer/34088/92872113744?utm_source=openai))\n\n- Encora — AI Engineer (Makati) — Hybrid setup (2x weekly onsite at Paseo De Roxas, Makati; listed as Makati in postings)\n  - Source: Encora Greenhouse job posting (AI Engineer, Makati) ([job-boards.greenhouse.io](https://job-boards.greenhouse.io/encora10/jobs/5211060007?utm_source=openai))\n\n- Accenture — Lead AI/ML Engineer (GenAI) — Metro Manila ( postings in Makati/nearby area listed on JobStreet)\n  - Source: JobStreet posting for “Lead AI/ML Engineer (GenAI) - Cognitive Engineering” (Metro Manila) ([ph.jobstreet.com](https://ph.jobstreet.com/job/90815794?utm_source=openai))\n\n- Leighton Asia — Low Code & Agentic AI Developer — Makati\n  - Source: LinkedIn job listing (Makati) ([linkedin.com](https://www.linkedin.com/jobs/view/4437710107/?utm_source=openai))\n\n- Federis & Associates Law Offices — AI Engineer — Makati (part-time)\n  - Source: JobStreet listing (AI Engineer, Makati City) ([ph.jobstreet.com](https://ph.jobstreet.com/artificial-intelligence-engineer-jobs/in-Makati-City%2C-Metro-Manila?utm_source=openai))\n\n- ING (copilot/AI studio roles) — AI-related Engineer roles — Makati City (Glassdoor listing)\n  - Source: Glassdoor posting (ING Makati) ([glassdoor.com](https://www.glassdoor.com/job-listing/ai-copilot-studio-developers-ing-JV_IC4778930_KO0%2C28_KE29%2C32.htm?jl=1010215411360&utm_source=openai))\n\nNotes and caveats\n- These postings were active when I checked and can change quickly. Some roles may be hybrid or multi-location within Metro Manila (Makati/Taguig/Bonifacio Global City areas often cluster together).\n- Some listings (like Accenture or Globe) appear in nearby Metro Manila postings rather than strictly “one office in Makati,” but they’re within the Makati/central business district ecosystem.\n\nWould you like me to do a live, up-to-the-minute search and pull a fresh list with direct application links, salary ranges (if shown), and preferred seniority (entry, mid, senior) for you? I can also filter by on-site vs. hybrid vs. remote, and by industry (finance, IT services, telecom, etc.). If you have preferences (e.g., only on-site Makati offices, or only large banks, or only GenAI-focused roles), tell me and I’ll tailor the search.",
+                "providerOptions": {
+                  "openai": {
+                    "itemId": "msg_0683f394e4f973bd006a9296ebfc6487d0abed076e2ce8deb4",
+                    "annotations": [
+                      {
+                        "type": "url_citation",
+                        "start_index": 393,
+                        "end_index": 526,
+                        "url": "https://ph.linkedin.com/jobs/view/ai-engineer-at-bank-of-the-philippine-islands-bpi-4322184539?utm_source=openai",
+                        "title": "Nagha-hire ang Bank of the Philippine Islands (BPI) ng AI ENGINEER sa Makati | LinkedIn"
+                      },
+                      {
+                        "type": "url_citation",
+                        "start_index": 626,
+                        "end_index": 748,
+                        "url": "https://ph.linkedin.com/jobs/view/ai-software-developer-at-globe-telecom-4411190703?utm_source=openai",
+                        "title": "Nagha-hire ang Globe Telecom ng AI Software Developer sa Makati | LinkedIn"
+                      },
+                      {
+                        "type": "url_citation",
+                        "start_index": 855,
+                        "end_index": 994,
+                        "url": "https://careers.unitedhealthgroup.com/job/makati-city/ai-ml-engineer/34088/92872113744?utm_source=openai",
+                        "title": "AI/ML Engineer at UnitedHealth Group"
+                      },
+                      {
+                        "type": "url_citation",
+                        "start_index": 1182,
+                        "end_index": 1287,
+                        "url": "https://job-boards.greenhouse.io/encora10/jobs/5211060007?utm_source=openai",
+                        "title": "Job Application for AI Engineer at Encora"
+                      },
+                      {
+                        "type": "url_citation",
+                        "start_index": 1503,
+                        "end_index": 1580,
+                        "url": "https://ph.jobstreet.com/job/90815794?utm_source=openai",
+                        "title": "Engineering Role Job in Metro Manila at Accenture - Jobstreet"
+                      },
+                      {
+                        "type": "url_citation",
+                        "start_index": 1683,
+                        "end_index": 1765,
+                        "url": "https://www.linkedin.com/jobs/view/4437710107/?utm_source=openai",
+                        "title": "Leighton Asia hiring Low Code and Agentic AI Developer in Makati, National Capital Region, Philippines | LinkedIn"
+                      },
+                      {
+                        "type": "url_citation",
+                        "start_index": 1894,
+                        "end_index": 2027,
+                        "url": "https://ph.jobstreet.com/artificial-intelligence-engineer-jobs/in-Makati-City%2C-Metro-Manila?utm_source=openai",
+                        "title": "Artificial Intelligence Engineer Jobs, Hiring in Makati City Metro Manila - Jul 2026 | Jobstreet"
+                      },
+                      {
+                        "type": "url_citation",
+                        "start_index": 2166,
+                        "end_index": 2326,
+                        "url": "https://www.glassdoor.com/job-listing/ai-copilot-studio-developers-ing-JV_IC4778930_KO0%2C28_KE29%2C32.htm?jl=1010215411360&utm_source=openai",
+                        "title": "ING hiring AI / Copilot Studio Developers Job in Makati City | Glassdoor"
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "providerMetadata": {
+        "openai": {
+          "responseId": "resp_0683f394e4f973bd006a9296d567a887d09ccf46167eb985fc",
+          "serviceTier": "default",
+          "reasoningContext": "current_turn"
+        }
+      }
+    }
+  ],
+  "_output": "Here are some companies that are advertising AI Engineer (or closely related AI/ML) roles in Makati or the immediate Metro Manila area as of today. I’ve included the role and a quick note on location/hybrid setup, with sources you can click to verify.\n\n- Bank of the Philippine Islands (BPI) — AI Engineer — Makati, National Capital Region\n  - Source: LinkedIn job posting (shows Makati area) ([ph.linkedin.com](https://ph.linkedin.com/jobs/view/ai-engineer-at-bank-of-the-philippine-islands-bpi-4322184539?utm_source=openai))\n\n- Globe Telecom — AI Software Developer — Makati\n  - Source: LinkedIn job posting (Globe, Makati) ([ph.linkedin.com](https://ph.linkedin.com/jobs/view/ai-software-developer-at-globe-telecom-4411190703?utm_source=openai))\n\n- UnitedHealth Group — AI/ML Engineer — Makati City\n  - Source: UnitedHealth Group careers page (Makati) ([careers.unitedhealthgroup.com](https://careers.unitedhealthgroup.com/job/makati-city/ai-ml-engineer/34088/92872113744?utm_source=openai))\n\n- Encora — AI Engineer (Makati) — Hybrid setup (2x weekly onsite at Paseo De Roxas, Makati; listed as Makati in postings)\n  - Source: Encora Greenhouse job posting (AI Engineer, Makati) ([job-boards.greenhouse.io](https://job-boards.greenhouse.io/encora10/jobs/5211060007?utm_source=openai))\n\n- Accenture — Lead AI/ML Engineer (GenAI) — Metro Manila ( postings in Makati/nearby area listed on JobStreet)\n  - Source: JobStreet posting for “Lead AI/ML Engineer (GenAI) - Cognitive Engineering” (Metro Manila) ([ph.jobstreet.com](https://ph.jobstreet.com/job/90815794?utm_source=openai))\n\n- Leighton Asia — Low Code & Agentic AI Developer — Makati\n  - Source: LinkedIn job listing (Makati) ([linkedin.com](https://www.linkedin.com/jobs/view/4437710107/?utm_source=openai))\n\n- Federis & Associates Law Offices — AI Engineer — Makati (part-time)\n  - Source: JobStreet listing (AI Engineer, Makati City) ([ph.jobstreet.com](https://ph.jobstreet.com/artificial-intelligence-engineer-jobs/in-Makati-City%2C-Metro-Manila?utm_source=openai))\n\n- ING (copilot/AI studio roles) — AI-related Engineer roles — Makati City (Glassdoor listing)\n  - Source: Glassdoor posting (ING Makati) ([glassdoor.com](https://www.glassdoor.com/job-listing/ai-copilot-studio-developers-ing-JV_IC4778930_KO0%2C28_KE29%2C32.htm?jl=1010215411360&utm_source=openai))\n\nNotes and caveats\n- These postings were active when I checked and can change quickly. Some roles may be hybrid or multi-location within Metro Manila (Makati/Taguig/Bonifacio Global City areas often cluster together).\n- Some listings (like Accenture or Globe) appear in nearby Metro Manila postings rather than strictly “one office in Makati,” but they’re within the Makati/central business district ecosystem.\n\nWould you like me to do a live, up-to-the-minute search and pull a fresh list with direct application links, salary ranges (if shown), and preferred seniority (entry, mid, senior) for you? I can also filter by on-site vs. hybrid vs. remote, and by industry (finance, IT services, telecom, etc.). If you have preferences (e.g., only on-site Makati offices, or only large banks, or only GenAI-focused roles), tell me and I’ll tailor the search.",
+  "totalUsage": {
+    "inputTokens": 18418,
+    "inputTokenDetails": {
+      "noCacheTokens": 18418,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0
+    },
+    "outputTokens": 3589,
+    "outputTokenDetails": { "textTokens": 837, "reasoningTokens": 2752 },
+    "totalTokens": 22007
+  }
+}
