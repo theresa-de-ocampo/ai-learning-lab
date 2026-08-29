@@ -1,7 +1,8 @@
 import { generateText, Output } from "ai";
+import { z } from "zod";
+
 import { openai } from "./utils/clients.js";
 import { GENERATIVE_MODEL } from "./utils/constants.js";
-import { z } from "zod";
 
 async function basicStructuredOutput() {
   const result = await generateText({
@@ -10,10 +11,12 @@ async function basicStructuredOutput() {
     output: Output.object({
       schema: z.object({
         name: z.string(),
-        ingredients: z.object({
-          name: z.string(),
-          amount: z.string()
-        }),
+        ingredients: z.array(
+          z.object({
+            name: z.string(),
+            amount: z.string()
+          })
+        ),
         steps: z.array(z.string())
       })
     })

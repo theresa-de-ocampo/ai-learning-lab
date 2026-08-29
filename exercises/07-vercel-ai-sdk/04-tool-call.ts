@@ -40,16 +40,19 @@ async function generateResponseFromToolCalls() {
     stopWhen: isStepCount(MAX_ITERATIONS)
   });
 
-  // * No need to use raw results since the SDK already exposes getters.
-  // const toolEvents = result.steps.flatMap((step) =>
-  //   step.content.filter(
-  //     (part) => part.type === "tool-call" || part.type === "tool-result"
-  //   )
-  // );
+  // * With the prompt above, this will log all tool calls first before the tool results.
+  // * This is as expected because the prompt caused the model to
+  // * request two tools in the same assistant step.
+  const toolEvents = result.steps.flatMap((step) =>
+    step.content.filter(
+      (part) => part.type === "tool-call" || part.type === "tool-result"
+    )
+  );
 
-  // console.dir(toolEvents, { depth: null });
+  console.dir(toolEvents, { depth: null });
 
-  console.dir([...result.toolCalls, ...result.toolResults], { depth: null });
+  // * While the SDK exposes getters, this does not preserve the chronological order of events.
+  // console.dir([...result.toolCalls, ...result.toolResults], { depth: null });
 }
 
 generateResponseFromToolCalls();
