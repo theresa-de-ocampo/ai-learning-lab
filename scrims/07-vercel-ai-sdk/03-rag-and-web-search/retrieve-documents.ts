@@ -2,7 +2,7 @@ import { openai, supabase } from "./utils/clients.js";
 import { embed } from "ai";
 import { EMBEDDING_MODEL, SIMILARITY_MATCH_COUNT } from "./utils/constants.js";
 
-export async function retrieveSimilarDocs(query: string) {
+export async function retrieveSimilarDocs({ query }: { query: string }) {
   const { embedding } = await embed({
     model: openai.embeddingModel(EMBEDDING_MODEL),
     value: query
