@@ -46,18 +46,28 @@ async function handleRetrievalQuery(query: string) {
 }
 
 async function main() {
+  const DEFAULT_ERROR_MESSAGE = "Sorry, an unexpected error occurred.";
   const query = "How do I export the code in Scrimba";
   // const query = "What is the capital of France?";
-  const queryType = await classifyQuery(query);
-  let reply = "Sorry, an unexpected error occurred.";
 
-  if (queryType === QueryType.General) {
-    reply = await handleGeneralQuery(query);
-  } else if (queryType === QueryType.Retrieval) {
-    reply = await handleRetrievalQuery(query);
+  try {
+    const queryType = await classifyQuery(query);
+    let reply = DEFAULT_ERROR_MESSAGE;
+
+    if (queryType === QueryType.General) {
+      reply = await handleGeneralQuery(query);
+    } else if (queryType === QueryType.Retrieval) {
+      reply = await handleRetrievalQuery(query);
+    }
+
+    console.log(reply);
+  } catch (error) {
+    const errorMessage =
+      error instanceof Error
+        ? `: ${error.message} ${error.stack}`
+        : DEFAULT_ERROR_MESSAGE;
+    console.error(errorMessage);
   }
-
-  console.log(reply);
 }
 
 main();
