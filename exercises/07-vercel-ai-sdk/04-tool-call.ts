@@ -1,4 +1,4 @@
-import { generateText, tool, stepCountIs } from "ai";
+import { generateText, tool, isStepCount } from "ai";
 import z from "zod";
 import { openai } from "./utils/clients.js";
 import { GENERATIVE_MODEL } from "./utils/constants.js";
@@ -37,7 +37,7 @@ async function generateResponseFromToolCalls() {
     prompt:
       "What is the weather in New York and what are the best attractions to visit.",
     //   "The weather is currently hot and sunny (30° C) at Makati City. What are the best tourist attractions to visit for today?",
-    stopWhen: stepCountIs(MAX_ITERATIONS)
+    stopWhen: isStepCount(MAX_ITERATIONS)
   });
 
   // * No need to use raw results since the SDK already exposes getters.

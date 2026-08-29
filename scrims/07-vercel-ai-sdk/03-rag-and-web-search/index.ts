@@ -1,5 +1,5 @@
 import { openai } from "@ai-sdk/openai";
-import { generateText, stepCountIs } from "ai";
+import { generateText, isStepCount } from "ai";
 
 import { GENERATIVE_MODEL } from "./utils/constants.js";
 import { knowledgeBaseSearch } from "./utils/tools.js";
@@ -21,7 +21,7 @@ async function main() {
         knowledgeBaseSearch,
         webSearch: openai.tools.webSearch()
       },
-      stopWhen: stepCountIs(5)
+      stopWhen: isStepCount(5)
     });
 
     console.log();
