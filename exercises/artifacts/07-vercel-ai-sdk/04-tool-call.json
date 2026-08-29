@@ -1,0 +1,355 @@
+{
+  "initialResponseMessages": [],
+  "steps": [
+    {
+      "callId": "call-zjzncLrPOUYBebZgNsXkUuk6",
+      "stepNumber": 0,
+      "model": { "provider": "openai.responses", "modelId": "gpt-5-nano" },
+      "runtimeContext": {},
+      "toolsContext": {},
+      "content": [
+        {
+          "type": "reasoning",
+          "text": "",
+          "providerMetadata": {
+            "openai": {
+              "itemId": "rs_00c735572e86c56c006a919d8a8c3c87d084324bb922439370",
+              "reasoningEncryptedContent": "gAAAAABqkZ2N8kujnF6FxKshGzodBwrNwd_1akRATRabQTwDnE4KI_BOgPstqdVLmN0_CE-we-4WW6stbaSjWEW6bGVoxntCARw-0T1ZYqn52kZ-beAXUlbrpUlrwGo0jIxL9viikV57YTpPwO9oVnAL3TXkTCxedw6GmZsuYYk0WW3KOXtzOi3ktUJniIth-E5pKnsodC2FVuK0TQcdQaG-tnARLq66h1UjdbIVuUVJzv_cMhOUoGid0QpGDdyjDV55cwbz-SJmHXz26Ecx0rhtJ0dmF3EFD_IYycZz9s_0PCMxlhmG9lq6QPY9b-WtsyYMZjftL_cSjukbiDnbCwe4aya9vbUPFaiubzRphTsS_mdXkgKzPJid4fDOG5CREXGiGTMDIggqE1RsqgaDsqaQ2Da_lIVUAfJ0Oz148JFRmpuxxzEq3MzgB1zAhb6iUEWtgNp0k9tD4BjCsqgBOwUSPavSH6un9ZxjSnELSmrlmSbGC6T1i85dQwf8plF0tls_dZcJtiSlD3IfY4n1S8VnvjU6D5ebXlz59Ae6E-8ktXpLJ5KSR45I6V16SbuAmz5ziVOVvqLd_tF_dPUPTqxHWz9_PypP3ZGEf47KaexLHqlQx4hELR9SBYFw-hGCVCH0JmLhAIBD6ngHq44eA1hRDJa89zquNEcW9N3Dos6nZl5qmBfraibXChgccjREYxPEXW7b3TCfhKOALOTNkMRo2XOoybyAHAxYej6szJfmHukOZKlLTqAAEEpFduGzaavi7GFVoQtcUTj_43LQgBuVF9-ZOB5NjIP3bSxnJT11NC10cQoVdK1ERmahgmboimi1Ug4LSGggYBTy2blY2Zn-C8oUEhKm-0Z3X85yU8vlanmd_PTUcG85vwoPHP8IInLkD2PM0jDFFKcn0HsMH8IM1DOvuWCzS958liCvarR45nAHNpueVQ-0ID51Et7fRrlUb57BJ-roLh4s_JeneFQjmnM_ohhhYuV06ac4KQgejb6b7O6T94J6Nw5sUxuH3jwdmlkSv8ry5WXq1R5c2GKVxDIaNjFkQ4-7AzNxJELzgNEOzCAHMHfqFjVadwFt8KiFDJ1bK3XCwW7aS7q59UC3wdXB7BtBSN3TH72JQc5nXMCuUtBI4QphvNmR9StzyJLPDuF0AseuSSDNEGVeVNTwYbimYE7jr9eASem60uq6oUZye_VquDWQPvDe4vd-aY9IR483SAWtbcpeOZpYT8ipzLG8yZmngFQYtDlBDkPUNd7ks3EerN9zsTqHKmaKJOcSMZQ1MaIS9zIJ973zOLfrbuMOFyEMJ3qaWIBt5grcg_airKU1gUys9bEtcuKdByscF9XVPL3-IjBNERgOvtLUQ0jC3kMAuI_ucqxNTtTDjtylnkUqk_YE5WPhDqT6gOykdbtrKBb4O99XhfJrTks95joqape5ZM9tiee67nlHQntn3cvDprodfkjyfDqVf2vCt0SWxjJysjYaW6E1BZG-n7amDyuyY67hC5U_WI_llQzf_9N6_-22hCDj7gn_fXixYwC9vhkvxSTAUZ2bTyFaB5-bsRt6beC_-XlsWRHTkOQ-2jLMjpRUeAk0vc-o1dO-nIJNCa_r3J2Gr3ecLoxgs6OzF6r-V9O76buXMEeJq384KaF0xKUpcyW8TU2SfDI4NtRKI4hwz4VjaKEecHAanz4WDonJIU4XvYFNfmziY5mCIUXdup8FeOejT2xo0wrpmVqB0HdDRnKwI8SJ105k7YvVWrA5BA_gXlMciaZP7ucx1_ESooLiYWRkQPuZLNEElK7_LKgzSSEhFrtSy66DWDluC0uTwxi1giWRQ9gRIpWeFi5vGXpWn8RhIzB0H_AXX_HogSSbElEQ98l-UHp-xYU-v6ls843uf5UoR38GqziNgcpIdgIzHmW1TmZOWAu0HmuOg-Ovc-PXi0JlzOlUPEw7YtNODm_priv3fQK9rbHfnNXPhJQ40kWqfx7Bvw4c4G6CHfEx3UpS3SSaFuqZeLLAQ9wbg8fG87kR6v7B3HBGtFTOziI-1X0RcWRQmQbC1hatUA8DKTSnbIwJoq7xEVrnAqTew4gyqHmkIe-4G1b2wCYrsanv4xjtsPFiXDLSx2EIxBR_Bykuaa3FxVQu2MlFxW4tAStbt7Cz5G5esKpkC2eY3IYzJ5G_iZ6sxnp5N9PqknXLSyUCRPOcsixMBu4ZCknDqBnHt52YVPBhuTjRIN6M8ygGmmwJPnWzrFuPL-HF1y0onVk60STlc-imGbcsvOSI3ws3qNsHDJrvVUVrYkLnau4RitC0xS3lg5RDBBvA5H0dP8bD9Ln36124vAgt36udeK52irABlDDVwe15OwAh3Lh7Q71UkgzGRwblZoSkIHPseMOpqmHmjur8qLYC3H7BnsHMdinJb-33WTTGkqIv014M7JFzk7StGr1qct5Rd8-FDSqx9qWQjNZHjdnbA8ALUuT-4H1L-umZxPqVFszMphpsGOpXCZrKTOAfNMXv3CVwq8B4eKp6Iblgum6CIIE6bzElIjHvgVlxThnWFQ7aIbxaCER1NNgxaX3_0HdOk_PnwAqj9hE4Dq9hkHwWaNKepxlDrh7yDOCerxiReSbRgvE="
+            }
+          }
+        },
+        {
+          "type": "tool-call",
+          "toolCallId": "call_3OsVptIZVk3q0A3ioF3EtmKF",
+          "toolName": "weather",
+          "input": { "location": "New York" },
+          "providerMetadata": {
+            "openai": {
+              "itemId": "fc_00c735572e86c56c006a919d8c7b2087d0af4f0a35b1479db7"
+            }
+          }
+        },
+        {
+          "type": "tool-call",
+          "toolCallId": "call_StX4ryLn7tS1K9cJCEIccpb0",
+          "toolName": "cityAttractions",
+          "input": { "city": "New York" },
+          "providerMetadata": {
+            "openai": {
+              "itemId": "fc_00c735572e86c56c006a919d8c7b3887d08d0743cfd377f2d2"
+            }
+          }
+        },
+        {
+          "type": "tool-result",
+          "toolCallId": "call_3OsVptIZVk3q0A3ioF3EtmKF",
+          "toolName": "weather",
+          "input": { "location": "New York" },
+          "output": { "location": "New York", "temperature": 50 },
+          "dynamic": false,
+          "providerMetadata": {
+            "openai": {
+              "itemId": "fc_00c735572e86c56c006a919d8c7b2087d0af4f0a35b1479db7"
+            }
+          }
+        },
+        {
+          "type": "tool-result",
+          "toolCallId": "call_StX4ryLn7tS1K9cJCEIccpb0",
+          "toolName": "cityAttractions",
+          "input": { "city": "New York" },
+          "output": {
+            "city": "New York",
+            "attractions": ["Central Park", "Met Museum"]
+          },
+          "dynamic": false,
+          "providerMetadata": {
+            "openai": {
+              "itemId": "fc_00c735572e86c56c006a919d8c7b3887d08d0743cfd377f2d2"
+            }
+          }
+        }
+      ],
+      "finishReason": "tool-calls",
+      "usage": {
+        "inputTokens": 80,
+        "inputTokenDetails": {
+          "noCacheTokens": 80,
+          "cacheReadTokens": 0,
+          "cacheWriteTokens": 0
+        },
+        "outputTokens": 273,
+        "outputTokenDetails": { "textTokens": 81, "reasoningTokens": 192 },
+        "totalTokens": 353,
+        "raw": {
+          "input_tokens": 80,
+          "input_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0
+          },
+          "output_tokens": 273,
+          "output_tokens_details": { "reasoning_tokens": 192 }
+        }
+      },
+      "performance": {
+        "effectiveOutputTokensPerSecond": 49.58127523366811,
+        "effectiveTotalTokensPerSecond": 64.11058665745364,
+        "stepTimeMs": 5509.0518999999995,
+        "responseTimeMs": 5506.1109,
+        "toolExecutionMs": {
+          "call_3OsVptIZVk3q0A3ioF3EtmKF": 0.23080000000027212,
+          "call_StX4ryLn7tS1K9cJCEIccpb0": 0.047899999999572174
+        }
+      },
+      "warnings": [],
+      "request": {},
+      "response": {
+        "id": "resp_00c735572e86c56c006a919d89af5087d0a00bb75d93bf452b",
+        "timestamp": "2026-08-28T14:39:05.000Z",
+        "modelId": "gpt-5-nano-2025-08-07",
+        "headers": {
+          "access-control-expose-headers": "X-Request-ID, CF-Ray, CF-Ray",
+          "alt-svc": "h3=\":443\"; ma=86400",
+          "cf-cache-status": "DYNAMIC",
+          "cf-ray": "a3241032f8dfe2e0-HKG",
+          "connection": "keep-alive",
+          "content-encoding": "br",
+          "content-type": "application/json",
+          "date": "Fri, 28 Aug 2026 14:39:09 GMT",
+          "openai-organization": "user-zzjbe1ezynsdvayks9oxyeir",
+          "openai-processing-ms": "3408",
+          "openai-project": "proj_s2uNN9enKNxsy2sSOWpCmaE7",
+          "openai-version": "2020-10-01",
+          "server": "cloudflare",
+          "set-cookie": "__cf_bm=_.d6SUH2LdOX2vQYpgXDCbLgBNqzlWjjmjrAjqspZWQ-1787927944.153147-1.0.1.1-gDI2BnlhcC4w2elEmhklC20ji6g8KhyU0h6N9Ccjda5GAudoxDF6T.Nz24pkcZMaTLPbw9XO7KrNksCocnx7NH7IqL5YDCh7URskNftGIQz2cS3vQ8mgCUxPyaJ0hpWv; HttpOnly; SameSite=None; Secure; Path=/; Domain=api.openai.com; Expires=Fri, 28 Aug 2026 15:09:09 GMT",
+          "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+          "transfer-encoding": "chunked",
+          "x-content-type-options": "nosniff",
+          "x-ratelimit-limit-requests": "500",
+          "x-ratelimit-limit-tokens": "200000",
+          "x-ratelimit-remaining-requests": "499",
+          "x-ratelimit-remaining-tokens": "200000",
+          "x-ratelimit-reset-requests": "120ms",
+          "x-ratelimit-reset-tokens": "0s",
+          "x-request-id": "req_fe16bb26e2854e35b05136cee56a5f76"
+        },
+        "messages": [
+          {
+            "role": "assistant",
+            "content": [
+              {
+                "type": "reasoning",
+                "text": "",
+                "providerOptions": {
+                  "openai": {
+                    "itemId": "rs_00c735572e86c56c006a919d8a8c3c87d084324bb922439370",
+                    "reasoningEncryptedContent": "gAAAAABqkZ2N8kujnF6FxKshGzodBwrNwd_1akRATRabQTwDnE4KI_BOgPstqdVLmN0_CE-we-4WW6stbaSjWEW6bGVoxntCARw-0T1ZYqn52kZ-beAXUlbrpUlrwGo0jIxL9viikV57YTpPwO9oVnAL3TXkTCxedw6GmZsuYYk0WW3KOXtzOi3ktUJniIth-E5pKnsodC2FVuK0TQcdQaG-tnARLq66h1UjdbIVuUVJzv_cMhOUoGid0QpGDdyjDV55cwbz-SJmHXz26Ecx0rhtJ0dmF3EFD_IYycZz9s_0PCMxlhmG9lq6QPY9b-WtsyYMZjftL_cSjukbiDnbCwe4aya9vbUPFaiubzRphTsS_mdXkgKzPJid4fDOG5CREXGiGTMDIggqE1RsqgaDsqaQ2Da_lIVUAfJ0Oz148JFRmpuxxzEq3MzgB1zAhb6iUEWtgNp0k9tD4BjCsqgBOwUSPavSH6un9ZxjSnELSmrlmSbGC6T1i85dQwf8plF0tls_dZcJtiSlD3IfY4n1S8VnvjU6D5ebXlz59Ae6E-8ktXpLJ5KSR45I6V16SbuAmz5ziVOVvqLd_tF_dPUPTqxHWz9_PypP3ZGEf47KaexLHqlQx4hELR9SBYFw-hGCVCH0JmLhAIBD6ngHq44eA1hRDJa89zquNEcW9N3Dos6nZl5qmBfraibXChgccjREYxPEXW7b3TCfhKOALOTNkMRo2XOoybyAHAxYej6szJfmHukOZKlLTqAAEEpFduGzaavi7GFVoQtcUTj_43LQgBuVF9-ZOB5NjIP3bSxnJT11NC10cQoVdK1ERmahgmboimi1Ug4LSGggYBTy2blY2Zn-C8oUEhKm-0Z3X85yU8vlanmd_PTUcG85vwoPHP8IInLkD2PM0jDFFKcn0HsMH8IM1DOvuWCzS958liCvarR45nAHNpueVQ-0ID51Et7fRrlUb57BJ-roLh4s_JeneFQjmnM_ohhhYuV06ac4KQgejb6b7O6T94J6Nw5sUxuH3jwdmlkSv8ry5WXq1R5c2GKVxDIaNjFkQ4-7AzNxJELzgNEOzCAHMHfqFjVadwFt8KiFDJ1bK3XCwW7aS7q59UC3wdXB7BtBSN3TH72JQc5nXMCuUtBI4QphvNmR9StzyJLPDuF0AseuSSDNEGVeVNTwYbimYE7jr9eASem60uq6oUZye_VquDWQPvDe4vd-aY9IR483SAWtbcpeOZpYT8ipzLG8yZmngFQYtDlBDkPUNd7ks3EerN9zsTqHKmaKJOcSMZQ1MaIS9zIJ973zOLfrbuMOFyEMJ3qaWIBt5grcg_airKU1gUys9bEtcuKdByscF9XVPL3-IjBNERgOvtLUQ0jC3kMAuI_ucqxNTtTDjtylnkUqk_YE5WPhDqT6gOykdbtrKBb4O99XhfJrTks95joqape5ZM9tiee67nlHQntn3cvDprodfkjyfDqVf2vCt0SWxjJysjYaW6E1BZG-n7amDyuyY67hC5U_WI_llQzf_9N6_-22hCDj7gn_fXixYwC9vhkvxSTAUZ2bTyFaB5-bsRt6beC_-XlsWRHTkOQ-2jLMjpRUeAk0vc-o1dO-nIJNCa_r3J2Gr3ecLoxgs6OzF6r-V9O76buXMEeJq384KaF0xKUpcyW8TU2SfDI4NtRKI4hwz4VjaKEecHAanz4WDonJIU4XvYFNfmziY5mCIUXdup8FeOejT2xo0wrpmVqB0HdDRnKwI8SJ105k7YvVWrA5BA_gXlMciaZP7ucx1_ESooLiYWRkQPuZLNEElK7_LKgzSSEhFrtSy66DWDluC0uTwxi1giWRQ9gRIpWeFi5vGXpWn8RhIzB0H_AXX_HogSSbElEQ98l-UHp-xYU-v6ls843uf5UoR38GqziNgcpIdgIzHmW1TmZOWAu0HmuOg-Ovc-PXi0JlzOlUPEw7YtNODm_priv3fQK9rbHfnNXPhJQ40kWqfx7Bvw4c4G6CHfEx3UpS3SSaFuqZeLLAQ9wbg8fG87kR6v7B3HBGtFTOziI-1X0RcWRQmQbC1hatUA8DKTSnbIwJoq7xEVrnAqTew4gyqHmkIe-4G1b2wCYrsanv4xjtsPFiXDLSx2EIxBR_Bykuaa3FxVQu2MlFxW4tAStbt7Cz5G5esKpkC2eY3IYzJ5G_iZ6sxnp5N9PqknXLSyUCRPOcsixMBu4ZCknDqBnHt52YVPBhuTjRIN6M8ygGmmwJPnWzrFuPL-HF1y0onVk60STlc-imGbcsvOSI3ws3qNsHDJrvVUVrYkLnau4RitC0xS3lg5RDBBvA5H0dP8bD9Ln36124vAgt36udeK52irABlDDVwe15OwAh3Lh7Q71UkgzGRwblZoSkIHPseMOpqmHmjur8qLYC3H7BnsHMdinJb-33WTTGkqIv014M7JFzk7StGr1qct5Rd8-FDSqx9qWQjNZHjdnbA8ALUuT-4H1L-umZxPqVFszMphpsGOpXCZrKTOAfNMXv3CVwq8B4eKp6Iblgum6CIIE6bzElIjHvgVlxThnWFQ7aIbxaCER1NNgxaX3_0HdOk_PnwAqj9hE4Dq9hkHwWaNKepxlDrh7yDOCerxiReSbRgvE="
+                  }
+                }
+              },
+              {
+                "type": "tool-call",
+                "toolCallId": "call_3OsVptIZVk3q0A3ioF3EtmKF",
+                "toolName": "weather",
+                "input": { "location": "New York" },
+                "providerOptions": {
+                  "openai": {
+                    "itemId": "fc_00c735572e86c56c006a919d8c7b2087d0af4f0a35b1479db7"
+                  }
+                }
+              },
+              {
+                "type": "tool-call",
+                "toolCallId": "call_StX4ryLn7tS1K9cJCEIccpb0",
+                "toolName": "cityAttractions",
+                "input": { "city": "New York" },
+                "providerOptions": {
+                  "openai": {
+                    "itemId": "fc_00c735572e86c56c006a919d8c7b3887d08d0743cfd377f2d2"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "role": "tool",
+            "content": [
+              {
+                "type": "tool-result",
+                "toolCallId": "call_3OsVptIZVk3q0A3ioF3EtmKF",
+                "toolName": "weather",
+                "output": {
+                  "type": "json",
+                  "value": { "location": "New York", "temperature": 50 }
+                },
+                "providerOptions": {
+                  "openai": {
+                    "itemId": "fc_00c735572e86c56c006a919d8c7b2087d0af4f0a35b1479db7"
+                  }
+                }
+              },
+              {
+                "type": "tool-result",
+                "toolCallId": "call_StX4ryLn7tS1K9cJCEIccpb0",
+                "toolName": "cityAttractions",
+                "output": {
+                  "type": "json",
+                  "value": {
+                    "city": "New York",
+                    "attractions": ["Central Park", "Met Museum"]
+                  }
+                },
+                "providerOptions": {
+                  "openai": {
+                    "itemId": "fc_00c735572e86c56c006a919d8c7b3887d08d0743cfd377f2d2"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "providerMetadata": {
+        "openai": {
+          "responseId": "resp_00c735572e86c56c006a919d89af5087d0a00bb75d93bf452b",
+          "serviceTier": "default",
+          "reasoningContext": "current_turn"
+        }
+      }
+    },
+    {
+      "callId": "call-zjzncLrPOUYBebZgNsXkUuk6",
+      "stepNumber": 1,
+      "model": { "provider": "openai.responses", "modelId": "gpt-5-nano" },
+      "runtimeContext": {},
+      "toolsContext": {},
+      "content": [
+        {
+          "type": "reasoning",
+          "text": "",
+          "providerMetadata": {
+            "openai": {
+              "itemId": "rs_00c735572e86c56c006a919d8e320887d0bd9c2079bdc2bf77",
+              "reasoningEncryptedContent": "gAAAAABqkZ2U7lC5YZka4lPSUJFCS9kx6PhT2Hsns402WKeZA6sKVxhmCrDeuLSU7IJCZ-OM35QfMHcQ2tXRMCVKPy7SzmC7eyQm_tZ2bPQxyx7J0mGyI3Jvcbj2slOGu3Bvj7PUzT5iT5lpf2Jnk3pS_p_UjXkD9Z_J3D8FJd-SiE7BuY-wO5BZBte_d-vJYdsGk8v072AN9ziQRe8eNAcQKZ610ixx-vNGX1lEfZB7UmJUKZyliQyhOr-m-OtQU-OwJqtd0SrAsFrdwgVb3ScUSPk9lTxeMHz8ENdQhdD3rH48028Mr21O0h984V5FMt3YzQPk9574XWwRwi-DO3r6LAHo1zZXr_PYf0wo-3oG1AonGcR8OjjMHbQKAToNv-NSvQia2_gnWFVSevFyieWHn8HsmRzkGcwdDRsTOCqnP5Icz31lA1pfyTquGiooN7T1P10jrtq-6yR3IRKzNF_q6OE7tD3L-3PAJRoBKoyNQUL3G3RpG3vFvu3DPz4Y9HBiVE4iK9XvzBzWWwIVERduq5yIjSQqMK9ChMmWe2X80Hsp5d7i11hPr8WmxRC8Xt8DG44roQ1UUnOcqBQ6LCBuJAqziE4KGhhlyqGS_v1CrVQrCn5h4N9NvwYVnopyax32m4LG2Ec4ydKUbtVeEEJ-wKKdmGoHtUXUd6p9TbuzQRmjhkQggnyVywk9iS6bhpJTSftRmUrFP9pQujUTIwSGhCpQLJlRtvQHia_Ec0w7QCmROBbU_jdp4LuG2INRxLvB6nebsTeb8JMbHgOmhmHQaC71E-M5OQL5cP6cEz70OL7ApVoLcRjcyrWNa7WZYcurnxGHsS1K6o3wHb25rGObm6Dv6KzC8u4S9JFjJ6hEP8gSX6LIwXUVnKFmBkoFXkuQYsot8nMeWYSaq9uPPPaE2HB_YFTbdxzbpSxavGkfHMBsp9T5VUglhXUqKqKvn_va-YisHF6Wi8S908B6_h_SNQNGFfXR-2-Cxu1lTZKSGCA4771Jf05dk_dCJ0BfHcBrHs1rNXYnjVxoroVYsNU_iBwwYoQTrbgp0t4LCGj9-h0Th8M8nO8UQgfaL7EFEMllovKfr6U3cfWYaxKUNy32U9h0qPjJ7JU4sh3LS2E6nydzp6X3f2q73PprXLx6Bnrg6kM4qnlsb7umWDWujTehLTFn7dK_8qlJLV8FkV3wyaq9idNUWnEEJxDQoTYsGon_44mHH00x4KIG3tx1yAnra05fKb1EOSfFAYoL_ppssmu7oEmJq1Ln-uffxpoifAWe7w5JOwnaAjDjBhET3jdlMtBUB5xRlvytOAgsKfJIgfvzs2qgMU88_NFWCt_ZYG5a3w6PPKBns3t8kukY3Dko8UQG_gxag7ng2Vc8lTJ7ncS3F6N9P6ejZzYBRWuGH6vgfkrfMHrDlx7tegkbQ2_NeV2yusGfby_iCVdzNCKZZtg8690GovVOV-qB25zMcGaZx7kL2m7aXZtqpPI8v6HA4olqZo1L2z2HSiTEZXYKqTXFtdCOxkOBIbOo_oiwb0IRr7qnxjobzDu1dQSaqQ1VqRDDZ29-AXprasWEgOKW_Jm3Y3pVTOP-V31FjB5SOFhHsba-cqDojNIjUQ0IkOwusOJ-BmSgUzp2TOU04UNM4UYAURyBQ11dwGOwuBkOC7Cxqi2ayt6IOPU-zUsaEdifDSe63bsPipZ4yHL6tHEwTeWcNvyceAI8dNFxscf0QN-3Kl7JUtIQWfyEABryZFBPy-hkgXoJZ0Rx71qbH7-ZQvJVpSc0uW14PSvN42K-iSyYNJsNXTt5ikkp6w5-Si8lk0eSHDmvENGhVrOLPMVBLjosY2m5KZz7L-U1tpmwsn0nklUdf0TuncMktbT3uKHujUetDwL5xjT836drVEyHLnL6cN0qmSjvapIQ3Tal0TU7bV57jGy54SG_ODIB5TnEUHaNdOxJLq6ECG64s1FYIjQXUsXHSB3k8C3jxnUhmEunQsGiGpvGbkBcftDWQdTWL_r5nH97u1L8shidU17CGthuZTfzifp-_pX8nJc-vd1TL70otv5PZhxEPOxBNlOyEKotBPT9dhjbhSvlno4TzRXdBWmVYEbUvYJU-WwjZXvp8CH1mGmLoavZ1xxMOVRAt9bxw6u-qYBrJC04Db8Sy3BHZBLDh4g2_MRUeFleXUmQ35oLeK5EQSHaYVvst5kXodjcdoCYwYStPlm8-QRldFKhvmnW1h0bqqiLAitT_J5HBeGdfvqRQ0nQ-kEiFnTA2hZnnYpQZcDZyjPBJKljBErNkSUw2-Hy2euIl6iuDoky5Xo5ZP2iQf-ML_sGjU4z7SxTH-Fh7VprMSt3Q5RlSP5zUQCi1NJFNk_3u1UR0vRdGIPab5pQv2B20d4YAXWXplyoS5MWDlVfNIKN3hVjwI5PEClxlBpJ5y2H1aIOiLEyE4bsr_a2KdWjdCf2AymG3M5cHssF1GEAtOyAb_aMk59gFmmvkMJw_UWZJVBOsWzc5OmDP6PsljQBvziqWJL_3M_BM22ILFaNt2O8z_06xXdx31cdhVuy8AgZKhjc_LLWwB8ew0ymZI54ckBZWPm1pOMGoEXI_duf8SOrK0cx7huKAdpFz_sLhQ77ZR5xdRF6xPfinEYqa91nCj9PLd_08biHwjEp3zRqDKdk9VSgPlnn6oawSWtqora-p18pSvhmpHLdjQ1A8ptcUeK-W7nUPyP4SFGhIhIPxamRJGSQ3N4_9LNvP5iZOw9vXgHaiFvq0pHkFndJ8sjQYoV_fwu6JlxYhrzfBc-3xuoxIYuzkW7M8ttPuMJvHwUd3UROAJicbfRJ7Jt1ckJVDV5FeBe_sWoqtOObMrgIiXAjmdGwez7M4XESn0vesstbBbTV8YGwu34Bbjp8ZATwbn6yE8nYImU9PB0EoYSFSl15oovHxs5rfHJW5CYKHAWu_zaEVg0qsc7U3nIEyZ4GEH5zzupZr2j_sZPMGInlyXw38y52_TLfEIPstvcT31T6Zx_d7qOYVa5HU189g4v1QChLzfJKcK7iHi6bNuner1ZRQ2bPFaDOKnZ-GPaggcWV7o3KlL6qkrlBMowbelRvbtyZDiqConHar5M35dz-b8R6KCg06jzfu5x_uMWA6aG3OQcc08k6oiFTapNyXMQTq_qsEHLeJEPWgIRhvyYzj8NkAEHFSFFWoWiIzTcbrVXyQJ-yG52kHmEUc-HRDHMOKNPYqVUFhlUMiyxY7qETarSkhiCyFUFQqQMaxGvQLqQnO4pYwe6g0PEEcvUUQEZ_Wpc69ighp7k8ns1vgltyNDQuWlf8ezK17m-SnPMdKTwygnaZAFEiAt5eMLDgObXMsEVOhO2BwTownP8sqwwLb9xImZQg68lPt1fl9mS3SdUv0Kncl4wmB5fRP74iEAjeucdSXpibymlvxYgjtXRmP88f-YJd53g4zH6jbfyj4fVOaEhiIx_ijv1ujXaj6CRkJ1c7zxZzhyP-i3IwKGypeW_jboJqFnURVuqLPrlqw5qpuP__LLdEmXrz7muuuk_YsGw-uB77TiAlxbhDsMi-jL-ahMZBh0p3LKmtX6CySIZwvKRKfMKdSMPAHfiDcPXH8uHU9HmuXKW6WdHBzCFaz-WYLD6rkGEQQbHaSfPdxeqY5TxyIzvPdnY2VQJVrRbX02RMdKEa4zKeuT9YdOe0eBfK4N60mh-8m19Kr0j4IG9YEbeyEfQg9h0qyggPe1vTuooQ_DmLjEHyQ0UcnRX1dqJse1Wqmuv2HZrQyZKVtu-OhUtR38n7kimJoKUfXtRCfMUDP6oPtR34vDWCiRt5q4uIqhIi6yYCCKj1G3S-Vx4UR3045MG7Sk1m1fL8W94BLQT-vTTMOtPi0okEZuExnlIfT6JYznLKX3F0vKmQCqrHsWAvQxbYqOX9JNqNve86EddBUFdbGJwjuOmhDQ5Vd5RVxrYew--7jubVtu-0yJdm9c77beKE8NVxkeeuyL-wbFQaZNPMg3jLwfsnhDPbl1o_x9TbNhGba6GVvVXWwt2_LH6Y7uFF65qPxfhzz08GY-0uoBGYavmjoTVXiq2MbhI3Xjx5rN-G1eHme25KvRdV9vno_X7mSOkfPWvkZ6M7qDxKmpUWuyR5rhCLJWrdNYtdbe2t4BILx6ymOCn-E8c74vWI2XrgjtBZyiqYpvsG6WDUqq3Up-K2lNdXz2X0o6qaqbWEUzSQcjynQWhY6OzOVDEuY8zarTTZSk1Uo9VeyRjnCvd0koz3_W2hynbTgwtZafWgbzIcY1Im-AaLOjrVzUCUJMPUOfO-aFnbD5gALy7oI4qj6Zf3mmo6Sd1vjJJRgYNfEq03mCcd3WjFjwReqPCEdBqer8wBnITA12O57JvRGD8rfS1i6v-rkMaQWyLV_QNntgUwxupGDOnDvfY5_9kF-l8FrdDQ74naa9zxaBDOyDEAdRFcDHFtIjjmsiPCgy8JT5E1qa-ynSit3hUvYPVcpNOm_ZW43oDiNqJ0gVgTnvkE9VByo1IFEveyS5twO8JwApJichQntpIXiF31FBCKg65WgEFcf6iXAnEopEOaYVlCO6xw41vVLAIUI4aBMrIn36FlgjyLhQ15Y86Eh0vMPEk1Yr1R3E_BvVaMoNWgtmur2U53KrUGdWOdYwf1WcEfJgN6Dt7ygbgenxOsnDwQiVeLfRlWrCnqA_2MyxgPYHocuc1j6jR8Hp7M-draMnoH1hw9c8V0SWusS5THQ0pXAVgFAz_Z90xYzVP_1zeYWY6sbQ41BBhJs6fTVYu4RQ1gW_Y3ZCXSSjAPB17yXNaflFvlT9rYS5zmJTb1q5DpRrrQI90zAZUJpb1sH-ZfMzNHqgPVdANMxk49aWQBUy5n9nfE1ajHsakz2pRh6lbmOQ_8GRn5bWBAUnbFVcNVxPmyxSK5LhLzEfpzQqz0gEt4dUSrRdvCCN4djzTPZqHJO90RncYSILUk5IFsjTOmQkUyrmuNboQuh5LyPuZGdLD4wjhPd5UYWxF7ZtoBDd4uvdlmj4XNjDcILuMwRU4Ij7VaTsoNuNfojyFc4OJFf6v_1nhOOFElLwWvAqrs4OY-ZhSYwIFgfvdCFDMraeptWSpfmQPFAvzm0xhT_cfbIF7JOjTelw6j0F9hSReocufnbK7AuXRbtc_9txsQkWdcSXvyjlxNEFrucQIiu-HUCv76TGWPqKU-ks0Rel6yJMkXU2_j4Jrrss9aVT22aiyGAjISe9c-Oos3bXQe9YnN1VSubzB9y2stYf93DBNof4WCOPDg_r8Ri_hwm8ZKljGTjoUVL4Jf2r__bf5AKpeuJHgnSVRZCbgT0m8S07AbPfs-ms8leYt_P_5xxxXg1LLIIHVLZ6EkVgUzpxjJTLYd1lWRP3xdUbVQwHX65BoJzE9OXddbmkbqhp--q09ucBh621-xNgSQzLqoA8_-00az2kTQ93fg9VPgyaBsv36eOoCEr9qscYgbBDgPGh2-MKpokFIqS27g70Io_ma2Ox0MRPeZUoL1-DfuMqSr7YwVaQ0GYiwzSBIJ6-YFGeH1jGmUXU_tJxixTuTgSGrJh1AbVi2iScdrFHMF7Arjtnv2XkQ4SAEV7E41jFiMO0JB_s7aNwHCr5BO1AwcE5foHDtBdYm9zsha7GHQe3OFa_DQfPw1NXkukNqp-Eved2Wmxij4MsfEKiT0mdXB_tjuR-1tGVFmHhiQUNfQ5rGb"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "Here you go:\n\n- Weather in New York: about 50°F (around 10°C).\n\nTop attractions to visit:\n- Central Park\n- The Metropolitan Museum of Art (The Met)\n\nIf you want more options, I can tailor suggestions by your interests (art, history, outdoors, food) or put together a 1-day plan.",
+          "providerMetadata": {
+            "openai": {
+              "itemId": "msg_00c735572e86c56c006a919d9375cc87d0857cc6977269b265"
+            }
+          }
+        }
+      ],
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 383,
+        "inputTokenDetails": {
+          "noCacheTokens": 383,
+          "cacheReadTokens": 0,
+          "cacheWriteTokens": 0
+        },
+        "outputTokens": 817,
+        "outputTokenDetails": { "textTokens": 113, "reasoningTokens": 704 },
+        "totalTokens": 1200,
+        "raw": {
+          "input_tokens": 383,
+          "input_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0
+          },
+          "output_tokens": 817,
+          "output_tokens_details": { "reasoning_tokens": 704 }
+        }
+      },
+      "performance": {
+        "effectiveOutputTokensPerSecond": 117.79367119259172,
+        "effectiveTotalTokensPerSecond": 173.01396013599762,
+        "stepTimeMs": 6936.169899999999,
+        "responseTimeMs": 6935.8565,
+        "toolExecutionMs": {}
+      },
+      "warnings": [],
+      "request": {},
+      "response": {
+        "id": "resp_00c735572e86c56c006a919d8da0d087d08ce9e40b7fce6503",
+        "timestamp": "2026-08-28T14:39:09.000Z",
+        "modelId": "gpt-5-nano-2025-08-07",
+        "headers": {
+          "access-control-expose-headers": "X-Request-ID, CF-Ray, CF-Ray",
+          "alt-svc": "h3=\":443\"; ma=86400",
+          "cf-cache-status": "DYNAMIC",
+          "cf-ray": "a32410543d38e2e0-HKG",
+          "connection": "keep-alive",
+          "content-encoding": "br",
+          "content-type": "application/json",
+          "date": "Fri, 28 Aug 2026 14:39:16 GMT",
+          "openai-organization": "user-zzjbe1ezynsdvayks9oxyeir",
+          "openai-processing-ms": "6610",
+          "openai-project": "proj_s2uNN9enKNxsy2sSOWpCmaE7",
+          "openai-version": "2020-10-01",
+          "server": "cloudflare",
+          "set-cookie": "__cf_bm=gOacF67ZpzEH.8SByp9JNJ2gFe8_jGaU5c7C.lyJLfE-1787927949.473466-1.0.1.1-7HRW3TqX0WFkMQaftIrwEF0fMWHliqlfbInfBaDNMpspx0MG_oLou3pvRA0rzyZwMZj9X9OGNJYV45d8WLN0xCL6dPbxp52Ap91AnRujIr4BtEXC74dTtd39VLJztala; HttpOnly; SameSite=None; Secure; Path=/; Domain=api.openai.com; Expires=Fri, 28 Aug 2026 15:09:16 GMT",
+          "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+          "transfer-encoding": "chunked",
+          "x-content-type-options": "nosniff",
+          "x-ratelimit-limit-requests": "500",
+          "x-ratelimit-limit-tokens": "200000",
+          "x-ratelimit-remaining-requests": "499",
+          "x-ratelimit-remaining-tokens": "199679",
+          "x-ratelimit-reset-requests": "120ms",
+          "x-ratelimit-reset-tokens": "96ms",
+          "x-request-id": "req_93bf22fe00dc4a05bfc39153a3f0baa5"
+        },
+        "messages": [
+          {
+            "role": "assistant",
+            "content": [
+              {
+                "type": "reasoning",
+                "text": "",
+                "providerOptions": {
+                  "openai": {
+                    "itemId": "rs_00c735572e86c56c006a919d8e320887d0bd9c2079bdc2bf77",
+                    "reasoningEncryptedContent": "gAAAAABqkZ2U7lC5YZka4lPSUJFCS9kx6PhT2Hsns402WKeZA6sKVxhmCrDeuLSU7IJCZ-OM35QfMHcQ2tXRMCVKPy7SzmC7eyQm_tZ2bPQxyx7J0mGyI3Jvcbj2slOGu3Bvj7PUzT5iT5lpf2Jnk3pS_p_UjXkD9Z_J3D8FJd-SiE7BuY-wO5BZBte_d-vJYdsGk8v072AN9ziQRe8eNAcQKZ610ixx-vNGX1lEfZB7UmJUKZyliQyhOr-m-OtQU-OwJqtd0SrAsFrdwgVb3ScUSPk9lTxeMHz8ENdQhdD3rH48028Mr21O0h984V5FMt3YzQPk9574XWwRwi-DO3r6LAHo1zZXr_PYf0wo-3oG1AonGcR8OjjMHbQKAToNv-NSvQia2_gnWFVSevFyieWHn8HsmRzkGcwdDRsTOCqnP5Icz31lA1pfyTquGiooN7T1P10jrtq-6yR3IRKzNF_q6OE7tD3L-3PAJRoBKoyNQUL3G3RpG3vFvu3DPz4Y9HBiVE4iK9XvzBzWWwIVERduq5yIjSQqMK9ChMmWe2X80Hsp5d7i11hPr8WmxRC8Xt8DG44roQ1UUnOcqBQ6LCBuJAqziE4KGhhlyqGS_v1CrVQrCn5h4N9NvwYVnopyax32m4LG2Ec4ydKUbtVeEEJ-wKKdmGoHtUXUd6p9TbuzQRmjhkQggnyVywk9iS6bhpJTSftRmUrFP9pQujUTIwSGhCpQLJlRtvQHia_Ec0w7QCmROBbU_jdp4LuG2INRxLvB6nebsTeb8JMbHgOmhmHQaC71E-M5OQL5cP6cEz70OL7ApVoLcRjcyrWNa7WZYcurnxGHsS1K6o3wHb25rGObm6Dv6KzC8u4S9JFjJ6hEP8gSX6LIwXUVnKFmBkoFXkuQYsot8nMeWYSaq9uPPPaE2HB_YFTbdxzbpSxavGkfHMBsp9T5VUglhXUqKqKvn_va-YisHF6Wi8S908B6_h_SNQNGFfXR-2-Cxu1lTZKSGCA4771Jf05dk_dCJ0BfHcBrHs1rNXYnjVxoroVYsNU_iBwwYoQTrbgp0t4LCGj9-h0Th8M8nO8UQgfaL7EFEMllovKfr6U3cfWYaxKUNy32U9h0qPjJ7JU4sh3LS2E6nydzp6X3f2q73PprXLx6Bnrg6kM4qnlsb7umWDWujTehLTFn7dK_8qlJLV8FkV3wyaq9idNUWnEEJxDQoTYsGon_44mHH00x4KIG3tx1yAnra05fKb1EOSfFAYoL_ppssmu7oEmJq1Ln-uffxpoifAWe7w5JOwnaAjDjBhET3jdlMtBUB5xRlvytOAgsKfJIgfvzs2qgMU88_NFWCt_ZYG5a3w6PPKBns3t8kukY3Dko8UQG_gxag7ng2Vc8lTJ7ncS3F6N9P6ejZzYBRWuGH6vgfkrfMHrDlx7tegkbQ2_NeV2yusGfby_iCVdzNCKZZtg8690GovVOV-qB25zMcGaZx7kL2m7aXZtqpPI8v6HA4olqZo1L2z2HSiTEZXYKqTXFtdCOxkOBIbOo_oiwb0IRr7qnxjobzDu1dQSaqQ1VqRDDZ29-AXprasWEgOKW_Jm3Y3pVTOP-V31FjB5SOFhHsba-cqDojNIjUQ0IkOwusOJ-BmSgUzp2TOU04UNM4UYAURyBQ11dwGOwuBkOC7Cxqi2ayt6IOPU-zUsaEdifDSe63bsPipZ4yHL6tHEwTeWcNvyceAI8dNFxscf0QN-3Kl7JUtIQWfyEABryZFBPy-hkgXoJZ0Rx71qbH7-ZQvJVpSc0uW14PSvN42K-iSyYNJsNXTt5ikkp6w5-Si8lk0eSHDmvENGhVrOLPMVBLjosY2m5KZz7L-U1tpmwsn0nklUdf0TuncMktbT3uKHujUetDwL5xjT836drVEyHLnL6cN0qmSjvapIQ3Tal0TU7bV57jGy54SG_ODIB5TnEUHaNdOxJLq6ECG64s1FYIjQXUsXHSB3k8C3jxnUhmEunQsGiGpvGbkBcftDWQdTWL_r5nH97u1L8shidU17CGthuZTfzifp-_pX8nJc-vd1TL70otv5PZhxEPOxBNlOyEKotBPT9dhjbhSvlno4TzRXdBWmVYEbUvYJU-WwjZXvp8CH1mGmLoavZ1xxMOVRAt9bxw6u-qYBrJC04Db8Sy3BHZBLDh4g2_MRUeFleXUmQ35oLeK5EQSHaYVvst5kXodjcdoCYwYStPlm8-QRldFKhvmnW1h0bqqiLAitT_J5HBeGdfvqRQ0nQ-kEiFnTA2hZnnYpQZcDZyjPBJKljBErNkSUw2-Hy2euIl6iuDoky5Xo5ZP2iQf-ML_sGjU4z7SxTH-Fh7VprMSt3Q5RlSP5zUQCi1NJFNk_3u1UR0vRdGIPab5pQv2B20d4YAXWXplyoS5MWDlVfNIKN3hVjwI5PEClxlBpJ5y2H1aIOiLEyE4bsr_a2KdWjdCf2AymG3M5cHssF1GEAtOyAb_aMk59gFmmvkMJw_UWZJVBOsWzc5OmDP6PsljQBvziqWJL_3M_BM22ILFaNt2O8z_06xXdx31cdhVuy8AgZKhjc_LLWwB8ew0ymZI54ckBZWPm1pOMGoEXI_duf8SOrK0cx7huKAdpFz_sLhQ77ZR5xdRF6xPfinEYqa91nCj9PLd_08biHwjEp3zRqDKdk9VSgPlnn6oawSWtqora-p18pSvhmpHLdjQ1A8ptcUeK-W7nUPyP4SFGhIhIPxamRJGSQ3N4_9LNvP5iZOw9vXgHaiFvq0pHkFndJ8sjQYoV_fwu6JlxYhrzfBc-3xuoxIYuzkW7M8ttPuMJvHwUd3UROAJicbfRJ7Jt1ckJVDV5FeBe_sWoqtOObMrgIiXAjmdGwez7M4XESn0vesstbBbTV8YGwu34Bbjp8ZATwbn6yE8nYImU9PB0EoYSFSl15oovHxs5rfHJW5CYKHAWu_zaEVg0qsc7U3nIEyZ4GEH5zzupZr2j_sZPMGInlyXw38y52_TLfEIPstvcT31T6Zx_d7qOYVa5HU189g4v1QChLzfJKcK7iHi6bNuner1ZRQ2bPFaDOKnZ-GPaggcWV7o3KlL6qkrlBMowbelRvbtyZDiqConHar5M35dz-b8R6KCg06jzfu5x_uMWA6aG3OQcc08k6oiFTapNyXMQTq_qsEHLeJEPWgIRhvyYzj8NkAEHFSFFWoWiIzTcbrVXyQJ-yG52kHmEUc-HRDHMOKNPYqVUFhlUMiyxY7qETarSkhiCyFUFQqQMaxGvQLqQnO4pYwe6g0PEEcvUUQEZ_Wpc69ighp7k8ns1vgltyNDQuWlf8ezK17m-SnPMdKTwygnaZAFEiAt5eMLDgObXMsEVOhO2BwTownP8sqwwLb9xImZQg68lPt1fl9mS3SdUv0Kncl4wmB5fRP74iEAjeucdSXpibymlvxYgjtXRmP88f-YJd53g4zH6jbfyj4fVOaEhiIx_ijv1ujXaj6CRkJ1c7zxZzhyP-i3IwKGypeW_jboJqFnURVuqLPrlqw5qpuP__LLdEmXrz7muuuk_YsGw-uB77TiAlxbhDsMi-jL-ahMZBh0p3LKmtX6CySIZwvKRKfMKdSMPAHfiDcPXH8uHU9HmuXKW6WdHBzCFaz-WYLD6rkGEQQbHaSfPdxeqY5TxyIzvPdnY2VQJVrRbX02RMdKEa4zKeuT9YdOe0eBfK4N60mh-8m19Kr0j4IG9YEbeyEfQg9h0qyggPe1vTuooQ_DmLjEHyQ0UcnRX1dqJse1Wqmuv2HZrQyZKVtu-OhUtR38n7kimJoKUfXtRCfMUDP6oPtR34vDWCiRt5q4uIqhIi6yYCCKj1G3S-Vx4UR3045MG7Sk1m1fL8W94BLQT-vTTMOtPi0okEZuExnlIfT6JYznLKX3F0vKmQCqrHsWAvQxbYqOX9JNqNve86EddBUFdbGJwjuOmhDQ5Vd5RVxrYew--7jubVtu-0yJdm9c77beKE8NVxkeeuyL-wbFQaZNPMg3jLwfsnhDPbl1o_x9TbNhGba6GVvVXWwt2_LH6Y7uFF65qPxfhzz08GY-0uoBGYavmjoTVXiq2MbhI3Xjx5rN-G1eHme25KvRdV9vno_X7mSOkfPWvkZ6M7qDxKmpUWuyR5rhCLJWrdNYtdbe2t4BILx6ymOCn-E8c74vWI2XrgjtBZyiqYpvsG6WDUqq3Up-K2lNdXz2X0o6qaqbWEUzSQcjynQWhY6OzOVDEuY8zarTTZSk1Uo9VeyRjnCvd0koz3_W2hynbTgwtZafWgbzIcY1Im-AaLOjrVzUCUJMPUOfO-aFnbD5gALy7oI4qj6Zf3mmo6Sd1vjJJRgYNfEq03mCcd3WjFjwReqPCEdBqer8wBnITA12O57JvRGD8rfS1i6v-rkMaQWyLV_QNntgUwxupGDOnDvfY5_9kF-l8FrdDQ74naa9zxaBDOyDEAdRFcDHFtIjjmsiPCgy8JT5E1qa-ynSit3hUvYPVcpNOm_ZW43oDiNqJ0gVgTnvkE9VByo1IFEveyS5twO8JwApJichQntpIXiF31FBCKg65WgEFcf6iXAnEopEOaYVlCO6xw41vVLAIUI4aBMrIn36FlgjyLhQ15Y86Eh0vMPEk1Yr1R3E_BvVaMoNWgtmur2U53KrUGdWOdYwf1WcEfJgN6Dt7ygbgenxOsnDwQiVeLfRlWrCnqA_2MyxgPYHocuc1j6jR8Hp7M-draMnoH1hw9c8V0SWusS5THQ0pXAVgFAz_Z90xYzVP_1zeYWY6sbQ41BBhJs6fTVYu4RQ1gW_Y3ZCXSSjAPB17yXNaflFvlT9rYS5zmJTb1q5DpRrrQI90zAZUJpb1sH-ZfMzNHqgPVdANMxk49aWQBUy5n9nfE1ajHsakz2pRh6lbmOQ_8GRn5bWBAUnbFVcNVxPmyxSK5LhLzEfpzQqz0gEt4dUSrRdvCCN4djzTPZqHJO90RncYSILUk5IFsjTOmQkUyrmuNboQuh5LyPuZGdLD4wjhPd5UYWxF7ZtoBDd4uvdlmj4XNjDcILuMwRU4Ij7VaTsoNuNfojyFc4OJFf6v_1nhOOFElLwWvAqrs4OY-ZhSYwIFgfvdCFDMraeptWSpfmQPFAvzm0xhT_cfbIF7JOjTelw6j0F9hSReocufnbK7AuXRbtc_9txsQkWdcSXvyjlxNEFrucQIiu-HUCv76TGWPqKU-ks0Rel6yJMkXU2_j4Jrrss9aVT22aiyGAjISe9c-Oos3bXQe9YnN1VSubzB9y2stYf93DBNof4WCOPDg_r8Ri_hwm8ZKljGTjoUVL4Jf2r__bf5AKpeuJHgnSVRZCbgT0m8S07AbPfs-ms8leYt_P_5xxxXg1LLIIHVLZ6EkVgUzpxjJTLYd1lWRP3xdUbVQwHX65BoJzE9OXddbmkbqhp--q09ucBh621-xNgSQzLqoA8_-00az2kTQ93fg9VPgyaBsv36eOoCEr9qscYgbBDgPGh2-MKpokFIqS27g70Io_ma2Ox0MRPeZUoL1-DfuMqSr7YwVaQ0GYiwzSBIJ6-YFGeH1jGmUXU_tJxixTuTgSGrJh1AbVi2iScdrFHMF7Arjtnv2XkQ4SAEV7E41jFiMO0JB_s7aNwHCr5BO1AwcE5foHDtBdYm9zsha7GHQe3OFa_DQfPw1NXkukNqp-Eved2Wmxij4MsfEKiT0mdXB_tjuR-1tGVFmHhiQUNfQ5rGb"
+                  }
+                }
+              },
+              {
+                "type": "text",
+                "text": "Here you go:\n\n- Weather in New York: about 50°F (around 10°C).\n\nTop attractions to visit:\n- Central Park\n- The Metropolitan Museum of Art (The Met)\n\nIf you want more options, I can tailor suggestions by your interests (art, history, outdoors, food) or put together a 1-day plan.",
+                "providerOptions": {
+                  "openai": {
+                    "itemId": "msg_00c735572e86c56c006a919d9375cc87d0857cc6977269b265"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "providerMetadata": {
+        "openai": {
+          "responseId": "resp_00c735572e86c56c006a919d8da0d087d08ce9e40b7fce6503",
+          "serviceTier": "default",
+          "reasoningContext": "current_turn"
+        }
+      }
+    }
+  ],
+  "_output": "Here you go:\n\n- Weather in New York: about 50°F (around 10°C).\n\nTop attractions to visit:\n- Central Park\n- The Metropolitan Museum of Art (The Met)\n\nIf you want more options, I can tailor suggestions by your interests (art, history, outdoors, food) or put together a 1-day plan.",
+  "totalUsage": {
+    "inputTokens": 463,
+    "inputTokenDetails": {
+      "noCacheTokens": 463,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0
+    },
+    "outputTokens": 1090,
+    "outputTokenDetails": { "textTokens": 194, "reasoningTokens": 896 },
+    "totalTokens": 1553
+  }
+}
