@@ -1,4 +1,5 @@
 export const DOCUMENTS_DIR = "docs";
+export const PROMPTS_DIR = "prompts";
 export const TABLE_NAME = "help_documents";
 export const CLEAR_TABLE = true;
 
