@@ -7,10 +7,11 @@ The repository covers concepts including:
 - OpenAI Responses API
 - Prompt and context engineering
 - Tool calling and agentic workflows
+- Retrieval-Augmented Generation (RAG)
+- Vector embeddings and semantic search
 - Open-source models
 - Local inference
 - Computer vision
-- Embeddings
 - Streaming AI responses
 - LLM context-window management
 
@@ -53,7 +54,7 @@ It combines the **OpenAI Responses API** with web search to retrieve current inf
 
 Focused implementations used to explore individual AI engineering concepts in depth.
 
-Although narrower in scope than the standalone projects, these scrims are practical implementations of important patterns such as local inference, agent tool use, and context-window management.
+Although narrower in scope than the standalone projects, these scrims are practical implementations of important patterns such as local inference, agent tool use, context-window management, and Retrieval-Augmented Generation.
 
 #### Open-Source Models
 
@@ -114,6 +115,43 @@ Although narrower in scope than the standalone projects, these scrims are practi
   </tbody>
 </table>
 
+#### RAG & Vercel AI SDK
+
+A progression from a conventional RAG pipeline to increasingly flexible approaches for deciding when and how external information should be used.
+
+<table>
+  <thead>
+    <tr>
+      <th>Scrim</th>
+      <th>What It Demonstrates</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>📚 <a href="scrims/07-vercel-ai-sdk/01-rag-using-openai-sdk/README.md"><strong>RAG with the OpenAI SDK</strong></a></td>
+      <td>Document ingestion, chunking, embeddings, Supabase + pgvector vector search, semantic retrieval, and grounded generation</td>
+    </tr>
+    <tr>
+      <td>🧭 <a href="scrims/07-vercel-ai-sdk/02-rag-with-query-routing/README.md"><strong>RAG with Query Routing using Vercel AI SDK</strong></a></td>
+      <td>Structured query classification, selective retrieval, Vercel AI SDK, embeddings, and vector similarity search</td>
+    </tr>
+    <tr>
+      <td>🛠️ <a href="scrims/07-vercel-ai-sdk/03-tool-driven-rag-with-web-search/README.md"><strong>Tool-Driven RAG with Web Search using Vercel AI SDK</strong></a></td>
+      <td>Model-driven tool selection across a private RAG knowledge base, web search, and direct model responses</td>
+    </tr>
+  </tbody>
+</table>
+
+The three implementations intentionally build on one another:
+
+```mermaid
+flowchart LR
+    A[Core RAG Pipeline] --> B[RAG + Query Routing]
+    B --> C[Tool-Driven RAG + Web Search]
+```
+
+The progression explores moving from a fixed retrieval pipeline, to application-level routing, and finally to a tool-driven approach where the model can choose between private knowledge, live web information, or answering directly.
+
 ---
 
 ### Exercises
@@ -126,6 +164,7 @@ These include experimentation with:
 - [**Open-Source Models**](exercises/03-open-source-models/) — working with openly available models and model tooling
 - [**Embeddings**](exercises/04-embeddings/) — representing and working with semantic information
 - [**Agents**](exercises/05-agents/) — tool use and agentic execution patterns
+- [**Vercel AI SDK**](exercises/07-vercel-ai-sdk/) — embeddings, batch embeddings, structured output, tool calling, and web search
 
 The exercises intentionally remain smaller and more focused than the projects and scrims, serving as a working lab for understanding individual concepts.
 
