@@ -1,7 +1,7 @@
 import { generateText, tool, isStepCount } from "ai";
 import z from "zod";
-import { openai } from "./utils/clients.js";
-import { GENERATIVE_MODEL } from "./utils/constants.js";
+import { openai } from "./lib/clients.js";
+import { GENERATIVE_MODEL } from "./lib/constants.js";
 
 async function generateResponseFromToolCalls() {
   const MAX_ITERATIONS = 5;

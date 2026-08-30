@@ -2,9 +2,12 @@ import OpenAI from "openai";
 import type { ResponseInput } from "openai/resources/responses/responses";
 import fs from "node:fs/promises";
 import path from "node:path";
-import { checkEnvironment } from "../utils/check-environment.js";
+import {
+  checkEnvironment,
+  OPENAI_COMPATIBLE_ENV
+} from "../shared/check-environment.js";
 
-checkEnvironment(process.env);
+checkEnvironment(process.env, OPENAI_COMPATIBLE_ENV);
 
 // Initialize the OpenAI client using environment variables
 const openai = new OpenAI({

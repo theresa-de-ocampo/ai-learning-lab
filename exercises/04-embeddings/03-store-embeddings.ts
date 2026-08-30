@@ -1,20 +1,17 @@
 import OpenAI from "openai";
-import { createClient } from "@supabase/supabase-js";
-import { checkEnvironment } from "../utils/check-environment.js";
+import {
+  checkEnvironment,
+  OPENAI_COMPATIBLE_ENV
+} from "../shared/check-environment.js";
 import path from "node:path";
 import fs from "node:fs/promises";
 
-checkEnvironment(process.env);
+checkEnvironment(process.env, OPENAI_COMPATIBLE_ENV);
 
 const openai = new OpenAI({
   apiKey: process.env.AI_KEY,
   baseURL: process.env.AI_URL
 });
-
-const supabase = createClient(
-  process.env.SUPABASE_URL,
-  process.env.SUPABASE_API_KEY
-);
 
 const podcasts = [
   "Beyond Mars (1 hr 15 min): Join space enthusiasts as they speculate about extraterrestrial life and the mysteries of distant planets.",

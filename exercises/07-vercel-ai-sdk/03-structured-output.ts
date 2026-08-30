@@ -1,8 +1,8 @@
 import { generateText, Output } from "ai";
 import { z } from "zod";
 
-import { openai } from "./utils/clients.js";
-import { GENERATIVE_MODEL } from "./utils/constants.js";
+import { openai } from "./lib/clients.js";
+import { GENERATIVE_MODEL } from "./lib/constants.js";
 
 async function basicStructuredOutput() {
   const result = await generateText({

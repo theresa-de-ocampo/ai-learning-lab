@@ -1,9 +1,12 @@
 import OpenAI from "openai";
-import { checkEnvironment } from "../utils/check-environment.js";
+import {
+  checkEnvironment,
+  OPENAI_COMPATIBLE_ENV
+} from "../shared/check-environment.js";
 import fs from "node:fs/promises";
 import path from "node:path";
 
-checkEnvironment(process.env);
+checkEnvironment(process.env, OPENAI_COMPATIBLE_ENV);
 
 const movies = [
   "Hunger Games",

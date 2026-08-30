@@ -1,12 +1,15 @@
 import OpenAI from "openai";
-import { checkEnvironment } from "../utils/check-environment.js";
+import {
+  checkEnvironment,
+  OPENAI_COMPATIBLE_ENV
+} from "../shared/check-environment.js";
+
+checkEnvironment(process.env, OPENAI_COMPATIBLE_ENV);
 
 const openai = new OpenAI({
   apiKey: process.env.AI_KEY,
   baseURL: process.env.AI_URL
 });
-
-checkEnvironment(process.env);
 
 const response = await openai.responses.create({
   model: process.env.AI_MODEL,

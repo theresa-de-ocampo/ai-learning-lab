@@ -1,7 +1,10 @@
 import OpenAI from "openai";
-import { checkEnvironment } from "../utils/check-environment.js";
+import {
+  checkEnvironment,
+  OPENAI_COMPATIBLE_ENV
+} from "../shared/check-environment.js";
 
-checkEnvironment(process.env);
+checkEnvironment(process.env, OPENAI_COMPATIBLE_ENV);
 
 const openai = new OpenAI({
   apiKey: process.env.AI_KEY,

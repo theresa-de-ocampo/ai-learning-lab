@@ -1,7 +1,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 
-import { openai, supabase } from "../utils/clients.js";
+import { openai, supabase } from "../shared/clients.js";
 import { RecursiveCharacterTextSplitter } from "@langchain/textsplitters";
 import type { Document } from "@langchain/core/documents";
 import { PostgrestError } from "@supabase/supabase-js";

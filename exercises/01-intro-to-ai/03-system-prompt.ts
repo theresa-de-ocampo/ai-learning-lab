@@ -1,13 +1,16 @@
 import OpenAI from "openai";
-import { checkEnvironment } from "../utils/check-environment.js";
+import {
+  checkEnvironment,
+  OPENAI_COMPATIBLE_ENV
+} from "../shared/check-environment.js";
+
+checkEnvironment(process.env, OPENAI_COMPATIBLE_ENV);
 
 // Initialize the OpenAI client using environment variables
 const openai = new OpenAI({
   apiKey: process.env.AI_KEY,
   baseURL: process.env.AI_URL
 });
-
-checkEnvironment(process.env);
 
 /**
  * Challenge: Separating Intent from Instructions

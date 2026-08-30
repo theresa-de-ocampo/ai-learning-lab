@@ -3,7 +3,7 @@ import "dotenv/config";
 import { generateText } from "ai";
 import { openai } from "@ai-sdk/openai";
 
-import { GENERATIVE_MODEL } from "./utils/constants.js";
+import { GENERATIVE_MODEL } from "./lib/constants.js";
 
 async function main() {
   const { text, sources } = await generateText({

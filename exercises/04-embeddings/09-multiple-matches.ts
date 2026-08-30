@@ -1,5 +1,5 @@
 import type { ChatCompletionMessageParam } from "openai/resources";
-import { openai, supabase } from "../utils/clients.js";
+import { openai, supabase } from "../shared/clients.js";
 
 async function main() {
   const query = "Which movies can I take my child to?";

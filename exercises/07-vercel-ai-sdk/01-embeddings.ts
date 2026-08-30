@@ -1,6 +1,7 @@
-import { openai } from "./utils/clients.js";
 import { generateText, embed } from "ai";
-import { EMBEDDING_MODEL, GENERATIVE_MODEL } from "./utils/constants.js";
+
+import { openai } from "./lib/clients.js";
+import { EMBEDDING_MODEL, GENERATIVE_MODEL } from "./lib/constants.js";
 
 async function generateResponse() {
   const response = await generateText({

@@ -1,7 +1,10 @@
 import { InferenceClient } from "@huggingface/inference";
-import { checkEnvironment } from "../utils/check-environment.js";
+import {
+  checkEnvironment,
+  HUGGING_FACE_ENV
+} from "../shared/check-environment.js";
 
-checkEnvironment(process.env);
+checkEnvironment(process.env, HUGGING_FACE_ENV);
 
 const client = new InferenceClient(process.env.HF_TOKEN);
 
