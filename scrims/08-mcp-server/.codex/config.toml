@@ -1,0 +1,6 @@
+[mcp_servers.weather_mcp]
+command = "npx.cmd"
+args = [
+  "tsx",
+  "index.ts"
+]
