@@ -9,6 +9,7 @@ The repository covers concepts including:
 - Tool calling and agentic workflows
 - Retrieval-Augmented Generation (RAG)
 - Vector embeddings and semantic search
+- Model Context Protocol (MCP)
 - Open-source models
 - Local inference
 - Computer vision
@@ -54,7 +55,7 @@ It combines the **OpenAI Responses API** with web search to retrieve current inf
 
 Focused implementations used to explore individual AI engineering concepts in depth.
 
-Although narrower in scope than the standalone projects, these scrims are practical implementations of important patterns such as local inference, agent tool use, context-window management, and Retrieval-Augmented Generation.
+Although narrower in scope than the standalone projects, these scrims are practical implementations of important patterns such as local inference, agent tool use, context-window management, Retrieval-Augmented Generation, and MCP-based AI integrations.
 
 #### Open-Source Models
 
@@ -151,6 +152,23 @@ flowchart LR
 ```
 
 The progression explores moving from a fixed retrieval pipeline, to application-level routing, and finally to a tool-driven approach where the model can choose between private knowledge, live web information, or answering directly.
+
+#### Model Context Protocol
+
+<table>
+  <thead>
+    <tr>
+      <th>Scrim</th>
+      <th>What It Demonstrates</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>🔌 <a href="scrims/08-mcp-server/README.md"><strong>MCP Server for AI Clients</strong></a></td>
+      <td>Building an MCP server from scratch, exposing tools and resources, stdio transport, structured tool inputs, MCP Inspector testing, and integration with ChatGPT Codex</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
