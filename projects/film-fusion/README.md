@@ -31,7 +31,10 @@ Node.js 24 runs `server.ts` directly using native TypeScript type stripping. Run
 ```text
 server.ts          All backend application logic
 index.html         Semantic page markup
-src/main.ts        Examples, form handling, and image/loading/error states
+src/main.ts        Coordinates form submission, generation, and UI updates
+src/api.ts         API requests, response validation, and request errors
+src/form.ts        Input validation, example buttons, and disabling controls
+src/preview.ts     Image preloading, preview, loading states, and feedback
 src/style.css      Responsive styling
 vite.config.ts     Development proxy
 .env.example       Configuration template
