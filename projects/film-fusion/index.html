@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Reimagine your favorite films in a whole new style. Create a film-inspired scene with Film Fusion."
+    />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>Film Fusion — A familiar film. A new perspective.</title>
+  </head>
+  <body>
+    <div class="shell">
+      <header class="header">
+        <div class="brand">
+          <span class="brand-mark" aria-hidden="true">✳</span> Film Fusion
+        </div>
+        <span class="header-note">A little cinematic imagination</span>
+      </header>
+      <main>
+        <section class="intro" aria-labelledby="page-title">
+          <p class="eyebrow">Your film. Your creative twist.</p>
+          <h1 id="page-title">A familiar film.<br />A new perspective.</h1>
+          <p>Pick a film, mix in a style, and see a new scene come to life.</p>
+        </section>
+        <div class="workspace">
+          <form id="fusion-form">
+            <fieldset id="fields" aria-label="Scene details">
+              <div class="field">
+                <label for="film-title"
+                  ><span class="field-number" aria-hidden="true">01</span>Film
+                  Title</label
+                >
+                <input
+                  id="film-title"
+                  name="filmTitle"
+                  placeholder="Which film are you thinking of?"
+                  required
+                  maxlength="200"
+                  autocomplete="off"
+                />
+                <div class="suggestions" aria-label="Film title examples">
+                  <span>Try</span>
+                  <button
+                    class="example"
+                    type="button"
+                    data-field="film"
+                    data-example="Interstellar"
+                  >
+                    Interstellar
+                  </button>
+                  <button
+                    class="example"
+                    type="button"
+                    data-field="film"
+                    data-example="The Matrix"
+                  >
+                    The Matrix
+                  </button>
+                  <button
+                    class="example"
+                    type="button"
+                    data-field="film"
+                    data-example="Jurassic Park"
+                  >
+                    Jurassic Park
+                  </button>
+                </div>
+              </div>
+              <div class="field">
+                <label for="style"
+                  ><span class="field-number" aria-hidden="true">02</span
+                  >Style</label
+                >
+                <input
+                  id="style"
+                  name="style"
+                  placeholder="Give it a different look…"
+                  required
+                  maxlength="200"
+                  autocomplete="off"
+                />
+                <div class="suggestions" aria-label="Style examples">
+                  <span>Try</span>
+                  <button
+                    class="example"
+                    type="button"
+                    data-field="style"
+                    data-example="Watercolor"
+                  >
+                    Watercolor
+                  </button>
+                  <button
+                    class="example"
+                    type="button"
+                    data-field="style"
+                    data-example="Pixel art"
+                  >
+                    Pixel art
+                  </button>
+                  <button
+                    class="example"
+                    type="button"
+                    data-field="style"
+                    data-example="Claymation"
+                  >
+                    Claymation
+                  </button>
+                </div>
+              </div>
+              <button class="generate" id="generate" type="submit">
+                <span aria-hidden="true">✧</span
+                ><span id="button-label">Generate image</span
+                ><span aria-hidden="true">↗</span>
+              </button>
+            </fieldset>
+            <p class="status" id="status" role="status" aria-live="polite">
+              Two ingredients. Endless possibilities.
+            </p>
+            <p class="error" id="error" role="alert" hidden></p>
+          </form>
+          <figure>
+            <div class="preview-heading">
+              <span class="preview-label">Your reimagined scene</span
+              ><span class="preview-format">1:1</span>
+            </div>
+            <div class="preview" id="preview" aria-busy="false">
+              <div class="placeholder" id="placeholder">
+                <svg
+                  width="54"
+                  height="54"
+                  viewBox="0 0 54 54"
+                  fill="none"
+                  aria-hidden="true"
+                >
+                  <rect
+                    x="7"
+                    y="10"
+                    width="37"
+                    height="34"
+                    rx="6"
+                    stroke="currentColor"
+                    stroke-width="1.4"
+                  />
+                  <path
+                    d="m8 36 10-11 9 8 6-6 11 11"
+                    stroke="currentColor"
+                    stroke-width="1.4"
+                    stroke-linejoin="round"
+                  />
+                  <circle
+                    cx="33"
+                    cy="20"
+                    r="3"
+                    stroke="currentColor"
+                    stroke-width="1.4"
+                  />
+                  <path
+                    d="M46 4v10M41 9h10"
+                    stroke="currentColor"
+                    stroke-width="1.4"
+                    stroke-linecap="round"
+                  />
+                </svg>
+                <strong>A new take is waiting.</strong>
+                <span>Your creation will appear here.</span>
+              </div>
+              <img class="result-image" id="result-image" alt="" hidden />
+              <div class="loading" id="loading" hidden aria-hidden="true">
+                <span class="spinner"></span><span>Generating your scene…</span
+                ><small>A little imagination takes a moment.</small>
+              </div>
+            </div>
+            <figcaption id="caption">
+              Inspired by cinema. Made with your imagination.
+            </figcaption>
+          </figure>
+        </div>
+      </main>
+      <footer>
+        <span>A small experiment in creative possibilities.</span
+        ><a
+          href="https://github.com/theresa-de-ocampo/ai-learning-lab"
+          target="_blank"
+          >GitHub</a
+        >
+      </footer>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
