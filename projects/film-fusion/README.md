@@ -1,55 +1,89 @@
 # Film Fusion
 
-A minimal Express + Vite Vanilla TypeScript demo that reimagines a film as a scene in your chosen style.
+An AI-powered visual remix experience that reimagines familiar films in entirely different artistic styles.
 
-## Run locally
+Enter a **film title** and a **visual style**, and Film Fusion uses OpenAI image generation to create an original scene that blends the atmosphere and themes of the film with the selected aesthetic.
 
-Requires Node.js 24 and an OpenAI API key with access to `gpt-image-2`.
+For example:
 
-1. Run `npm.cmd install`.
-2. Copy `.env.example` to `.env` if it does not exist, then set `OPENAI_API_KEY` in `.env`.
-3. Run `npm.cmd run start`.
-4. Open http://localhost:5173.
+- _Interstellar_ in watercolor
+- _The Matrix_ in Studio Ghibli-inspired animation
+- _Blade Runner_ as an oil painting
+- _The Godfather_ in cyberpunk style
 
-`start` launches Express on port 3000 and Vite on port 5173 with labelled logs. Vite forwards `/api` requests to Express. Backend changes restart Node; frontend changes update through Vite. Ctrl+C stops both processes. After editing `.env`, restart the command to load the new key. A Node watch process stays alive after an application error so you can fix the code and save to restart it.
+![Film Fusion loading state](docs/loading-state.png)
+![Film Fusion generated image](docs/generated-image.png)
 
-Use `npm` instead of `npm.cmd` on macOS/Linux.
+## Architecture
 
-## Production build
+Film Fusion separates the browser UI from the AI integration.
 
-```powershell
-npm.cmd run build
-npm.cmd run serve
+```mermaid
+flowchart TD
+    Browser["Browser"] -->|"POST /api/generate"| Server["Express Server"]
+    Server -->|"OpenAI Images API"| Model["gpt-image-2"]
+    Model -->|"Base64 PNG"| Server
+    Server --> Browser
 ```
 
-Open http://localhost:3000. Express serves both the compiled frontend in `dist` and the API. The key is read only by Node and never included in the frontend build. The local `.env` file is ignored by Git.
+The OpenAI API key stays on the server and is never exposed to frontend code.
 
-Node.js 24 runs `server.ts` directly using native TypeScript type stripping. Run `npm.cmd run typecheck` to check both frontend and server types; `build` also runs this check. `tsconfig.server.json` uses Node's module rules separately from the frontend's browser/bundler configuration. No separate server compilation or runtime dependency is needed.
+During local development, Vite runs on port `5173` and proxies `/api` requests to the Express server on port `3000`.
 
-## Structure
+### Error Handling
+
+Image generation can take significantly longer than a normal API request, so the application includes explicit handling for common failure scenarios.
+
+These include:
+
+- invalid or empty input
+- malformed requests
+- image generation timeouts
+- content moderation failures
+- API rate limits
+- authentication or model-access errors
+- missing image responses
+- browser image-loading failures
+
+The UI preserves the user's inputs when generation fails so they can retry without starting over.
+
+## Running Locally
+
+### 1. Create an OpenAI API key
+
+Create an API key from the [OpenAI Platform](https://platform.openai.com/) and make sure your API account has billing or credits available.
+
+You will also need access to an OpenAI image-generation model.
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Configure the environment
+
+Create a `.env` file in the project directory:
+
+```env
+OPENAI_API_KEY=your_openai_api_key
+```
+
+### 4. Start the application
+
+```bash
+npm start
+```
+
+This starts both:
+
+- the Express API server at `http://localhost:3000`
+- the Vite frontend at `http://localhost:5173`
+
+Open:
 
 ```text
-server.ts          All backend application logic
-index.html         Semantic page markup
-src/main.ts        Coordinates form submission, generation, and UI updates
-src/api.ts         API requests, response validation, and request errors
-src/form.ts        Input validation, example buttons, and disabling controls
-src/preview.ts     Image preloading, preview, loading states, and feedback
-src/style.css      Responsive styling
-vite.config.ts     Development proxy
-.env.example       Configuration template
+http://localhost:5173
 ```
 
-There are no routers, controllers, or service files: this demo has one API endpoint. No database, account system, saved history, or external film lookup is used. Generated images remain only in the current browser page.
-
-## API
-
-`POST /api/generate` accepts JSON:
-
-```json
-{ "filmTitle": "Interstellar", "style": "Watercolor" }
-```
-
-Both fields must be strings containing 1–200 characters after trimming. Success returns HTTP 200 with `{ "imageDataUrl": "data:image/png;base64,..." }`. Errors return `{ "error": "A readable explanation." }` with an appropriate 4xx or 5xx status.
-
-Each submission requests one 1024×1024 PNG at medium quality from `gpt-image-2`. The server timeout is two minutes; SDK retries are disabled. The browser prevents duplicate submissions and retains the last successful image when a later attempt fails. Real image generation uses your OpenAI API account and incurs API usage.
+Then enter a film title and a visual style to generate a scene.

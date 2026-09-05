@@ -10,6 +10,7 @@ The repository covers concepts including:
 - Retrieval-Augmented Generation (RAG)
 - Vector embeddings and semantic search
 - Model Context Protocol (MCP)
+- Image generation and multimodal AI
 - Open-source models
 - Local inference
 - Computer vision
@@ -22,7 +23,7 @@ The repository is organized into three areas:
 
 ### Projects
 
-Standalone applications that bring multiple AI engineering concepts together into a more complete experience.
+Standalone applications that bring multiple AI engineering concepts together into a more complete user experience.
 
 <table>
   <thead>
@@ -34,20 +35,22 @@ Standalone applications that bring multiple AI engineering concepts together int
   <tbody>
     <tr>
       <td>🎁 <a href="projects/gift-genie/README.md"><strong>Gift Genie — AI Gift Recommendation Assistant</strong></a></td>
-      <td>OpenAI Responses API, web search, system prompt design, structured model output, streaming, and Server-Sent Events</td>
+      <td>OpenAI Responses API, web search, prompt design, structured model output, streaming generation, and Server-Sent Events</td>
+    </tr>
+    <tr>
+      <td>🎬 <a href="projects/film-fusion/README.md"><strong>Film Fusion — AI Film Scene Generator</strong></a></td>
+      <td>AI image generation, visual prompt design, server-side OpenAI integration, base64 image handling, validation, and long-running generation states</td>
     </tr>
   </tbody>
 </table>
 
 #### Gift Genie
 
-An AI-powered assistant that generates personalized gift recommendations based on the recipient, occasion, budget, location, and other constraints.
+[![Gift Genie Demo](projects/gift-genie/demo.gif)](projects/gift-genie/README.md)
 
-It combines the **OpenAI Responses API** with web search to retrieve current information and streams generated recommendations to the browser in real time.
+#### Film Fusion
 
-[**View Project →**](projects/gift-genie/README.md)
-
-![Gift Genie Demo](projects/gift-genie/demo.gif)
+[![Film Fusion](projects/film-fusion/docs/generated-image.png)](projects/film-fusion/README.md)
 
 ---
 
@@ -183,6 +186,7 @@ These include experimentation with:
 - [**Embeddings**](exercises/04-embeddings/) — representing and working with semantic information
 - [**Agents**](exercises/05-agents/) — tool use and agentic execution patterns
 - [**Vercel AI SDK**](exercises/07-vercel-ai-sdk/) — embeddings, batch embeddings, structured output, tool calling, and web search
+- [**Multimodality & Image Generation**](exercises/09-multimodality/) — image generation, multiple generated outputs, visual prompt refinement, generation options, and image editing
 
 The exercises intentionally remain smaller and more focused than the projects and scrims, serving as a working lab for understanding individual concepts.
 
