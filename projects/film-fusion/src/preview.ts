@@ -17,12 +17,14 @@ export function createScenePreview() {
     status.textContent =
       "Generating your scene. This can take a minute or two.";
     preview.setAttribute("aria-busy", "true");
+    placeholder.classList.add("is-loading");
     loading.hidden = false;
     buttonLabel.textContent = "Creating your scene…";
   }
 
   function finishLoading() {
     preview.setAttribute("aria-busy", "false");
+    placeholder.classList.remove("is-loading");
     loading.hidden = true;
     buttonLabel.textContent = "Generate image";
   }

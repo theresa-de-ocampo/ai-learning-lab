@@ -313,6 +313,10 @@ figure {
   color: #756b82;
 }
 
+.placeholder.is-loading > * {
+  visibility: hidden;
+}
+
 .result-image {
   display: block;
   width: 100%;
