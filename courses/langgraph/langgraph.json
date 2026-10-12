@@ -1,6 +1,12 @@
 {
   "graphs": {
     "01-simple-node": "01-simple-node.ts:graph",
+    "02-parallel-execution": "02-parallel-execution.ts:graph",
+    "03-conditional-edge": "03-conditional-edge.ts:graph",
+    "04-conditional-router-edge": "04-conditional-router-edge.ts:graph",
+    "05-memory": "05-memory.ts:graph",
+    "06-interrupt": "06-interrupt.ts:graph",
+    "07-intterrupt": "07-interrupt.ts:graph",
     "08-email": "08-email.ts:graph"
   },
   "env": ".env"

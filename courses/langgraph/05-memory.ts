@@ -1,8 +1,8 @@
+import z from "zod";
 import { StateGraph, START, END, MemorySaver } from "@langchain/langgraph";
 import { registry } from "@langchain/langgraph/zod";
-import z from "zod";
 
-import { askQuestion } from "./utils.js";
+import { askQuestion, isMainModule } from "./utils.js";
 
 const StateDefinition = z.object({
   nlist: z.array(z.string()).register(registry, {
@@ -45,7 +45,7 @@ function routeFromA(state: State): string {
   return nextNode;
 }
 
-const graph = new StateGraph(StateDefinition)
+export const graph = new StateGraph(StateDefinition)
   .addNode("a", nodeA, { ends: ["b", "c"] })
   .addNode("b", nodeB)
   .addNode("c", nodeC)
@@ -55,33 +55,38 @@ const graph = new StateGraph(StateDefinition)
   .addEdge("c", END)
   .compile({ checkpointer: memory });
 
-console.log("\n=== L1: Conditional Edges Example ===\n");
-
-while (true) {
-  const threadId = await askQuestion("\nEnter a Thread ID or [q]uit: ");
-
-  if (threadId === "q") {
-    console.log("Quitting...");
-    break;
-  }
-
-  const config = {
-    configurable: { thread_id: threadId }
-  };
+// LangSmith Studio imports the graph above; only a direct launch runs this demo.
+if (isMainModule(import.meta.url)) {
+  console.log("\n=== L1: Conditional Edges Example ===\n");
 
   while (true) {
-    const userSelection = await askQuestion("\nEnter a Node (b/c) or [q]uit: ");
+    const threadId = await askQuestion("\nEnter a Thread ID or [q]uit: ");
 
-    if (userSelection === "q") {
-      console.log("Exiting Thread ...");
+    if (threadId === "q") {
+      console.log("Quitting...");
       break;
     }
 
-    const inputState: State = {
-      nlist: [userSelection]
+    const config = {
+      configurable: { thread_id: threadId }
     };
 
-    const result = await graph.invoke(inputState, config);
-    console.log(`Thread ID ${threadId}: ${JSON.stringify(result.nlist)}`);
+    while (true) {
+      const userSelection = await askQuestion(
+        "\nEnter a Node (b/c) or [q]uit: "
+      );
+
+      if (userSelection === "q") {
+        console.log("Exiting Thread ...");
+        break;
+      }
+
+      const inputState: State = {
+        nlist: [userSelection]
+      };
+
+      const result = await graph.invoke(inputState, config);
+      console.log(`Thread ID ${threadId}: ${JSON.stringify(result.nlist)}`);
+    }
   }
 }
