@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "npx @langchain/langgraph-cli dev"
+    "dev": "npx @langchain/langgraph-cli dev",
+    "diagrams": "npx tsx diagrams.ts"
   },
   "keywords": [],
   "author": "",
