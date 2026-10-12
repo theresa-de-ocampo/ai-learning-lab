@@ -44,7 +44,7 @@ function routeFromA(state: State): string {
 }
 
 const graph = new StateGraph(StateDefinition)
-  .addNode("a", nodeA, { ends: ["b", "c"] })
+  .addNode("a", nodeA)
   .addNode("b", nodeB)
   .addNode("c", nodeC)
   .addEdge(START, "a")

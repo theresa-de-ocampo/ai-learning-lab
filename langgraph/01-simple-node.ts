@@ -20,7 +20,7 @@ function nodeA(state: State): State {
  * It checks the graph topology to ensure there are no errors,
  * such as orphaned nodes or invalid connections.
  */
-const graph = new StateGraph(StateDefinition)
+export const graph = new StateGraph(StateDefinition)
   .addNode("a", nodeA)
   .addEdge(START, "a")
   .addEdge("a", END)
