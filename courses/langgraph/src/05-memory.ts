@@ -46,11 +46,14 @@ function routeFromA(state: State): string {
 }
 
 export const graph = new StateGraph(StateDefinition)
-  .addNode("a", nodeA, { ends: ["b", "c"] })
+  // Incorrectly adding ends will cause the diagram renderer to
+  // generate two arrows going into the same node
+  // .addNode("a", nodeA, { ends: ["b", "c"] })
+  .addNode("a", nodeA)
   .addNode("b", nodeB)
   .addNode("c", nodeC)
   .addEdge(START, "a")
-  .addConditionalEdges("a", routeFromA)
+  .addConditionalEdges("a", routeFromA, ["b", "c"])
   .addEdge("b", END)
   .addEdge("c", END)
   .compile({ checkpointer: memory });

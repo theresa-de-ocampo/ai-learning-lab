@@ -48,7 +48,9 @@ export const graph = new StateGraph(StateDefinition)
   .addNode("b", nodeB)
   .addNode("c", nodeC)
   .addEdge(START, "a")
-  .addConditionalEdges("a", routeFromA)
+  // When no destination list is provided,
+  // the diagram rendered assumes the router could reach every other node
+  .addConditionalEdges("a", routeFromA, ["b", "c"])
   .addEdge("b", END)
   .addEdge("c", END)
   .compile();
