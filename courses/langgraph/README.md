@@ -17,7 +17,7 @@ A hands-on collection of LangGraph implementations created while completing [Lan
 - Structured LLM output
 - Multi-step AI workflow orchestration
 
-## Learning Progression
+## Course Progression
 
 <table>
   <thead>
@@ -28,36 +28,89 @@ A hands-on collection of LangGraph implementations created while completing [Lan
   </thead>
   <tbody>
     <tr>
-      <td><a href="01-simple-node.ts"><strong>01 — Simple Node</strong></a></td>
-      <td>Creating a StateGraph, defining shared state, connecting START and END, compiling, and invoking a graph</td>
+      <td>
+        <a href="src/01-simple-node.ts"><strong>01 — Simple Node</strong></a>
+      </td>
+      <td>
+        Creating a StateGraph, defining shared state, connecting START and END,
+        compiling, and invoking a graph
+      </td>
     </tr>
     <tr>
-      <td><a href="02-parallel-execution.ts"><strong>02 — Parallel Execution</strong></a></td>
-      <td>Branching into multiple nodes concurrently, joining execution paths, and combining state updates with reducers</td>
+      <td>
+        <a href="src/02-parallel-execution.ts"
+          ><strong>02 — Parallel Execution</strong></a
+        >
+      </td>
+      <td>
+        Branching into multiple nodes concurrently, joining execution paths, and
+        combining state updates with reducers
+      </td>
     </tr>
     <tr>
-      <td><a href="03-conditional-edge.ts"><strong>03 — Conditional Routing with Command</strong></a></td>
-      <td>Updating graph state and dynamically selecting the next node using LangGraph's Command API</td>
+      <td>
+        <a href="src/03-conditional-edge.ts"
+          ><strong>03 — Conditional Routing with Command</strong></a
+        >
+      </td>
+      <td>
+        Updating graph state and dynamically selecting the next node using
+        LangGraph's Command API
+      </td>
     </tr>
     <tr>
-      <td><a href="04-conditional-router-edge.ts"><strong>04 — Conditional Edges</strong></a></td>
-      <td>Separating routing logic from node execution with addConditionalEdges()</td>
+      <td>
+        <a href="src/04-conditional-router-edge.ts"
+          ><strong>04 — Conditional Edges</strong></a
+        >
+      </td>
+      <td>
+        Separating routing logic from node execution with addConditionalEdges()
+      </td>
     </tr>
     <tr>
-      <td><a href="05-memory.ts"><strong>05 — Memory & Checkpointing</strong></a></td>
-      <td>Persisting graph state with MemorySaver and maintaining independent state across thread IDs</td>
+      <td>
+        <a href="src/05-memory.ts"
+          ><strong>05 — Memory & Checkpointing</strong></a
+        >
+      </td>
+      <td>
+        Persisting graph state with MemorySaver and maintaining independent
+        state across thread IDs
+      </td>
     </tr>
     <tr>
-      <td><a href="06-interrupt.ts"><strong>06 — Interrupts & Human Input</strong></a></td>
-      <td>Pausing graph execution, collecting human input, and resuming from a checkpoint with Command</td>
+      <td>
+        <a href="src/06-interrupt.ts"
+          ><strong>06 — Interrupts & Human Input</strong></a
+        >
+      </td>
+      <td>
+        Pausing graph execution, collecting human input, and resuming from a
+        checkpoint with Command
+      </td>
     </tr>
     <tr>
-      <td><a href="07-interrupt.ts"><strong>07 — Interrupt Replay Behavior</strong></a></td>
-      <td>Exploring how interrupted tasks are replayed from their checkpoint when graph execution resumes</td>
+      <td>
+        <a href="src/07-interrupt.ts"
+          ><strong>07 — Interrupt Replay Behavior</strong></a
+        >
+      </td>
+      <td>
+        Exploring how interrupted tasks are replayed from their checkpoint when
+        graph execution resumes
+      </td>
     </tr>
     <tr>
-      <td><a href="08-email.ts"><strong>08 — Email Support Workflow</strong></a></td>
-      <td>Combining LLM classification, parallel workflow branches, conditional routing, persistence, and human review in a realistic AI workflow</td>
+      <td>
+        <a href="src/08-email.ts"
+          ><strong>08 — Email Support Workflow</strong></a
+        >
+      </td>
+      <td>
+        Combining LLM classification, parallel workflow branches, conditional
+        routing, persistence, and human review in a realistic AI workflow
+      </td>
     </tr>
   </tbody>
 </table>

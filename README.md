@@ -19,7 +19,7 @@ The repository covers concepts including:
 
 ## Repository Structure
 
-The repository is organized into three areas:
+The repository is organized into four areas:
 
 ### Projects
 
