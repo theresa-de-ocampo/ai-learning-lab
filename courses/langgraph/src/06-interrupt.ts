@@ -1,15 +1,15 @@
 import {
-  StateGraph,
-  START,
+  Command,
   END,
   MemorySaver,
-  interrupt,
-  Command
+  START,
+  StateGraph,
+  interrupt
 } from "@langchain/langgraph";
 import { registry } from "@langchain/langgraph/zod";
 import z from "zod";
 
-import { askQuestion } from "./utils.js";
+import { askQuestion, isMainModule } from "./utils.js";
 
 const StateDefinition = z.object({
   nlist: z.array(z.string()).register(registry, {
@@ -50,14 +50,12 @@ function nodeC(state: State): State {
 function routeFromA(state: State): string {
   const selected = state.nlist.at(-2);
   let nextNode = END;
-  console.log(`***** Selected: ${selected}`);
 
   if (selected == "b") {
     nextNode = "b";
   } else if (selected === "c") {
     nextNode = "c";
   } else {
-    console.log("| Entered Else");
     const admin = interrupt({
       message: `💥 Unexpected input ${selected}! Continue? `
     });
@@ -85,56 +83,57 @@ function hasInterrupt(result: any): result is { __interrupt__: any[] } {
   return result && result.__interrupt__ && Array.isArray(result.__interrupt__);
 }
 
-const graph = new StateGraph(StateDefinition)
+export const graph = new StateGraph(StateDefinition)
   .addNode("a", nodeA)
   .addNode("b", nodeB)
   .addNode("c", nodeC)
   .addEdge(START, "a")
-  .addConditionalEdges("a", routeFromA)
+  .addConditionalEdges("a", routeFromA, ["b", "c", END])
   .addEdge("b", END)
   .addEdge("c", END)
   .compile({ checkpointer: memory });
 
-console.log("\n=== L1: Conditional Edges Example ===\n");
-
-while (true) {
-  const threadId = await askQuestion("\nEnter a Thread ID or [q]uit: ");
-
-  if (threadId === "q") {
-    console.log("Quitting...");
-    break;
-  }
-
-  const config = {
-    configurable: { thread_id: threadId }
-  };
+// LangSmith Studio imports the graph above; only a direct launch runs this demo.
+if (isMainModule(import.meta.url)) {
+  console.log("\n=== L1: Conditional Edges Example ===\n");
 
   while (true) {
-    const userSelection = await askQuestion("\nEnter a Node (b/c) or [q]uit: ");
+    const threadId = await askQuestion("\nEnter a Thread ID or [q]uit: ");
 
-    if (userSelection === "q") {
-      console.log("Exiting Thread ...");
+    if (threadId === "q") {
+      console.log("Quitting...");
       break;
     }
 
-    const inputState: State = {
-      nlist: [userSelection]
+    const config = {
+      configurable: { thread_id: threadId }
     };
 
-    let result = await graph.invoke(inputState, config);
+    while (true) {
+      const userSelection = await askQuestion(
+        "\nEnter a Node (b/c) or [q]uit: "
+      );
 
-    if (hasInterrupt(result)) {
-      console.log("\n------");
-      console.log(`Interrupt: ${JSON.stringify(result)}`);
+      if (userSelection === "q") {
+        console.log("Exiting Thread ...");
+        break;
+      }
 
-      const interruptMessage =
-        result.__interrupt__.at(-1)?.value?.message || "Continue";
+      const inputState: State = {
+        nlist: [userSelection]
+      };
 
-      const human = await askQuestion(interruptMessage);
-      result = await graph.invoke(new Command({ resume: human }), config);
-      console.log("-----\n");
+      let result = await graph.invoke(inputState, config);
+
+      if (hasInterrupt(result)) {
+        const interruptMessage =
+          result.__interrupt__.at(-1)?.value?.message || "Continue";
+
+        const human = await askQuestion(interruptMessage);
+        result = await graph.invoke(new Command({ resume: human }), config);
+      }
+
+      console.log(`Thread ID ${threadId}: ${JSON.stringify(result.nlist)}`);
     }
-
-    console.log(`Thread ID ${threadId}: ${JSON.stringify(result.nlist)}`);
   }
 }

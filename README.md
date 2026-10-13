@@ -190,6 +190,15 @@ These include experimentation with:
 
 The exercises intentionally remain smaller and more focused than the projects and scrims, serving as a working lab for understanding individual concepts.
 
+### Courses
+
+Framework-specific learning tracks that build on the foundational AI Concepts.
+
+- [**LangGraph Essentials — TypeScript**](courses/langgraph/) — graph-based AI workflows, state management, routing, persistence, interrupts, and human-in-the-loop orchestration
+
 ## References
 
-Most of the learning in this repository follows [Scrimba's AI Engineer Path](https://scrimba.com/ai-engineer-path-c02v), with additional experimentation and implementation work as I explore how modern AI capabilities can be integrated into real applications.
+The learning in this repository draws from multiple sources with additional experimentation and implementation work as I explore how modern AI capabilities can be integrated into real applications.
+
+- [**Scrimba's AI Engineer Path**](https://scrimba.com/ai-engineer-path-c02v) — foundational AI engineering concepts and hands-on implementations
+- [**LangChain Academy**](https://academy.langchain.com/) — LangChain, LangGraph, and agent orchestration concepts

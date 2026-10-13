@@ -48,7 +48,7 @@ async function classifyIntent(state: EmailAgentState) {
   return { classification };
 }
 
-function bugTracking(state: EmailAgentState) {
+function bugTracking() {
   console.log("Creating Bug Ticket...");
   const ticketId = `BUG_${Date.now()}`;
 
@@ -136,7 +136,7 @@ function humanReview(state: EmailAgentState) {
     const editedResponse =
       humanDecision?.editedResponse?.trim() || state.draftResponse;
     command = new Command({
-      update: { draftReponse: editedResponse },
+      update: { draftResponse: editedResponse },
       goto: "send_reply"
     });
   } else {
@@ -174,6 +174,8 @@ export const graph = new StateGraph(EmailStateDefinition)
     "human_review",
     "send_reply"
   ])
+  // Only use conditional edges if it only chooses a destination.
+  // If you want to use this instead, you'll have to add a reviewApproved property to your schema.
   // .addConditionalEdges("human_review", routeFromHumanReview, [
   //   "send_reply",
   //   END

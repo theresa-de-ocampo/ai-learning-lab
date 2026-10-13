@@ -1,7 +1,0 @@
-{
-  "graphs": {
-    "01-simple-node": "01-simple-node.ts:graph",
-    "08-email": "08-email.ts:graph"
-  },
-  "env": ".env"
-}

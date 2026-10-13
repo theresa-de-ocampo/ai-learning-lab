@@ -1,8 +1,8 @@
+import z from "zod";
 import { StateGraph, START, END, Command } from "@langchain/langgraph";
 import { registry } from "@langchain/langgraph/zod";
-import z from "zod";
 
-import { askQuestion } from "./utils.js";
+import { askQuestion, isMainModule } from "./utils.js";
 
 const StateDefinition = z.object({
   nlist: z.array(z.string()).register(registry, {
@@ -42,7 +42,7 @@ function nodeC(state: State): State {
   return { nlist: ["C"] };
 }
 
-const graph = new StateGraph(StateDefinition)
+export const graph = new StateGraph(StateDefinition)
   .addNode("a", nodeA, { ends: ["b", "c"] })
   .addNode("b", nodeB)
   .addNode("c", nodeC)
@@ -51,12 +51,15 @@ const graph = new StateGraph(StateDefinition)
   .addEdge("c", END)
   .compile();
 
-console.log("\n=== L1: Conditional Edges Example ===\n");
-const userSelection = await askQuestion("Enter a Node: ");
+// LangSmith Studio imports the graph above; only a direct launch runs this demo.
+if (isMainModule(import.meta.url)) {
+  console.log("\n=== L1: Conditional Edges Example ===\n");
+  const userSelection = await askQuestion("Enter a Node: ");
 
-const inputState: State = {
-  nlist: [userSelection]
-};
+  const inputState: State = {
+    nlist: [userSelection]
+  };
 
-const result = await graph.invoke(inputState);
-console.log(`Final Result: ${JSON.stringify(result)}`);
+  const result = await graph.invoke(inputState);
+  console.log(`Final Result: ${JSON.stringify(result)}`);
+}

@@ -1,6 +1,8 @@
+import z from "zod";
 import { StateGraph, START, END } from "@langchain/langgraph";
 import { registry } from "@langchain/langgraph/zod";
-import z from "zod";
+
+import { isMainModule } from "./utils.js";
 
 const StateDefinition = z.object({
   nlist: z.array(z.string()).register(registry, {
@@ -43,7 +45,7 @@ function nodeD(state: State): State {
   return { nlist: ["D"] };
 }
 
-const graph = new StateGraph(StateDefinition)
+export const graph = new StateGraph(StateDefinition)
   .addNode("a", nodeA)
   .addNode("b", nodeB)
   .addNode("bb", nodeBB)
@@ -60,11 +62,14 @@ const graph = new StateGraph(StateDefinition)
   .addEdge("d", END)
   .compile();
 
-console.log("\n=== L1: Parallel Execution Example ===\n");
+// LangSmith Studio imports the graph above; only a direct launch runs this demo.
+if (isMainModule(import.meta.url)) {
+  console.log("\n=== L1: Parallel Execution Example ===\n");
 
-const initialState: State = {
-  nlist: ["Initial String"]
-};
+  const initialState: State = {
+    nlist: ["Initial String"]
+  };
 
-const result = await graph.invoke(initialState);
-console.log(`Final Result: ${JSON.stringify(result)}`);
+  const result = await graph.invoke(initialState);
+  console.log(`Final Result: ${JSON.stringify(result)}`);
+}

@@ -1,5 +1,7 @@
-import { StateGraph, START, END, StateDefinition } from "@langchain/langgraph";
 import z from "zod";
+import { StateGraph, START, END } from "@langchain/langgraph";
+
+import { isMainModule } from "./utils.js";
 
 const StateDefinition = z.object({
   nlist: z.array(z.string())
@@ -26,15 +28,18 @@ export const graph = new StateGraph(StateDefinition)
   .addEdge("a", END)
   .compile();
 
-console.log("\n=== L1: Simple Node Example ===\n");
+// LangSmith Studio imports the graph above; only a direct launch runs this demo.
+if (isMainModule(import.meta.url)) {
+  console.log("\n=== L1: Simple Node Example ===\n");
 
-const initialState: State = {
-  nlist: ["Hello NodeA, how are you?"]
-};
+  const initialState: State = {
+    nlist: ["Hello NodeA, how are you?"]
+  };
 
-console.log(
-  `Running graph with initial state: ${JSON.stringify(initialState)}`
-);
+  console.log(
+    `Running graph with initial state: ${JSON.stringify(initialState)}`
+  );
 
-const result = await graph.invoke(initialState);
-console.log(`Final Result: ${JSON.stringify(result)}`);
+  const result = await graph.invoke(initialState);
+  console.log(`Final Result: ${JSON.stringify(result)}`);
+}
