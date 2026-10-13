@@ -50,14 +50,12 @@ function nodeC(state: State): State {
 function routeFromA(state: State): string {
   const selected = state.nlist.at(-2);
   let nextNode = END;
-  console.log(`***** Selected: ${selected}`);
 
   if (selected == "b") {
     nextNode = "b";
   } else if (selected === "c") {
     nextNode = "c";
   } else {
-    console.log("| Entered Else");
     const admin = interrupt({
       message: `💥 Unexpected input ${selected}! Continue? `
     });
@@ -90,7 +88,7 @@ export const graph = new StateGraph(StateDefinition)
   .addNode("b", nodeB)
   .addNode("c", nodeC)
   .addEdge(START, "a")
-  .addConditionalEdges("a", routeFromA, ["b", "c"])
+  .addConditionalEdges("a", routeFromA, ["b", "c", END])
   .addEdge("b", END)
   .addEdge("c", END)
   .compile({ checkpointer: memory });
@@ -128,15 +126,11 @@ if (isMainModule(import.meta.url)) {
       let result = await graph.invoke(inputState, config);
 
       if (hasInterrupt(result)) {
-        console.log("\n------");
-        console.log(`Interrupt: ${JSON.stringify(result)}`);
-
         const interruptMessage =
           result.__interrupt__.at(-1)?.value?.message || "Continue";
 
         const human = await askQuestion(interruptMessage);
         result = await graph.invoke(new Command({ resume: human }), config);
-        console.log("-----\n");
       }
 
       console.log(`Thread ID ${threadId}: ${JSON.stringify(result.nlist)}`);

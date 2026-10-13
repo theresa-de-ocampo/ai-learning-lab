@@ -218,7 +218,7 @@ OPENAI_API_KEY=your_openai_api_key
 From the `courses/langgraph` directory:
 
 ```bash
-npx tsx 01-simple-node.ts
+npx tsx src/01-simple-node.ts
 ```
 
 Replace the filename with the example you want to run.
@@ -226,9 +226,8 @@ Replace the filename with the example you want to run.
 For example:
 
 ```bash
-npx tsx 05-memory.ts
-npx tsx 06-interrupt.ts
-npx tsx 08-email.ts
+npx tsx src/05-memory.ts
+npx tsx src/06-interrupt.ts
 ```
 
 ### 4. Run with LangSmith Studio

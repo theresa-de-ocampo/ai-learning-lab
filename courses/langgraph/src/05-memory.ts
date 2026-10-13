@@ -53,7 +53,7 @@ export const graph = new StateGraph(StateDefinition)
   .addNode("b", nodeB)
   .addNode("c", nodeC)
   .addEdge(START, "a")
-  .addConditionalEdges("a", routeFromA, ["b", "c"])
+  .addConditionalEdges("a", routeFromA, ["b", "c", END])
   .addEdge("b", END)
   .addEdge("c", END)
   .compile({ checkpointer: memory });

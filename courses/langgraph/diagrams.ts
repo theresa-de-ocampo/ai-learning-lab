@@ -7,7 +7,7 @@ import { setTimeout as sleep } from "node:timers/promises";
 
 import graphs from "./src/index.js";
 
-const isImageMode = process.env.DIAGRAM_MODE === "image";
+const isImageMode = process.env.DIAGRAM_MODE === "images";
 const outputFolder = isImageMode ? "images" : "mermaid-code";
 const outputDir = fileURLToPath(
   new URL(`./docs/${outputFolder}/`, import.meta.url)
